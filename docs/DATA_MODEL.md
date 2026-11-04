@@ -7,7 +7,9 @@
 
 ```
 data/
-  topics.json      ← list of vocab topics
+  topics.json        ← list of vocab topics
+  kana.json          ← kana boards (reference, not lesson data)
+  sound-rules.json   ← long vowels and small っ (reference)
   lessons/
     4.json
     5.json
@@ -330,3 +332,67 @@ When loading, the engine adds two things to every item:
 | Passage | `passage:` + `title` |
 | Sound | `sound:` + `title` |
 | Resource | `resource:` + `url` |
+
+## Reference data (not lessons)
+
+Fixed data for the kana boards. Written once, not per lesson. No romaji.
+
+### Kana: `data/kana.json`
+
+```
+Kana { hiragana, katakana, row, column, group, obsolete? }
+```
+
+| Field | Required | Meaning |
+|---|---|---|
+| `hiragana` | yes | e.g. `か` |
+| `katakana` | yes | e.g. `カ` |
+| `row` | yes | Row label in kana: `あ` `か` `さ` `た` `な` `は` `ま` `や` `ら` `わ` (`ん` for ん) |
+| `column` | yes | Vowel label in kana: `あ` `い` `う` `え` `お` |
+| `group` | yes | `"base"`, `"dakuten"`, `"handakuten"`, `"yoon"` or `"extended"` |
+| `obsolete` | no | `true` for ゐ ゑ (shown greyed out) |
+
+- The ひらがな board shows every group except `extended`. The カタカナ board shows all of them.
+- For dakuten, handakuten, yōon and extended, `row` and `column` are where the kana sits in its own small grid, e.g. が → row `が`, column `あ`.
+- Built once from the old my-nihongo archive (`/home/locch/Works/assets/jap/data/kana.json`), with romaji removed.
+
+```json
+{ "hiragana": "か", "katakana": "カ", "row": "か", "column": "あ", "group": "base" }
+{ "hiragana": "きゃ", "katakana": "キャ", "row": "き", "column": "や", "group": "yoon" }
+{ "hiragana": "ゐ", "katakana": "ヰ", "row": "わ", "column": "い", "group": "base", "obsolete": true }
+```
+
+### Sound rules: `data/sound-rules.json`
+
+```
+SoundRule   { script, name, how, examples: RuleExample[] }
+RuleExample { write, word, key, meaning }
+```
+
+| Field | Required | Meaning |
+|---|---|---|
+| `script` | yes | `"hiragana"` or `"katakana"` |
+| `name` | yes | e.g. `長音 (trường âm)`, `促音 (âm ngắt)` |
+| `how` | yes | Short Vietnamese explanation |
+| `examples` | yes | At least one |
+
+**RuleExample**
+
+| Field | Required | Meaning |
+|---|---|---|
+| `write` | yes | How it's spelled, e.g. `あ + あ` |
+| `word` | yes | Example word, e.g. `おかあさん` |
+| `key` | yes | The kana to highlight in the word, e.g. `あ` |
+| `meaning` | yes | Vietnamese meaning |
+
+```json
+{
+  "script": "hiragana",
+  "name": "長音 (trường âm)",
+  "how": "Thêm một nguyên âm: え đi với い, お đi với う.",
+  "examples": [
+    { "write": "あ + あ", "word": "おかあさん", "key": "あ", "meaning": "Mẹ" },
+    { "write": "え + い", "word": "とけい", "key": "い", "meaning": "Đồng hồ" }
+  ]
+}
+```

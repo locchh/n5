@@ -34,7 +34,7 @@ So the app must be:
 
 ## 1. Data
 
-One JSON file per lesson in `data/lessons/` (`4.json`, `5.json`, …).
+One JSON file per lesson in `data/lessons/` (`4.json`, `5.json`, …), plus fixed reference data for the kana boards (`data/kana.json`, `data/sound-rules.json`).
 Full shape: see [DATA_MODEL.md](DATA_MODEL.md).
 
 ## 2. Engine
@@ -71,9 +71,29 @@ All answered by tapping.
 - Saved in the browser (localStorage): where I stopped, and which cards I marked Got it or Again.
 - Home page shows how many cards I know per lesson.
 
+### Kana boards
+
+Two reference boards, **ひらがな** and **カタカナ**. Just look and listen: no flashcards, no progress.
+
+| Group | Example | ひらがな board | カタカナ board |
+|---|---|---|---|
+| Base (gojūon) | あ か さ … ん | ✅ | ✅ |
+| Dakuten ゛ | が ざ だ ば | ✅ | ✅ |
+| Handakuten ゜ | ぱ ぴ ぷ ぺ ぽ | ✅ | ✅ |
+| Yōon (small ゃゅょ) | きゃ しゅ ちょ | ✅ | ✅ |
+| Extended | ティ ファ ヴァ ウィ | no (katakana only) | ✅ |
+
+- **No romaji.** Columns are labelled あ い う え お, rows あ か さ た な …
+- **Tap a cell → 🔊** the browser says it. That's how I learn the sound.
+- Obsolete ゐ ゑ are shown greyed out.
+- **Sound rules** at the bottom of each board:
+  - Long vowels (長音): ひらがな adds a vowel (おかあさん, とけい), カタカナ uses ー (コーヒー).
+  - Small っ/ッ (促音): doubles the next consonant (きって, ベッド).
+
 ## 4. Pages
 
-- `/`: Continue button + list of lessons
+- `/`: Continue button + list of lessons + links to the kana boards
+- `/kana/hiragana`, `/kana/katakana`: kana boards
 - `/lesson/4`: summary of Lesson 4 (all 5 kinds) + buttons for each activity
 - `/lesson/4/<activity>`: the activity, e.g. `/lesson/4/vocab`, `/lesson/4/kanji-quiz`
 - `/test`: mixed test
