@@ -1,0 +1,66 @@
+[
+  {
+    "id": "family",
+    "label": "Gia đình"
+  },
+  {
+    "id": "people",
+    "label": "Con người"
+  },
+  {
+    "id": "food",
+    "label": "Đồ ăn, đồ uống"
+  },
+  {
+    "id": "numbers",
+    "label": "Số đếm"
+  },
+  {
+    "id": "time",
+    "label": "Thời gian"
+  },
+  {
+    "id": "frequency",
+    "label": "Tần suất"
+  },
+  {
+    "id": "house",
+    "label": "Nhà cửa"
+  },
+  {
+    "id": "position",
+    "label": "Vị trí"
+  },
+  {
+    "id": "places",
+    "label": "Địa điểm"
+  },
+  {
+    "id": "things",
+    "label": "Đồ vật"
+  },
+  {
+    "id": "actions",
+    "label": "Động từ, hoạt động"
+  },
+  {
+    "id": "adjectives",
+    "label": "Tính từ"
+  },
+  {
+    "id": "questions",
+    "label": "Từ để hỏi"
+  },
+  {
+    "id": "expressions",
+    "label": "Câu giao tiếp"
+  },
+  {
+    "id": "work",
+    "label": "Công việc, học tập"
+  },
+  {
+    "id": "leisure",
+    "label": "Giải trí"
+  }
+]

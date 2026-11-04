@@ -1,0 +1,865 @@
+{
+  "id": 5,
+  "title": "なにがすきですか。",
+  "vocab": [
+    {
+      "jp": "たべもの",
+      "meaning": "Đồ ăn",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "のみもの",
+      "meaning": "Đồ uống",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "Nを たべます",
+      "meaning": "Ăn...",
+      "topics": [
+        "food",
+        "actions"
+      ]
+    },
+    {
+      "jp": "Nを のみます",
+      "meaning": "Uống…",
+      "topics": [
+        "food",
+        "actions"
+      ]
+    },
+    {
+      "jp": "～すきです",
+      "meaning": "Thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "～すきじゃないです",
+      "meaning": "Không thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "にく",
+      "meaning": "Thịt",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "さかな",
+      "meaning": "Cá",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "やさい",
+      "meaning": "Rau",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "くだもの",
+      "meaning": "Hoa quả",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "たまご",
+      "meaning": "Trứng",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "パン",
+      "meaning": "Bánh mì",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "みそしる",
+      "meaning": "Súp, canh miso",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ごはん",
+      "meaning": "Cơm",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "あさごはん",
+      "meaning": "Bữa sáng",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "コーヒー",
+      "meaning": "Cà phê",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ミルク／ぎゅうにゅう",
+      "meaning": "Sữa",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "みず",
+      "meaning": "Nước",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "おちゃ",
+      "meaning": "Trà xanh",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "こうちゃ",
+      "meaning": "Hồng trà",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ジュース",
+      "meaning": "Nước ép",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "おねがいします",
+      "meaning": "Nhờ bạn giúp đỡ",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "けっこうです",
+      "meaning": "Tôi ổn",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いつも",
+      "meaning": "Lúc nào cũng",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "よく",
+      "meaning": "Thường..., hay...",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "あまり",
+      "meaning": "Không... lắm...",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "あさ",
+      "meaning": "Buổi sáng",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ひる",
+      "meaning": "Buổi trưa",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ばん／よる",
+      "meaning": "Buổi tối",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ひるごはん",
+      "meaning": "Bữa trưa",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "ばんごはん",
+      "meaning": "Bữa tối",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "まいあさ",
+      "meaning": "Mỗi sáng",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "まいばん",
+      "meaning": "Mỗi tối",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "まいにち",
+      "meaning": "Mỗi ngày",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ときどき",
+      "meaning": "Thỉnh thoảng (40–60%)",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "ぜんぜん …Vません",
+      "meaning": "Không bao giờ, tuyệt đối không (0%)",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "ワイン",
+      "meaning": "Rượu vang",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "タバコ",
+      "meaning": "Thuốc lá",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "すいます",
+      "meaning": "Hút",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "だいすき（な）",
+      "meaning": "Rất thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きらい（な）",
+      "meaning": "Ghét",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "だいきらい（な）",
+      "meaning": "Rất ghét",
+      "topics": [
+        "adjectives"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "S は N を たべます／のみます",
+      "meaning": "S ăn / uống N",
+      "examples": [
+        {
+          "jp": "コーヒー を のみます。",
+          "meaning": "Tôi uống cà phê.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "は"
+          ],
+          "chunks": [
+            "コーヒー",
+            "を",
+            "のみます。"
+          ]
+        },
+        {
+          "jp": "ごはん と たまご を たべます。",
+          "meaning": "Tôi ăn cơm và trứng.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "は"
+          ],
+          "chunks": [
+            "ごはん",
+            "と",
+            "たまご",
+            "を",
+            "たべます。"
+          ]
+        },
+        {
+          "jp": "まいにち やさい と くだもの を たべます。",
+          "meaning": "Mỗi ngày tôi ăn rau và hoa quả.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "は"
+          ],
+          "chunks": [
+            "まいにち",
+            "やさい",
+            "と",
+            "くだもの",
+            "を",
+            "たべます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "いつも／よく／ときどき ＋ Vます",
+      "meaning": "Luôn luôn (100%) / thường (70–80%) / thỉnh thoảng (40–60%)",
+      "examples": [
+        {
+          "jp": "いつも あさごはん を たべます。",
+          "meaning": "Tôi luôn ăn sáng.",
+          "chunks": [
+            "いつも",
+            "あさごはん",
+            "を",
+            "たべます。"
+          ]
+        },
+        {
+          "jp": "ひる よく ぎゅうにゅう を のみます。",
+          "meaning": "Buổi trưa tôi thường uống sữa.",
+          "chunks": [
+            "ひる",
+            "よく",
+            "ぎゅうにゅう",
+            "を",
+            "のみます。"
+          ]
+        },
+        {
+          "jp": "ときどき コーヒー を のみます。",
+          "meaning": "Thỉnh thoảng tôi uống cà phê.",
+          "chunks": [
+            "ときどき",
+            "コーヒー",
+            "を",
+            "のみます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "あまり／ぜんぜん ＋ Vません",
+      "meaning": "Không … lắm (~10%) / hoàn toàn không (0%)",
+      "examples": [
+        {
+          "jp": "あまり おちゃ を のみません。",
+          "meaning": "Tôi không uống trà lắm.",
+          "chunks": [
+            "あまり",
+            "おちゃ",
+            "を",
+            "のみません。"
+          ]
+        },
+        {
+          "jp": "ぜんぜん すいません。",
+          "meaning": "Tôi hoàn toàn không hút."
+        }
+      ]
+    },
+    {
+      "pattern": "S は N が すきです",
+      "meaning": "S thích N",
+      "examples": [
+        {
+          "jp": "やさい と くだもの が すきです。",
+          "meaning": "Tôi thích rau và hoa quả.",
+          "blank": "が",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "やさい",
+            "と",
+            "くだもの",
+            "が",
+            "すきです。"
+          ]
+        },
+        {
+          "jp": "コーヒー が すきですか。",
+          "meaning": "Bạn có thích cà phê không?",
+          "blank": "が",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "コーヒー",
+            "が",
+            "すきですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は N が すきじゃないです／すきじゃありません",
+      "meaning": "S không thích N",
+      "examples": [
+        {
+          "jp": "たばこ が すきじゃないです。",
+          "meaning": "Tôi không thích thuốc lá.",
+          "chunks": [
+            "たばこ",
+            "が",
+            "すきじゃないです。"
+          ]
+        },
+        {
+          "jp": "にほんご が あまり すきじゃないです。",
+          "meaning": "Tôi không thích tiếng Nhật lắm.",
+          "chunks": [
+            "にほんご",
+            "が",
+            "あまり",
+            "すきじゃないです。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は なに が すきですか",
+      "meaning": "S thích cái gì?",
+      "examples": [
+        {
+          "jp": "たべもの は なに が すきですか。",
+          "meaning": "Về đồ ăn, bạn thích gì?",
+          "blank": "なに",
+          "choices": [
+            "なに",
+            "だれ",
+            "どこ",
+            "いつ"
+          ],
+          "chunks": [
+            "たべもの",
+            "は",
+            "なに",
+            "が",
+            "すきですか。"
+          ]
+        },
+        {
+          "jp": "ごはん が だいすきです。",
+          "meaning": "Tôi rất thích cơm.",
+          "chunks": [
+            "ごはん",
+            "が",
+            "だいすきです。"
+          ]
+        },
+        {
+          "jp": "のみもの は なに が すきですか。",
+          "meaning": "Về đồ uống, bạn thích gì?",
+          "blank": "なに",
+          "choices": [
+            "なに",
+            "だれ",
+            "どこ",
+            "いつ"
+          ],
+          "chunks": [
+            "のみもの",
+            "は",
+            "なに",
+            "が",
+            "すきですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Adjな ＋ N ／ Adjい ＋ N",
+      "meaning": "Tính từ đứng trước bổ nghĩa cho danh từ",
+      "examples": [
+        {
+          "jp": "すきな たべもの は なん ですか。",
+          "meaning": "Món ăn bạn thích là gì?",
+          "chunks": [
+            "すきな",
+            "たべもの",
+            "は",
+            "なん",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "あの かわいい ひと は だれ ですか。",
+          "meaning": "Người dễ thương kia là ai?",
+          "chunks": [
+            "あの",
+            "かわいい",
+            "ひと",
+            "は",
+            "だれ",
+            "ですか。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "魚",
+      "hanviet": "Ngư",
+      "words": [
+        {
+          "jp": "魚",
+          "reading": "さかな",
+          "meaning": "Cá"
+        },
+        {
+          "jp": "人魚",
+          "reading": "にんぎょ",
+          "meaning": "Nàng tiên cá"
+        },
+        {
+          "jp": "金魚",
+          "reading": "きんぎょ",
+          "meaning": "Cá vàng"
+        }
+      ]
+    },
+    {
+      "char": "肉",
+      "hanviet": "Nhục",
+      "words": [
+        {
+          "jp": "肉",
+          "reading": "にく",
+          "meaning": "Thịt"
+        },
+        {
+          "jp": "牛肉",
+          "reading": "ぎゅうにく",
+          "meaning": "Thịt bò"
+        },
+        {
+          "jp": "焼き肉",
+          "reading": "やきにく",
+          "meaning": "Thịt nướng"
+        }
+      ]
+    },
+    {
+      "char": "卵",
+      "hanviet": "Noãn",
+      "words": [
+        {
+          "jp": "卵",
+          "reading": "たまご",
+          "meaning": "Trứng"
+        },
+        {
+          "jp": "卵焼き",
+          "reading": "たまごやき",
+          "meaning": "Trứng cuộn"
+        }
+      ]
+    },
+    {
+      "char": "水",
+      "hanviet": "Thuỷ",
+      "words": [
+        {
+          "jp": "水",
+          "reading": "みず",
+          "meaning": "Nước"
+        },
+        {
+          "jp": "香水",
+          "reading": "こうすい",
+          "meaning": "Nước hoa"
+        },
+        {
+          "jp": "水曜日",
+          "reading": "すいようび",
+          "meaning": "Thứ Tư"
+        }
+      ]
+    },
+    {
+      "char": "食",
+      "hanviet": "Thực",
+      "words": [
+        {
+          "jp": "食べます",
+          "reading": "たべます",
+          "meaning": "Ăn"
+        },
+        {
+          "jp": "食べ物",
+          "reading": "たべもの",
+          "meaning": "Đồ ăn"
+        },
+        {
+          "jp": "食事",
+          "reading": "しょくじ",
+          "meaning": "Bữa ăn"
+        },
+        {
+          "jp": "食堂",
+          "reading": "しょくどう",
+          "meaning": "Nhà ăn"
+        }
+      ]
+    },
+    {
+      "char": "飲",
+      "hanviet": "Ẩm",
+      "words": [
+        {
+          "jp": "飲みます",
+          "reading": "のみます",
+          "meaning": "Uống"
+        },
+        {
+          "jp": "飲み物",
+          "reading": "のみもの",
+          "meaning": "Đồ uống"
+        },
+        {
+          "jp": "飲み会",
+          "reading": "のみかい",
+          "meaning": "Buổi nhậu"
+        },
+        {
+          "jp": "飲食店",
+          "reading": "いんしょくてん",
+          "meaning": "Quán ăn uống"
+        }
+      ]
+    },
+    {
+      "char": "物",
+      "hanviet": "Vật",
+      "words": [
+        {
+          "jp": "食べ物",
+          "reading": "たべもの",
+          "meaning": "Đồ ăn"
+        },
+        {
+          "jp": "飲み物",
+          "reading": "のみもの",
+          "meaning": "Đồ uống"
+        }
+      ]
+    },
+    {
+      "char": "好",
+      "hanviet": "Hảo",
+      "words": [
+        {
+          "jp": "好きです",
+          "reading": "すきです",
+          "meaning": "Thích"
+        },
+        {
+          "jp": "大好き",
+          "reading": "だいすき",
+          "meaning": "Rất thích"
+        }
+      ]
+    },
+    {
+      "char": "茶",
+      "hanviet": "Trà",
+      "words": [
+        {
+          "jp": "お茶",
+          "reading": "おちゃ",
+          "meaning": "Trà"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "魚が すきです。",
+      "meaning": "Tôi thích cá."
+    },
+    {
+      "jp": "これは かんこくの 人魚です。",
+      "meaning": "Đây là nàng tiên cá của Hàn Quốc."
+    },
+    {
+      "jp": "金魚は きれいですね。",
+      "meaning": "Cá vàng đẹp nhỉ."
+    },
+    {
+      "jp": "肉は すきじゃないです。",
+      "meaning": "Tôi không thích thịt."
+    },
+    {
+      "jp": "牛肉は おいしいですよ。",
+      "meaning": "Thịt bò ngon đấy."
+    },
+    {
+      "jp": "焼き肉を 食べます。",
+      "meaning": "Tôi ăn thịt nướng."
+    },
+    {
+      "jp": "卵が すきですか。",
+      "meaning": "Bạn có thích trứng không?"
+    },
+    {
+      "jp": "レーさんは 卵焼きを たべます。",
+      "meaning": "Anh/chị Lê ăn trứng cuộn."
+    },
+    {
+      "jp": "水を のみますか。",
+      "meaning": "Bạn có uống nước không?"
+    },
+    {
+      "jp": "この香水は たかいですね。",
+      "meaning": "Nước hoa này đắt nhỉ."
+    },
+    {
+      "jp": "きょうは 水曜日です。",
+      "meaning": "Hôm nay là thứ Tư."
+    },
+    {
+      "jp": "あさごはんを 食べます。",
+      "meaning": "Tôi ăn sáng."
+    },
+    {
+      "jp": "食べ物は なにが すきですか。",
+      "meaning": "Về đồ ăn, bạn thích món gì?"
+    },
+    {
+      "jp": "だれと 食事を しますか。",
+      "meaning": "Bạn dùng bữa với ai?"
+    },
+    {
+      "jp": "かいしゃの 食堂は どこですか。",
+      "meaning": "Nhà ăn của công ty ở đâu?"
+    },
+    {
+      "jp": "なにを 飲みますか。",
+      "meaning": "Bạn uống gì?"
+    },
+    {
+      "jp": "飲み物は ビールが すきです。",
+      "meaning": "Về đồ uống, tôi thích bia."
+    },
+    {
+      "jp": "飲み会に いきましょう。",
+      "meaning": "Cùng đi nhậu nhé."
+    },
+    {
+      "jp": "この 飲食店は やすいですよ。",
+      "meaning": "Quán ăn này rẻ đấy."
+    },
+    {
+      "jp": "魚を 食べます。",
+      "meaning": "Tôi ăn cá."
+    },
+    {
+      "jp": "肉が すきです。",
+      "meaning": "Tôi thích thịt."
+    },
+    {
+      "jp": "卵は 食べません。",
+      "meaning": "Tôi không ăn trứng."
+    },
+    {
+      "jp": "水を 飲みます。",
+      "meaning": "Tôi uống nước."
+    },
+    {
+      "jp": "すしを 食べます。",
+      "meaning": "Tôi ăn sushi."
+    },
+    {
+      "jp": "コーヒーを 飲みます。",
+      "meaning": "Tôi uống cà phê."
+    }
+  ],
+  "notes": [
+    {
+      "title": "あまり vs ぜんぜん",
+      "explain": "Cả hai đi với động từ phủ định (～ません). あまり: không … lắm (~10%). ぜんぜん: hoàn toàn không (0%).",
+      "compare": [
+        {
+          "jp": "あまり のみません",
+          "meaning": "Không uống lắm"
+        },
+        {
+          "jp": "ぜんぜん のみません",
+          "meaning": "Hoàn toàn không uống"
+        }
+      ]
+    }
+  ],
+  "passages": [],
+  "sounds": [],
+  "resources": []
+}

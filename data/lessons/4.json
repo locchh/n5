@@ -1,0 +1,1133 @@
+{
+  "id": 4,
+  "title": "かぞくは よにんです。",
+  "vocab": [
+    {
+      "jp": "かぞく",
+      "meaning": "Gia đình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "ちち",
+      "meaning": "Bố mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おとうさん",
+      "meaning": "Bố (người khác, dùng để gọi “bố ơi”)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "はは",
+      "meaning": "Mẹ mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おかあさん",
+      "meaning": "Mẹ (người khác, dùng để gọi “mẹ ơi”",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "あに",
+      "meaning": "Anh trai mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おにいさん",
+      "meaning": "Anh trai (người khác, dùng để gọi “anh ơi”)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "あね",
+      "meaning": "Chị gái mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おねえさん",
+      "meaning": "Chị gái (người khác, dùng để gọi “chị ơi”)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おとうと",
+      "meaning": "Em trai",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おとうとさん",
+      "meaning": "Em trai người khác",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "いもうと",
+      "meaning": "Em gái",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "いもうとさん",
+      "meaning": "Em gái người khác",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おっと",
+      "meaning": "Chồng mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "ごしゅじん",
+      "meaning": "Chồng người khác",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "つま",
+      "meaning": "Vợ mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おくさん",
+      "meaning": "Vợ người khác",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "こども",
+      "meaning": "Trẻ con, con mình",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "むすこ",
+      "meaning": "Con trai",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "むすめ",
+      "meaning": "Con gái",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "〈Số đếm〉＋ にん",
+      "meaning": "… người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ひとり",
+      "meaning": "1 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ふたり",
+      "meaning": "2 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さんにん",
+      "meaning": "3 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よにん",
+      "meaning": "4 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "おとこの ひと",
+      "meaning": "Người đàn ông",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "おんなの ひと",
+      "meaning": "Người phụ nữ",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "おとこの こ",
+      "meaning": "Bé trai",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "おんなの こ",
+      "meaning": "Bé gái",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "この ひと",
+      "meaning": "Người này",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "だれ？",
+      "meaning": "Ai?",
+      "topics": [
+        "people",
+        "questions"
+      ]
+    },
+    {
+      "jp": "どこ",
+      "meaning": "Ở đâu?",
+      "topics": [
+        "places",
+        "questions"
+      ]
+    },
+    {
+      "jp": "すんで います",
+      "meaning": "Đang sống",
+      "topics": [
+        "family",
+        "actions"
+      ]
+    },
+    {
+      "jp": "かっこいい",
+      "meaning": "Ngầu",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "かわいい",
+      "meaning": "Dễ thương",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きれい",
+      "meaning": "Xinh đẹp",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "わかい",
+      "meaning": "Trẻ",
+      "topics": [
+        "people",
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "なんさい",
+      "meaning": "Mấy tuổi (hỏi người nhỏ tuổi / không trang trọng)",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "おいくつ",
+      "meaning": "Bao nhiêu tuổi (lịch sự)",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "はたち",
+      "meaning": "20 tuổi",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "なんにん",
+      "meaning": "Bao nhiêu người",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "ごかぞく",
+      "meaning": "Gia đình (của người khác)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "どなた",
+      "meaning": "Ai (lịch sự hơn だれ)",
+      "topics": [
+        "people",
+        "questions"
+      ]
+    },
+    {
+      "jp": "この／その／あの ＋ N",
+      "meaning": "N này / N đó / N kia",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "きょうだい（兄弟）",
+      "meaning": "Anh chị em",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "しまい（姉妹）",
+      "meaning": "Chị em gái",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おねえちゃん（お姉ちゃん）",
+      "meaning": "Chị (cách gọi thân mật)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "おこさん（お子さん）",
+      "meaning": "Con (của người khác)",
+      "topics": [
+        "family"
+      ]
+    },
+    {
+      "jp": "れい／ゼロ",
+      "meaning": "0",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いち",
+      "meaning": "1",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "に",
+      "meaning": "2",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さん",
+      "meaning": "3",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よん／し",
+      "meaning": "4",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ご",
+      "meaning": "5",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ろく",
+      "meaning": "6",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "なな／しち",
+      "meaning": "7",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "はち",
+      "meaning": "8",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "きゅう／く",
+      "meaning": "9",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "じゅう",
+      "meaning": "10",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ひゃく",
+      "meaning": "100",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "せん",
+      "meaning": "1000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "まん",
+      "meaning": "10000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いっさい",
+      "meaning": "1 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "はっさい",
+      "meaning": "8 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "じゅっさい",
+      "meaning": "10 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "にじゅうよんさい",
+      "meaning": "24 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "さんじゅういっさい",
+      "meaning": "31 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "ごじゅっさい",
+      "meaning": "50 tuổi",
+      "topics": [
+        "numbers",
+        "family"
+      ]
+    },
+    {
+      "jp": "じゅういちにん",
+      "meaning": "11 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "じゅうよにん",
+      "meaning": "14 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "S1は Nです → S2も Nです",
+      "meaning": "S2 cũng là N (も: cũng)",
+      "examples": [
+        {
+          "jp": "Hieuさん も ベトナムじん です。",
+          "meaning": "Hieu cũng là người Việt Nam.",
+          "blank": "も",
+          "choices": [
+            "は",
+            "も",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "Hieuさん",
+            "も",
+            "ベトナムじん",
+            "です。"
+          ]
+        },
+        {
+          "jp": "わたし は フランスご も できます。",
+          "meaning": "Tôi cũng biết tiếng Pháp.",
+          "blank": "も",
+          "choices": [
+            "は",
+            "も",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "は",
+            "フランスご",
+            "も",
+            "できます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2",
+      "meaning": "N1 bổ nghĩa cho N2 (の nối hai danh từ)",
+      "examples": [
+        {
+          "jp": "おとこ の ひと",
+          "meaning": "Người đàn ông",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "おとこ",
+            "の",
+            "ひと"
+          ]
+        },
+        {
+          "jp": "にほんご の ほん",
+          "meaning": "Sách tiếng Nhật",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "にほんご",
+            "の",
+            "ほん"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "この／その／あの ＋ N",
+      "meaning": "N này (gần người nói) / N đó (gần người nghe) / N kia (xa cả hai)",
+      "examples": [
+        {
+          "jp": "あの おとこのひと は だれ ですか。",
+          "meaning": "Người đàn ông kia là ai?",
+          "chunks": [
+            "あの",
+            "おとこのひと",
+            "は",
+            "だれ",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "あの おとこのひと の なまえ は なん ですか。",
+          "meaning": "Tên của người đàn ông kia là gì?",
+          "chunks": [
+            "あの",
+            "おとこのひと",
+            "の",
+            "なまえ",
+            "は",
+            "なん",
+            "ですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm に すんで います",
+      "meaning": "Đang sống ở (địa điểm)",
+      "examples": [
+        {
+          "jp": "どこ に すんで いますか。",
+          "meaning": "Bạn đang sống ở đâu?",
+          "blank": "に",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "chunks": [
+            "どこ",
+            "に",
+            "すんで",
+            "いますか。"
+          ]
+        },
+        {
+          "jp": "ベトナム に すんで います。",
+          "meaning": "Tôi đang sống ở Việt Nam.",
+          "blank": "に",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "chunks": [
+            "ベトナム",
+            "に",
+            "すんで",
+            "います。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Vます／Vません／Vますか",
+      "meaning": "Động từ thể lịch sự: khẳng định / phủ định / nghi vấn",
+      "examples": [
+        {
+          "jp": "すんで います。",
+          "meaning": "Đang sống."
+        },
+        {
+          "jp": "すんで いません。",
+          "meaning": "Không sống."
+        },
+        {
+          "jp": "すんで いますか。",
+          "meaning": "Có đang sống không?"
+        }
+      ]
+    },
+    {
+      "pattern": "Số ＋ さい",
+      "meaning": "… tuổi. Ngoại lệ: …1 いっさい, …8 はっさい, …10 じゅっさい, 20 tuổi はたち",
+      "examples": [
+        {
+          "jp": "ちち は ごじゅっさい です。",
+          "meaning": "Bố tôi 50 tuổi.",
+          "chunks": [
+            "ちち",
+            "は",
+            "ごじゅっさい",
+            "です。"
+          ]
+        },
+        {
+          "jp": "にじゅういっさい じゃ ありません。 はたち です。",
+          "meaning": "Không phải 21 tuổi. Là 20 tuổi.",
+          "chunks": [
+            "にじゅういっさい",
+            "じゃ",
+            "ありません。",
+            "はたち",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は なんさい／おいくつ ですか",
+      "meaning": "Hỏi tuổi. なんさい: thân mật, hỏi người nhỏ tuổi. おいくつ: lịch sự",
+      "examples": [
+        {
+          "jp": "おとうさん は おいくつ ですか。",
+          "meaning": "Bố của bạn bao nhiêu tuổi?",
+          "blank": "おいくつ",
+          "choices": [
+            "おいくつ",
+            "なんにん",
+            "なに",
+            "どこ"
+          ],
+          "chunks": [
+            "おとうさん",
+            "は",
+            "おいくつ",
+            "ですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Số ＋ にん",
+      "meaning": "… người. Ngoại lệ: 1 người ひとり, 2 người ふたり, 4 người よにん",
+      "examples": [
+        {
+          "jp": "ごかぞく は なんにん ですか。",
+          "meaning": "Gia đình bạn có mấy người?",
+          "blank": "なんにん",
+          "choices": [
+            "なんにん",
+            "なんさい",
+            "なに",
+            "だれ"
+          ],
+          "chunks": [
+            "ごかぞく",
+            "は",
+            "なんにん",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "よにん です。",
+          "meaning": "4 người."
+        }
+      ]
+    },
+    {
+      "pattern": "N1 と N2",
+      "meaning": "N1 và N2 (liệt kê)",
+      "examples": [
+        {
+          "jp": "はは と ちち と あね と わたし です。",
+          "meaning": "Mẹ, bố, chị gái và tôi.",
+          "chunks": [
+            "はは",
+            "と",
+            "ちち",
+            "と",
+            "あね",
+            "と",
+            "わたし",
+            "です。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "男",
+      "hanviet": "Nam",
+      "words": [
+        {
+          "jp": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "Người đàn ông"
+        },
+        {
+          "jp": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "Bé trai"
+        }
+      ]
+    },
+    {
+      "char": "女",
+      "hanviet": "Nữ",
+      "words": [
+        {
+          "jp": "女の人",
+          "reading": "おんなのひと",
+          "meaning": "Người phụ nữ"
+        },
+        {
+          "jp": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "Bé gái"
+        }
+      ]
+    },
+    {
+      "char": "子",
+      "hanviet": "Tử",
+      "words": [
+        {
+          "jp": "子ども",
+          "reading": "こども",
+          "meaning": "Trẻ con, con"
+        },
+        {
+          "jp": "男の子",
+          "reading": "おとこのこ",
+          "meaning": "Bé trai"
+        },
+        {
+          "jp": "女の子",
+          "reading": "おんなのこ",
+          "meaning": "Bé gái"
+        },
+        {
+          "jp": "お子さん",
+          "reading": "おこさん",
+          "meaning": "Con (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "父",
+      "hanviet": "Phụ",
+      "words": [
+        {
+          "jp": "父",
+          "reading": "ちち",
+          "meaning": "Bố mình"
+        },
+        {
+          "jp": "お父さん",
+          "reading": "おとうさん",
+          "meaning": "Bố (người khác)"
+        }
+      ]
+    },
+    {
+      "char": "母",
+      "hanviet": "Mẫu",
+      "words": [
+        {
+          "jp": "母",
+          "reading": "はは",
+          "meaning": "Mẹ mình"
+        },
+        {
+          "jp": "お母さん",
+          "reading": "おかあさん",
+          "meaning": "Mẹ (người khác)"
+        }
+      ]
+    },
+    {
+      "char": "国",
+      "hanviet": "Quốc",
+      "words": [
+        {
+          "jp": "お国",
+          "reading": "おくに",
+          "meaning": "Đất nước (của người khác)"
+        }
+      ]
+    },
+    {
+      "char": "兄",
+      "hanviet": "Huynh",
+      "words": [
+        {
+          "jp": "兄",
+          "reading": "あに",
+          "meaning": "Anh trai mình"
+        },
+        {
+          "jp": "お兄さん",
+          "reading": "おにいさん",
+          "meaning": "Anh trai (người khác)"
+        },
+        {
+          "jp": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "Anh chị em"
+        }
+      ]
+    },
+    {
+      "char": "弟",
+      "hanviet": "Đệ",
+      "words": [
+        {
+          "jp": "弟さん",
+          "reading": "おとうとさん",
+          "meaning": "Em trai (người khác)"
+        },
+        {
+          "jp": "兄弟",
+          "reading": "きょうだい",
+          "meaning": "Anh chị em"
+        }
+      ]
+    },
+    {
+      "char": "姉",
+      "hanviet": "Tỷ",
+      "words": [
+        {
+          "jp": "姉",
+          "reading": "あね",
+          "meaning": "Chị gái mình"
+        },
+        {
+          "jp": "お姉さん",
+          "reading": "おねえさん",
+          "meaning": "Chị gái (người khác)"
+        },
+        {
+          "jp": "姉妹",
+          "reading": "しまい",
+          "meaning": "Chị em gái"
+        }
+      ]
+    },
+    {
+      "char": "妹",
+      "hanviet": "Muội",
+      "words": [
+        {
+          "jp": "妹",
+          "reading": "いもうと",
+          "meaning": "Em gái mình"
+        },
+        {
+          "jp": "妹さん",
+          "reading": "いもうとさん",
+          "meaning": "Em gái (người khác)"
+        },
+        {
+          "jp": "姉妹",
+          "reading": "しまい",
+          "meaning": "Chị em gái"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "このひと は だれ ですか。",
+      "meaning": "Người này là ai?"
+    },
+    {
+      "jp": "おいくつですか。",
+      "meaning": "Bao nhiêu tuổi?"
+    },
+    {
+      "jp": "どこ に すんで いますか。",
+      "meaning": "Bạn đang sống ở đâu?"
+    },
+    {
+      "jp": "母は卵が好きです。父は肉と魚が好きです。",
+      "meaning": "Mẹ tôi thích trứng. Bố tôi thích thịt và cá."
+    },
+    {
+      "jp": "お子さんは何さいですか。",
+      "meaning": "Con của anh/chị mấy tuổi?"
+    },
+    {
+      "jp": "お父さんはおいくつですか。",
+      "meaning": "Bố của bạn bao nhiêu tuổi?"
+    },
+    {
+      "jp": "お国はどちらですか。",
+      "meaning": "Bạn đến từ nước nào?"
+    },
+    {
+      "jp": "姉は お茶が 好きです。",
+      "meaning": "Chị gái tôi thích trà."
+    },
+    {
+      "jp": "お姉さんは どこに すんでいますか。",
+      "meaning": "Chị gái của bạn đang sống ở đâu?"
+    },
+    {
+      "jp": "家族は５人です。父と母と兄と妹とわたしです。",
+      "meaning": "Gia đình tôi có 5 người: bố, mẹ, anh trai, em gái và tôi."
+    },
+    {
+      "jp": "わたしのかぞくは ７人です。母と 父と つまと 子ども ３人と わたしです。",
+      "meaning": "Gia đình tôi có 7 người: mẹ, bố, vợ, 3 đứa con và tôi."
+    }
+  ],
+  "notes": [
+    {
+      "title": "ちち vs おとうさん",
+      "explain": "ちち: nói về bố mình với người khác. おとうさん: bố của người khác, hoặc khi gọi bố mình. Các từ gia đình khác cũng vậy (はは/おかあさん, あに/おにいさん…).",
+      "compare": [
+        {
+          "jp": "ちち",
+          "meaning": "Bố mình"
+        },
+        {
+          "jp": "おとうさん",
+          "meaning": "Bố người khác"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "ちち は ごじゅっさい です。",
+          "meaning": "Bố tôi 50 tuổi."
+        },
+        {
+          "jp": "おとうさん は おいくつ ですか。",
+          "meaning": "Bố của bạn bao nhiêu tuổi?"
+        }
+      ]
+    },
+    {
+      "title": "なんさい vs おいくつ",
+      "explain": "Cả hai đều hỏi tuổi. なんさい: thân mật, hỏi người nhỏ tuổi. おいくつ: lịch sự.",
+      "compare": [
+        {
+          "jp": "なんさい",
+          "meaning": "Mấy tuổi (thân mật)"
+        },
+        {
+          "jp": "おいくつ",
+          "meaning": "Bao nhiêu tuổi (lịch sự)"
+        }
+      ]
+    },
+    {
+      "title": "だれ vs どなた",
+      "explain": "Cả hai nghĩa là \"ai\". どなた lịch sự hơn.",
+      "compare": [
+        {
+          "jp": "だれ",
+          "meaning": "Ai"
+        },
+        {
+          "jp": "どなた",
+          "meaning": "Ai (lịch sự)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "あの おとこのひと は だれ ですか。",
+          "meaning": "Người đàn ông kia là ai?"
+        }
+      ]
+    }
+  ],
+  "passages": [],
+  "sounds": [
+    {
+      "title": "つ vs す",
+      "explain": "つ: lưỡi chạm răng trên rồi bật ra. す: lưỡi không chạm, hơi thoát ra liên tục.",
+      "words": [
+        {
+          "jp": "いつ",
+          "meaning": "Khi nào"
+        },
+        {
+          "jp": "いす",
+          "meaning": "Cái ghế"
+        },
+        {
+          "jp": "つき",
+          "meaning": "Mặt trăng"
+        },
+        {
+          "jp": "すき",
+          "meaning": "Thích"
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "Từ điển Accent",
+      "url": "https://accentjiten.com/",
+      "note": "Tra trọng âm (pitch accent) của từ"
+    },
+    {
+      "title": "App luyện Hiragana & Katakana (iOS)",
+      "url": "https://apps.apple.com/us/app/ti%E1%BA%BFng-nh%E1%BA%ADt-hiragana-maru-h%E1%BB%8Dc/id1208009110?l=vi",
+      "note": "Luyện bảng chữ cái"
+    },
+    {
+      "title": "Video viết và phát âm Hiragana",
+      "url": "https://www.youtube.com/watch?v=4jvzk0PDPVk",
+      "note": "Cách viết và phát âm từng chữ"
+    },
+    {
+      "title": "Phân biệt phát âm つ và す",
+      "url": "https://youtube.com/shorts/jfTFwRen0bs",
+      "note": "Video ngắn về cách phát âm"
+    },
+    {
+      "title": "Test bảng chữ cái Hiragana + Katakana",
+      "url": "https://kana-quiz.tofugu.com/",
+      "note": "Tự kiểm tra kana"
+    },
+    {
+      "title": "Sách + Audio Shadowing sơ cấp",
+      "url": "https://www.studyjapanese.net/2016/09/shadowing-nihongo-wo-hanasou.html",
+      "note": "シャドーイング 日本語を話そう, quyển 初〜中級編"
+    },
+    {
+      "title": "Sách luyện viết Kanji Marugoto A1",
+      "url": "https://drive.google.com/file/d/1C5rca35B-01dW6r6LhGo5vUu4fpqtFk9/view?usp=sharing",
+      "note": "Luyện viết Kanji (bản chú nghĩa tiếng Đức)"
+    }
+  ]
+}

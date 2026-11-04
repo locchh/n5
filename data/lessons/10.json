@@ -1,0 +1,1085 @@
+{
+  "id": 10,
+  "title": "いつが いいですか。",
+  "vocab": [
+    {
+      "jp": "きのう",
+      "meaning": "Hôm qua",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "きょう",
+      "meaning": "Hôm nay",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "あした",
+      "meaning": "Ngày mai",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "せんしゅう",
+      "meaning": "Tuần trước",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "こんしゅう",
+      "meaning": "Tuần này",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "らいしゅう",
+      "meaning": "Tuần sau",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "げつようび",
+      "meaning": "Thứ hai",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "かようび",
+      "meaning": "Thứ ba",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "すいようび",
+      "meaning": "Thứ tư",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "もくようび",
+      "meaning": "Thứ năm",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "きんようび",
+      "meaning": "Thứ sáu",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "どようび",
+      "meaning": "Thứ bảy",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "にちようび",
+      "meaning": "Chủ nhật",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "しゅうまつ",
+      "meaning": "Cuối tuần",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "たんじょうび",
+      "meaning": "Sinh nhật",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "～にち",
+      "meaning": "Ngày...",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "～がつ",
+      "meaning": "Tháng...",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "パーティー",
+      "meaning": "Bữa tiệc, party",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "バースデーパーティー",
+      "meaning": "Birthday party, tiệc sinh nhật",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "コンサート",
+      "meaning": "Concert, buổi hòa nhạc",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "かいもの（を）します",
+      "meaning": "Mua sắm",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "べんきょう（を）します",
+      "meaning": "Học tập",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "テニス（をします）",
+      "meaning": "Tennis (Chơi...)",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "しょくじ（を）します",
+      "meaning": "Dùng bữa",
+      "topics": [
+        "food",
+        "actions"
+      ]
+    },
+    {
+      "jp": "Pに きます",
+      "meaning": "Đến địa điểm P",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "だいじょうぶ（な）",
+      "meaning": "Ổn, được",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "だめ（な）",
+      "meaning": "Không được",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "びょういん",
+      "meaning": "Bệnh viện",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "はくぶつかん",
+      "meaning": "Bảo tàng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "びじゅつかん",
+      "meaning": "Bảo tàng mỹ thuật",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "がっこう",
+      "meaning": "Trường học",
+      "topics": [
+        "places",
+        "work"
+      ]
+    },
+    {
+      "jp": "すいぞくかん",
+      "meaning": "Thủy cung",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "いつ？",
+      "meaning": "Khi nào?",
+      "topics": [
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "ざんぎょう（を）します",
+      "meaning": "Làm tăng ca, OT",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "～じかん",
+      "meaning": "… tiếng",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "～ぐらい",
+      "meaning": "Khoảng… (số lượng, thời lượng)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ときどき",
+      "meaning": "Thỉnh thoảng",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "インターネット",
+      "meaning": "Internet",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "いっしゅうかん",
+      "meaning": "Một tuần",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "スケジュール",
+      "meaning": "Lịch trình",
+      "topics": [
+        "time",
+        "work"
+      ]
+    },
+    {
+      "jp": "なんにち（何日）",
+      "meaning": "Ngày bao nhiêu",
+      "topics": [
+        "numbers",
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "なんがつ（何月）",
+      "meaning": "Tháng mấy",
+      "topics": [
+        "numbers",
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "おたんじょうび",
+      "meaning": "Sinh nhật (của người khác)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "へ",
+      "meaning": "Trợ từ chỉ hướng di chuyển"
+    },
+    {
+      "jp": "～から ～まで",
+      "meaning": "Từ ~ đến ~"
+    },
+    {
+      "jp": "かかります",
+      "meaning": "Tốn (thời gian/tiền bạc)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "どのぐらい",
+      "meaning": "Bao lâu, bao nhiêu",
+      "topics": [
+        "questions"
+      ]
+    },
+    {
+      "jp": "～えん",
+      "meaning": "~ yên",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "なんじかん（何時間）",
+      "meaning": "Mấy tiếng",
+      "topics": [
+        "numbers",
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "なんようび（何曜日）",
+      "meaning": "Thứ mấy",
+      "topics": [
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "やすみ",
+      "meaning": "Ngày nghỉ",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "あいだ（間）",
+      "meaning": "Ở giữa (N1とN2の間)",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "うんどうします",
+      "meaning": "Tập thể dục",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ついたち",
+      "meaning": "Ngày 1",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ふつか",
+      "meaning": "Ngày 2",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "みっか",
+      "meaning": "Ngày 3",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "よっか",
+      "meaning": "Ngày 4",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "いつか",
+      "meaning": "Ngày 5",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "むいか",
+      "meaning": "Ngày 6",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "なのか",
+      "meaning": "Ngày 7",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ようか",
+      "meaning": "Ngày 8",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ここのか",
+      "meaning": "Ngày 9",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "とおか",
+      "meaning": "Ngày 10",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうよっか",
+      "meaning": "Ngày 14",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "はつか",
+      "meaning": "Ngày 20",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "にじゅうよっか",
+      "meaning": "Ngày 24",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうしちにち",
+      "meaning": "Ngày 17",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうくにち",
+      "meaning": "Ngày 19",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "にじゅうごにち",
+      "meaning": "Ngày 25",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "しがつ",
+      "meaning": "Tháng 4",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "しちがつ",
+      "meaning": "Tháng 7",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "くがつ",
+      "meaning": "Tháng 9",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうがつ",
+      "meaning": "Tháng 10",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅういちがつ",
+      "meaning": "Tháng 11",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Số ＋ にち（日）",
+      "meaning": "Ngày … Đặc biệt: ついたち〜とおか, じゅうよっか, はつか, にじゅうよっか",
+      "examples": [
+        {
+          "jp": "たんじょうび は ９月 １０日 です。",
+          "meaning": "Sinh nhật tôi là ngày 10 tháng 9.",
+          "chunks": [
+            "たんじょうび",
+            "は",
+            "９月",
+            "１０日",
+            "です。"
+          ]
+        },
+        {
+          "jp": "今日 は じゅういちがつ よっか です。",
+          "meaning": "Hôm nay là ngày 4 tháng 11.",
+          "chunks": [
+            "今日",
+            "は",
+            "じゅういちがつ",
+            "よっか",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Số ＋ がつ（月）",
+      "meaning": "Tháng … Đặc biệt: しがつ (4), しちがつ (7), くがつ (9)",
+      "examples": [
+        {
+          "jp": "じゅうがつ にじゅうごにち です。",
+          "meaning": "Ngày 25 tháng 10.",
+          "chunks": [
+            "じゅうがつ",
+            "にじゅうごにち",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "何月 何日 ですか／いつ ですか",
+      "meaning": "Ngày mấy tháng mấy? / Khi nào?",
+      "examples": [
+        {
+          "jp": "今日 は 何月 何日 ですか。",
+          "meaning": "Hôm nay là ngày mấy tháng mấy?",
+          "chunks": [
+            "今日",
+            "は",
+            "何月",
+            "何日",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "おたんじょうび は いつ ですか。",
+          "meaning": "Sinh nhật bạn là khi nào?",
+          "blank": "いつ",
+          "choices": [
+            "いつ",
+            "どこ",
+            "なに",
+            "だれ"
+          ],
+          "chunks": [
+            "おたんじょうび",
+            "は",
+            "いつ",
+            "ですか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は (phương tiện で) Địa điểm に／へ いきます",
+      "meaning": "Đi đến (địa điểm), bằng (phương tiện)",
+      "examples": [
+        {
+          "jp": "７時半 に かいしゃ へ いきます。",
+          "meaning": "7 rưỡi tôi đi đến công ty.",
+          "blank": "へ",
+          "choices": [
+            "へ",
+            "を",
+            "が",
+            "は"
+          ],
+          "chunks": [
+            "７時半",
+            "に",
+            "かいしゃ",
+            "へ",
+            "いきます。"
+          ]
+        },
+        {
+          "jp": "電車 で 会社 へ 行きます。",
+          "meaning": "Tôi đi đến công ty bằng tàu điện.",
+          "blank": "へ",
+          "choices": [
+            "へ",
+            "を",
+            "が",
+            "は"
+          ],
+          "chunks": [
+            "電車",
+            "で",
+            "会社",
+            "へ",
+            "行きます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S が Địa điểm に きます",
+      "meaning": "Đến (về phía người nói / nơi làm mốc)",
+      "examples": [
+        {
+          "jp": "ともだち が いえ に きます。",
+          "meaning": "Bạn tôi đến nhà.",
+          "chunks": [
+            "ともだち",
+            "が",
+            "いえ",
+            "に",
+            "きます。"
+          ]
+        },
+        {
+          "jp": "木曜日 に 姉 が いえ に きます。",
+          "meaning": "Thứ Năm chị gái tôi đến nhà.",
+          "chunks": [
+            "木曜日",
+            "に",
+            "姉",
+            "が",
+            "いえ",
+            "に",
+            "きます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm に かえります",
+      "meaning": "Về (nơi mình thuộc về, nơi ở)",
+      "examples": [
+        {
+          "jp": "うち に かえります。",
+          "meaning": "Về nhà.",
+          "chunks": [
+            "うち",
+            "に",
+            "かえります。"
+          ]
+        },
+        {
+          "jp": "父 と 母 の いえ に かえります。",
+          "meaning": "Tôi về nhà bố mẹ.",
+          "chunks": [
+            "父",
+            "と",
+            "母",
+            "の",
+            "いえ",
+            "に",
+            "かえります。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "～から ～まで",
+      "meaning": "Từ … đến … (thời gian, địa điểm)",
+      "examples": [
+        {
+          "jp": "げつようび から もくようび まで えいご を べんきょう します。",
+          "meaning": "Tôi học tiếng Anh từ thứ Hai đến thứ Năm.",
+          "blank": "まで",
+          "choices": [
+            "まで",
+            "から",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "げつようび",
+            "から",
+            "もくようび",
+            "まで",
+            "えいご",
+            "を",
+            "べんきょう",
+            "します。"
+          ]
+        },
+        {
+          "jp": "会社 は ９時 から ５時 まで です。",
+          "meaning": "Công ty làm từ 9 giờ đến 5 giờ.",
+          "blank": "まで",
+          "choices": [
+            "まで",
+            "から",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "会社",
+            "は",
+            "９時",
+            "から",
+            "５時",
+            "まで",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "(thời gian／tiền) が かかります",
+      "meaning": "Tốn, mất (thời gian / tiền)",
+      "examples": [
+        {
+          "jp": "いえ から かいしゃ まで どのぐらい かかりますか。",
+          "meaning": "Từ nhà đến công ty mất bao lâu?",
+          "blank": "かかります",
+          "choices": [
+            "かかります",
+            "あります",
+            "います",
+            "きます"
+          ],
+          "chunks": [
+            "いえ",
+            "から",
+            "かいしゃ",
+            "まで",
+            "どのぐらい",
+            "かかりますか。"
+          ]
+        },
+        {
+          "jp": "３時間 かかります。",
+          "meaning": "Mất 3 tiếng.",
+          "blank": "かかります",
+          "choices": [
+            "かかります",
+            "あります",
+            "います",
+            "きます"
+          ]
+        },
+        {
+          "jp": "かいしゃ まで 何時間 かかりますか。",
+          "meaning": "Đến công ty mất mấy tiếng?",
+          "blank": "かかります",
+          "choices": [
+            "かかります",
+            "あります",
+            "います",
+            "きます"
+          ],
+          "chunks": [
+            "かいしゃ",
+            "まで",
+            "何時間",
+            "かかりますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 と N2 の 間（あいだ）",
+      "meaning": "Ở giữa N1 và N2",
+      "examples": [
+        {
+          "jp": "テーブル と ベッド の 間",
+          "meaning": "Ở giữa cái bàn và cái giường",
+          "chunks": [
+            "テーブル",
+            "と",
+            "ベッド",
+            "の",
+            "間"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "月",
+      "hanviet": "Nguyệt",
+      "words": [
+        {
+          "jp": "月曜日",
+          "reading": "げつようび",
+          "meaning": "Thứ Hai"
+        },
+        {
+          "jp": "９月",
+          "reading": "くがつ",
+          "meaning": "Tháng 9"
+        },
+        {
+          "jp": "何月",
+          "reading": "なんがつ",
+          "meaning": "Tháng mấy"
+        }
+      ]
+    },
+    {
+      "char": "火",
+      "hanviet": "Hỏa",
+      "words": [
+        {
+          "jp": "火曜日",
+          "reading": "かようび",
+          "meaning": "Thứ Ba"
+        }
+      ]
+    },
+    {
+      "char": "木",
+      "hanviet": "Mộc",
+      "words": [
+        {
+          "jp": "木曜日",
+          "reading": "もくようび",
+          "meaning": "Thứ Năm"
+        },
+        {
+          "jp": "木",
+          "reading": "き",
+          "meaning": "Cây, gỗ"
+        }
+      ]
+    },
+    {
+      "char": "金",
+      "hanviet": "Kim",
+      "words": [
+        {
+          "jp": "金曜日",
+          "reading": "きんようび",
+          "meaning": "Thứ Sáu"
+        },
+        {
+          "jp": "お金",
+          "reading": "おかね",
+          "meaning": "Tiền"
+        }
+      ]
+    },
+    {
+      "char": "土",
+      "hanviet": "Thổ",
+      "words": [
+        {
+          "jp": "土曜日",
+          "reading": "どようび",
+          "meaning": "Thứ Bảy"
+        }
+      ]
+    },
+    {
+      "char": "毎",
+      "hanviet": "Mỗi",
+      "words": [
+        {
+          "jp": "毎日",
+          "reading": "まいにち",
+          "meaning": "Mỗi ngày"
+        },
+        {
+          "jp": "毎朝",
+          "reading": "まいあさ",
+          "meaning": "Mỗi sáng"
+        }
+      ]
+    },
+    {
+      "char": "間",
+      "hanviet": "Gian",
+      "words": [
+        {
+          "jp": "時間",
+          "reading": "じかん",
+          "meaning": "Thời gian"
+        },
+        {
+          "jp": "何時間",
+          "reading": "なんじかん",
+          "meaning": "Mấy tiếng"
+        },
+        {
+          "jp": "間",
+          "reading": "あいだ",
+          "meaning": "Ở giữa"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "いつが いいですか。",
+      "meaning": "Khi nào thì được?"
+    },
+    {
+      "jp": "いつでも いいです。",
+      "meaning": "Khi nào cũng được"
+    },
+    {
+      "jp": "月曜日と 水曜日と 金曜日に 日本語を べんきょうします。",
+      "meaning": "Tôi học tiếng Nhật vào thứ Hai, thứ Tư và thứ Sáu."
+    },
+    {
+      "jp": "毎日 午後６時半から ７時半まで うんどうします。",
+      "meaning": "Mỗi ngày tôi tập thể dục từ 6 rưỡi đến 7 rưỡi tối."
+    },
+    {
+      "jp": "たんじょうびは ９月１０日です。",
+      "meaning": "Sinh nhật tôi là ngày 10 tháng 9."
+    },
+    {
+      "jp": "火曜日に 時間が ありますか。",
+      "meaning": "Thứ Ba bạn có thời gian không?"
+    },
+    {
+      "jp": "お金が 大好きです。",
+      "meaning": "Tôi rất thích tiền."
+    },
+    {
+      "jp": "木曜日に 姉が いえに きます。",
+      "meaning": "Thứ Năm chị gái tôi đến nhà."
+    },
+    {
+      "jp": "日曜日は しごとを しません。父と 母の いえに かえります。",
+      "meaning": "Chủ nhật tôi không làm việc. Tôi về nhà bố mẹ."
+    },
+    {
+      "jp": "毎日 1時間 新しい しんぶんを よみます。",
+      "meaning": "Mỗi ngày tôi đọc báo mới 1 tiếng."
+    },
+    {
+      "jp": "かいしゃまで 何時間 かかりますか。",
+      "meaning": "Đến công ty mất mấy tiếng?"
+    },
+    {
+      "jp": "やすみは 何曜日ですか。",
+      "meaning": "Ngày nghỉ là thứ mấy?"
+    },
+    {
+      "jp": "毎日 ６時に おきます。それから、水を 飲みます。",
+      "meaning": "Mỗi ngày tôi dậy lúc 6 giờ. Sau đó uống nước."
+    },
+    {
+      "jp": "今日は 何月 何日ですか。― 今日は じゅういちがつ よっかです。",
+      "meaning": "Hôm nay là ngày mấy tháng mấy? ― Hôm nay là ngày 4 tháng 11."
+    },
+    {
+      "jp": "あしたは 何月 何日ですか。― じゅういちがつ いつかです。",
+      "meaning": "Ngày mai là ngày mấy tháng mấy? ― Ngày 5 tháng 11."
+    },
+    {
+      "jp": "おたんじょうびは いつですか。― じゅうがつ にじゅうごにちです。",
+      "meaning": "Sinh nhật bạn là khi nào? ― Ngày 25 tháng 10."
+    }
+  ],
+  "notes": [
+    {
+      "title": "に vs へ",
+      "explain": "Cả hai chỉ nơi đến. に nhấn mạnh đích đến. へ nhấn mạnh hướng đi. Viết thư \"gửi A\": Aさんへ.",
+      "compare": [
+        {
+          "jp": "かいしゃ に いきます",
+          "meaning": "Đi đến công ty (đích đến)"
+        },
+        {
+          "jp": "みぎ の ほう へ いきます",
+          "meaning": "Đi về phía bên phải (hướng)"
+        }
+      ]
+    },
+    {
+      "title": "いきます vs きます vs かえります",
+      "explain": "いきます: đi từ chỗ mình đến nơi khác. きます: đến chỗ người nói (hoặc nơi lấy làm mốc). かえります: về nơi mình thuộc về (nhà, nước mình).",
+      "compare": [
+        {
+          "jp": "いきます",
+          "meaning": "Đi"
+        },
+        {
+          "jp": "きます",
+          "meaning": "Đến"
+        },
+        {
+          "jp": "かえります",
+          "meaning": "Về"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "がっこう に いきます。",
+          "meaning": "Tôi đi đến trường."
+        },
+        {
+          "jp": "がっこう に きますか。",
+          "meaning": "Bạn có đến trường không? (người nói đang ở trường)"
+        },
+        {
+          "jp": "うち に かえります。",
+          "meaning": "Tôi về nhà."
+        }
+      ]
+    }
+  ],
+  "passages": [],
+  "sounds": [],
+  "resources": []
+}

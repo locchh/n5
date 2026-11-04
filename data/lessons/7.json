@@ -1,0 +1,706 @@
+{
+  "id": 7,
+  "title": "へやが みっつ あります。",
+  "vocab": [
+    {
+      "jp": "いえ",
+      "meaning": "Nhà",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "アパート",
+      "meaning": "Chung cư mini, căn hộ nhỏ",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "マンション",
+      "meaning": "Chung cư cao cấp",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "いっこだて",
+      "meaning": "Nhà mặt đất, nhà liền thổ",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "へや",
+      "meaning": "Phòng",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ひろい",
+      "meaning": "Rộng",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "せまい",
+      "meaning": "Hẹp, chật",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "おおきい",
+      "meaning": "To, lớn",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "ちいさい",
+      "meaning": "Nhỏ, bé",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "あたらしい",
+      "meaning": "Mới",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "ふるい",
+      "meaning": "Cũ",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "あかるい",
+      "meaning": "Sáng sủa",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "くらい",
+      "meaning": "Tối tăm",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "こうえん",
+      "meaning": "Công viên",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "レストラン",
+      "meaning": "Nhà hàng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "デパート",
+      "meaning": "Trung tâm thương mai",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "ちかく",
+      "meaning": "Gần (Danh từ)",
+      "topics": [
+        "house",
+        "position"
+      ]
+    },
+    {
+      "jp": "いえの ちかく",
+      "meaning": "Gần nhà",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "テレビ",
+      "meaning": "Tivi",
+      "topics": [
+        "house",
+        "things"
+      ]
+    },
+    {
+      "jp": "ソファ",
+      "meaning": "Ghế sofa",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "エアコン",
+      "meaning": "Điều hòa",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "テーブル／つくえ",
+      "meaning": "Bàn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "いす",
+      "meaning": "Ghế",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ベッド",
+      "meaning": "Giường",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ひとつ",
+      "meaning": "Một cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ふたつ",
+      "meaning": "Hai cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "みっつ",
+      "meaning": "Ba cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よっつ",
+      "meaning": "Bốn cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いつつ",
+      "meaning": "Năm cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "むっつ",
+      "meaning": "Sáu cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いくつ？",
+      "meaning": "Mấy cái?",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "Pに すんでいます",
+      "meaning": "Đang sống tại địa điểm P",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "Nと すんでいます",
+      "meaning": "Đang sống cùng N",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ひとりで すんでいます",
+      "meaning": "Đang sống một mình",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "Nが あります",
+      "meaning": "Có N (Đồ vật)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "Nが います",
+      "meaning": "Có N (Con người, động vật)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ともだち",
+      "meaning": "Bạn bè",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "でも、～",
+      "meaning": "Nhưng",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "かれし",
+      "meaning": "Bạn trai",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "えいが を みます",
+      "meaning": "Xem phim",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "ビール",
+      "meaning": "Bia",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ひとりで（一人で）",
+      "meaning": "Một mình",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "だれと",
+      "meaning": "Với ai",
+      "topics": [
+        "questions"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Địa điểm に N が あります／は ありません",
+      "meaning": "Ở (địa điểm) có / không có N (đồ vật, cây cối)",
+      "examples": [
+        {
+          "jp": "へや に テレビ が あります。",
+          "meaning": "Trong phòng có TV.",
+          "chunks": [
+            "へや",
+            "に",
+            "テレビ",
+            "が",
+            "あります。"
+          ]
+        },
+        {
+          "jp": "へや に テレビ は ありません。",
+          "meaning": "Trong phòng không có TV.",
+          "chunks": [
+            "へや",
+            "に",
+            "テレビ",
+            "は",
+            "ありません。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm に なに が ありますか",
+      "meaning": "Ở (địa điểm) có gì?",
+      "examples": [
+        {
+          "jp": "へや に なに が ありますか。",
+          "meaning": "Trong phòng có gì?",
+          "blank": "なに",
+          "choices": [
+            "なに",
+            "だれ",
+            "どこ",
+            "いつ"
+          ],
+          "chunks": [
+            "へや",
+            "に",
+            "なに",
+            "が",
+            "ありますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N が [số lượng] あります／いくつ ありますか",
+      "meaning": "Có [số lượng] N / có bao nhiêu N?",
+      "examples": [
+        {
+          "jp": "へや が みっつ あります。",
+          "meaning": "Có 3 phòng.",
+          "chunks": [
+            "へや",
+            "が",
+            "みっつ",
+            "あります。"
+          ]
+        },
+        {
+          "jp": "へや が いくつ ありますか。",
+          "meaning": "Có mấy phòng?",
+          "chunks": [
+            "へや",
+            "が",
+            "いくつ",
+            "ありますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は N が あります",
+      "meaning": "S có N (sở hữu đồ vật)",
+      "examples": [
+        {
+          "jp": "じかん が ありますか。",
+          "meaning": "Bạn có thời gian không?",
+          "blank": "が",
+          "choices": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "じかん",
+            "が",
+            "ありますか。"
+          ]
+        },
+        {
+          "jp": "はい、あります。",
+          "meaning": "Vâng, có."
+        },
+        {
+          "jp": "いいえ、ありません。",
+          "meaning": "Không, không có."
+        }
+      ]
+    },
+    {
+      "pattern": "N が います",
+      "meaning": "Có N (người, động vật)",
+      "examples": [
+        {
+          "jp": "ともだち が います。",
+          "meaning": "Tôi có bạn.",
+          "blank": "います",
+          "choices": [
+            "います",
+            "あります",
+            "すみます",
+            "きます"
+          ],
+          "chunks": [
+            "ともだち",
+            "が",
+            "います。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 と すんで います",
+      "meaning": "N1 sống cùng N2",
+      "examples": [
+        {
+          "jp": "わたし は かぞく と すんで います。",
+          "meaning": "Tôi sống cùng gia đình.",
+          "blank": "と",
+          "choices": [
+            "と",
+            "に",
+            "で",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "は",
+            "かぞく",
+            "と",
+            "すんで",
+            "います。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は ひとりで すんで います",
+      "meaning": "N1 sống một mình",
+      "examples": [
+        {
+          "jp": "わたし は ひとりで すんで います。",
+          "meaning": "Tôi sống một mình.",
+          "chunks": [
+            "わたし",
+            "は",
+            "ひとりで",
+            "すんで",
+            "います。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は だれ と すんで いますか",
+      "meaning": "N1 sống cùng ai?",
+      "examples": [
+        {
+          "jp": "だれ と すんで いますか。",
+          "meaning": "Bạn sống cùng ai?",
+          "blank": "だれ",
+          "choices": [
+            "だれ",
+            "なに",
+            "どこ",
+            "いつ"
+          ],
+          "chunks": [
+            "だれ",
+            "と",
+            "すんで",
+            "いますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N と Vます／一人で Vます",
+      "meaning": "Làm V cùng N / làm V một mình",
+      "examples": [
+        {
+          "jp": "レーせんせい と ひるごはん を 食べます。",
+          "meaning": "Tôi ăn trưa cùng thầy/cô Lê.",
+          "chunks": [
+            "レーせんせい",
+            "と",
+            "ひるごはん",
+            "を",
+            "食べます。"
+          ]
+        },
+        {
+          "jp": "かれし と えいが を みます。",
+          "meaning": "Tôi xem phim cùng bạn trai.",
+          "chunks": [
+            "かれし",
+            "と",
+            "えいが",
+            "を",
+            "みます。"
+          ]
+        },
+        {
+          "jp": "一人で ビール を 飲みます。",
+          "meaning": "Tôi uống bia một mình.",
+          "chunks": [
+            "一人で",
+            "ビール",
+            "を",
+            "飲みます。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "大",
+      "hanviet": "Đại",
+      "words": [
+        {
+          "jp": "大きい",
+          "reading": "おおきい",
+          "meaning": "To, lớn"
+        },
+        {
+          "jp": "大丈夫",
+          "reading": "だいじょうぶ",
+          "meaning": "Ổn, không sao"
+        },
+        {
+          "jp": "大事",
+          "reading": "だいじ",
+          "meaning": "Quan trọng"
+        }
+      ]
+    },
+    {
+      "char": "小",
+      "hanviet": "Tiểu",
+      "words": [
+        {
+          "jp": "小さい",
+          "reading": "ちいさい",
+          "meaning": "Nhỏ"
+        },
+        {
+          "jp": "小学校",
+          "reading": "しょうがっこう",
+          "meaning": "Trường tiểu học"
+        }
+      ]
+    },
+    {
+      "char": "新",
+      "hanviet": "Tân",
+      "words": [
+        {
+          "jp": "新しい",
+          "reading": "あたらしい",
+          "meaning": "Mới"
+        },
+        {
+          "jp": "新年",
+          "reading": "しんねん",
+          "meaning": "Năm mới"
+        },
+        {
+          "jp": "新聞",
+          "reading": "しんぶん",
+          "meaning": "Báo"
+        }
+      ]
+    },
+    {
+      "char": "古",
+      "hanviet": "Cổ",
+      "words": [
+        {
+          "jp": "古い",
+          "reading": "ふるい",
+          "meaning": "Cũ"
+        },
+        {
+          "jp": "中古",
+          "reading": "ちゅうこ",
+          "meaning": "Đồ cũ, đã qua sử dụng"
+        },
+        {
+          "jp": "中古車",
+          "reading": "ちゅうこしゃ",
+          "meaning": "Xe cũ"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "あそびに きて ください。",
+      "meaning": "Hãy đến chơi"
+    },
+    {
+      "jp": "わたしの いえは 大きいです。",
+      "meaning": "Nhà tôi to."
+    },
+    {
+      "jp": "この へやは 小さいですね。",
+      "meaning": "Căn phòng này nhỏ nhỉ."
+    },
+    {
+      "jp": "こどもは 小学校で べんきょうします。",
+      "meaning": "Con tôi học ở trường tiểu học."
+    },
+    {
+      "jp": "レーさんの スマホ、新しいですね。",
+      "meaning": "Điện thoại của Lê mới nhỉ."
+    },
+    {
+      "jp": "まいにち 新聞を よみます。",
+      "meaning": "Mỗi ngày tôi đọc báo."
+    },
+    {
+      "jp": "この ほんは 古いです。",
+      "meaning": "Quyển sách này cũ."
+    },
+    {
+      "jp": "わたしは 大丈夫です。",
+      "meaning": "Tôi ổn."
+    },
+    {
+      "jp": "たなかさんの いえは 大きいです。",
+      "meaning": "Nhà anh/chị Tanaka to."
+    },
+    {
+      "jp": "わたしの いえは 小さいです。",
+      "meaning": "Nhà tôi nhỏ."
+    },
+    {
+      "jp": "さとうさんの いえは 新しいです。",
+      "meaning": "Nhà anh/chị Sato mới."
+    },
+    {
+      "jp": "よしださんの いえは 古いです。",
+      "meaning": "Nhà anh/chị Yoshida cũ."
+    }
+  ],
+  "notes": [
+    {
+      "title": "あります vs います",
+      "explain": "あります: có đồ vật, cây cối (không cử động). います: có người, động vật.",
+      "compare": [
+        {
+          "jp": "あります",
+          "meaning": "Có (đồ vật)"
+        },
+        {
+          "jp": "います",
+          "meaning": "Có (người, động vật)"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "へや に テレビ が あります。",
+          "meaning": "Trong phòng có TV."
+        },
+        {
+          "jp": "ともだち が います。",
+          "meaning": "Tôi có bạn."
+        }
+      ]
+    }
+  ],
+  "passages": [],
+  "sounds": [],
+  "resources": []
+}

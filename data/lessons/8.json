@@ -1,0 +1,491 @@
+{
+  "id": 8,
+  "title": "いい へやですね。",
+  "vocab": [
+    {
+      "jp": "ほん",
+      "meaning": "Sách",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "カップ",
+      "meaning": "Cốc",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "にんぎょう",
+      "meaning": "Búp bê",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "とけい",
+      "meaning": "Đồng hồ",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "はこ",
+      "meaning": "Hộp",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "しゃしん",
+      "meaning": "Bức ảnh",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "たな／ほんだな",
+      "meaning": "Giá, giá sách",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "テーブル",
+      "meaning": "Bàn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "だいどころ",
+      "meaning": "Phòng bếp",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "げんかん",
+      "meaning": "Tiền sảnh, lối vào nhà",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "にわ",
+      "meaning": "Vườn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "トイレ",
+      "meaning": "Phòng vệ sinh",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "おふろ",
+      "meaning": "Phòng tắm",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "うえ",
+      "meaning": "Trên",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "した",
+      "meaning": "Dưới",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "なか",
+      "meaning": "Bên trong",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "よこ",
+      "meaning": "Bên cạnh",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "はこ の なか",
+      "meaning": "Bên trong chiếc hộp",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "おねがいします",
+      "meaning": "Nhờ bạn giúp đỡ",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "わかりました",
+      "meaning": "Tôi đã hiểu rồi",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "どうぞ",
+      "meaning": "Xin mời",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いただきます",
+      "meaning": "Tôi xin phép dùng (ăn, uống)",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いい",
+      "meaning": "Tốt",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きれい",
+      "meaning": "Đẹp",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "ともだち",
+      "meaning": "Bạn bè",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "じゅうしょ",
+      "meaning": "Địa chỉ",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "Pに Nを おきます",
+      "meaning": "Đặt, để N ở P. VD: テーブルの うえに かばんを おきます",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "おとな（大人）",
+      "meaning": "Người lớn (>< 子ども)",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "スマホ",
+      "meaning": "Smartphone (viết tắt của スマートフォン)",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "けいたい",
+      "meaning": "Điện thoại di động (viết tắt của けいたいでんわ)",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "ひだり",
+      "meaning": "Bên trái",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "みぎ",
+      "meaning": "Bên phải",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "そと",
+      "meaning": "Bên ngoài",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "まえ",
+      "meaning": "Đằng trước",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "うしろ",
+      "meaning": "Đằng sau",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "ボール",
+      "meaning": "Quả bóng",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "リビングルーム／いま",
+      "meaning": "Phòng khách",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ちゃわん",
+      "meaning": "Cái bát",
+      "topics": [
+        "food"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Adj1 ですが、Adj2 です",
+      "meaning": "… nhưng …",
+      "examples": [
+        {
+          "jp": "くのさん の いえ は 大きい ですが、新しくない です。",
+          "meaning": "Nhà của Kuno to nhưng không mới.",
+          "blank": "が",
+          "choices": [
+            "が",
+            "も",
+            "と",
+            "を"
+          ],
+          "chunks": [
+            "くのさん",
+            "の",
+            "いえ",
+            "は",
+            "大きい",
+            "ですが、新しくない",
+            "です。"
+          ]
+        },
+        {
+          "jp": "チョウさん の いえ は 小さい ですが、新しい です。",
+          "meaning": "Nhà của Chou nhỏ nhưng mới.",
+          "blank": "が",
+          "choices": [
+            "が",
+            "も",
+            "と",
+            "を"
+          ],
+          "chunks": [
+            "チョウさん",
+            "の",
+            "いえ",
+            "は",
+            "小さい",
+            "ですが、新しい",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N の うえ／した／なか／そと／まえ／うしろ／ひだり／みぎ／よこ",
+      "meaning": "Vị trí so với N: trên / dưới / trong / ngoài / trước / sau / trái / phải / cạnh",
+      "examples": [
+        {
+          "jp": "はこ の うえ",
+          "meaning": "Bên trên cái hộp",
+          "chunks": [
+            "はこ",
+            "の",
+            "うえ"
+          ]
+        },
+        {
+          "jp": "はこ の うえ に ボール が あります。",
+          "meaning": "Trên cái hộp có quả bóng.",
+          "chunks": [
+            "はこ",
+            "の",
+            "うえ",
+            "に",
+            "ボール",
+            "が",
+            "あります。"
+          ]
+        },
+        {
+          "jp": "ボール は はこ の なか に あります。",
+          "meaning": "Quả bóng ở trong cái hộp.",
+          "chunks": [
+            "ボール",
+            "は",
+            "はこ",
+            "の",
+            "なか",
+            "に",
+            "あります。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm に N を おきます",
+      "meaning": "Đặt N ở (địa điểm)",
+      "examples": [
+        {
+          "jp": "テーブル の うえ に かばん を おきます。",
+          "meaning": "Tôi đặt cặp lên trên bàn.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "テーブル",
+            "の",
+            "うえ",
+            "に",
+            "かばん",
+            "を",
+            "おきます。"
+          ]
+        },
+        {
+          "jp": "にんぎょう は どこ に おきますか。",
+          "meaning": "Đặt búp bê ở đâu?",
+          "chunks": [
+            "にんぎょう",
+            "は",
+            "どこ",
+            "に",
+            "おきますか。"
+          ]
+        },
+        {
+          "jp": "はこ の なか に おねがいします。",
+          "meaning": "Xin hãy đặt vào trong hộp.",
+          "chunks": [
+            "はこ",
+            "の",
+            "なか",
+            "に",
+            "おねがいします。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Adjい ＋ N ／ Adjな ＋ N",
+      "meaning": "Tính từ bổ nghĩa cho danh từ",
+      "examples": [
+        {
+          "jp": "いい へや ですね。",
+          "meaning": "Căn phòng đẹp nhỉ.",
+          "chunks": [
+            "いい",
+            "へや",
+            "ですね。"
+          ]
+        },
+        {
+          "jp": "きれいな 人",
+          "meaning": "Người đẹp"
+        },
+        {
+          "jp": "いい ともだち",
+          "meaning": "Người bạn tốt"
+        }
+      ]
+    },
+    {
+      "pattern": "いい → よくない／きれいな → きれいじゃない",
+      "meaning": "Phủ định của いい và tính từ đuôi な khi đứng trước danh từ",
+      "examples": [
+        {
+          "jp": "よくない ともだち",
+          "meaning": "Người bạn không tốt"
+        },
+        {
+          "jp": "きれいじゃない 人",
+          "meaning": "Người không đẹp"
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 の うえ の N3 の なか です",
+      "meaning": "N1 ở trong N3 (đặt trên N2): câu vị trí nhiều tầng",
+      "examples": [
+        {
+          "jp": "ボール は たな の うえ の はこ の なか です。",
+          "meaning": "Quả bóng ở trong cái hộp trên giá sách.",
+          "chunks": [
+            "ボール",
+            "は",
+            "たな",
+            "の",
+            "うえ",
+            "の",
+            "はこ",
+            "の",
+            "なか",
+            "です。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [],
+  "sentences": [
+    {
+      "jp": "ごめんください。",
+      "meaning": "Xin lỗi, có ai ở nhà không? (Dùng khi đến thăm nhà ai đó và gọi lúc đứng ngoài cửa)"
+    },
+    {
+      "jp": "いらっしゃい。",
+      "meaning": "Mời vào! Chào mừng bạn! (Chủ nhà nói để mời khách vào)"
+    },
+    {
+      "jp": "どうぞ あがって ください。",
+      "meaning": "Mời bạn vào nhà. (Chủ nhà lịch sự mời khách bước vào)"
+    },
+    {
+      "jp": "おじゃまします。",
+      "meaning": "Xin làm phiền, Xin phép vào nhà. (Khách nói khi bước vào nhà người khác, thể hiện sự lịch sự)"
+    }
+  ],
+  "notes": [],
+  "passages": [],
+  "sounds": [],
+  "resources": []
+}

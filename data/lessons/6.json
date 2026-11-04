@@ -1,0 +1,1444 @@
+{
+  "id": 6,
+  "title": "どこで たべますか。",
+  "vocab": [
+    {
+      "jp": "りょうり",
+      "meaning": "Món ăn",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ファストフード",
+      "meaning": "Đồ ăn nhanh",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "カレー",
+      "meaning": "Cơm cà ri",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "すし",
+      "meaning": "Sushi",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "うどん",
+      "meaning": "Mỳ Udon",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "そば",
+      "meaning": "Mỳ Soba",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ラーメン",
+      "meaning": "Mỳ Ramen",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ハンバーガー",
+      "meaning": "Hamburger",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "チーズバーガー",
+      "meaning": "Hamburger phô mai",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ホットドッグ",
+      "meaning": "Hotdog (Bánh mì xúc xích)",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "フライドポテト",
+      "meaning": "Khoai tây chiên",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ピザ",
+      "meaning": "Pizza",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "サンドイッチ",
+      "meaning": "Bánh kẹp sandwich",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "コーラ",
+      "meaning": "Cocacola",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "オレンジジュース",
+      "meaning": "Nước ép cam",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "たかい",
+      "meaning": "Đắt",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "やすい",
+      "meaning": "Rẻ",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "はやい",
+      "meaning": "Nhanh, sớm",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "おそい",
+      "meaning": "Chậm, muộn",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "おいしい",
+      "meaning": "Ngon",
+      "topics": [
+        "food",
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "まずい",
+      "meaning": "Dở, không ngon",
+      "topics": [
+        "food",
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きょう",
+      "meaning": "Hôm nay",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "いちばん",
+      "meaning": "Nhất",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "すき（な）",
+      "meaning": "Thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きらい（な）",
+      "meaning": "Ghét",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "すきな りょうり",
+      "meaning": "Món ăn yêu thích",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ひるごはん",
+      "meaning": "Bữa trưa, cơm trưa",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "みせ",
+      "meaning": "Cửa hàng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "あの みせ",
+      "meaning": "Cửa hàng kia",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "～や",
+      "meaning": "Cửa hàng, tiệm",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "ラーメンや",
+      "meaning": "Tiệm mỳ Ramen",
+      "topics": [
+        "food",
+        "places"
+      ]
+    },
+    {
+      "jp": "コーヒーショップ",
+      "meaning": "Tiệm cà phê",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "～Vましょう。",
+      "meaning": "Cùng làm V",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "どこ？",
+      "meaning": "Ở đâu?",
+      "topics": [
+        "places",
+        "questions"
+      ]
+    },
+    {
+      "jp": "ひとつ",
+      "meaning": "Một cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ふたつ",
+      "meaning": "Hai cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "みっつ",
+      "meaning": "Ba cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "N（を）ください。",
+      "meaning": "Hãy cho tôi N",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "カレーライス",
+      "meaning": "Cơm cà ri",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "サラダ",
+      "meaning": "Salad",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "シチュー",
+      "meaning": "Món hầm (stew)",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ステーキ",
+      "meaning": "Bít tết",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "スープ",
+      "meaning": "Súp",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "スパゲティ",
+      "meaning": "Mỳ Ý",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ハンバーグ",
+      "meaning": "Thịt viên kiểu Nhật (hamburg steak)",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "ライス",
+      "meaning": "Cơm",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "あした（明日）",
+      "meaning": "Ngày mai",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "きのう（昨日）",
+      "meaning": "Hôm qua",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "こんしゅう（今週）",
+      "meaning": "Tuần này",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "らいしゅう（来週）",
+      "meaning": "Tuần sau",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "せんしゅう（先週）",
+      "meaning": "Tuần trước",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ここ／こちら",
+      "meaning": "Ở đây (こちら lịch sự hơn)",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "そこ／そちら",
+      "meaning": "Ở đó",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "あそこ／あちら",
+      "meaning": "Ở kia",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "どちら",
+      "meaning": "Ở đâu (lịch sự hơn どこ)",
+      "topics": [
+        "places",
+        "questions"
+      ]
+    },
+    {
+      "jp": "いくつ",
+      "meaning": "Mấy cái",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "じゃ、また あした",
+      "meaning": "Hẹn gặp bạn ngày mai",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いい／よい",
+      "meaning": "Tốt, đẹp (phủ định: よくないです)",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "わるい",
+      "meaning": "Xấu",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "どう",
+      "meaning": "Như thế nào",
+      "topics": [
+        "questions"
+      ]
+    },
+    {
+      "jp": "なん／なに（何）",
+      "meaning": "Cái gì",
+      "topics": [
+        "questions"
+      ]
+    },
+    {
+      "jp": "なにご（何語）",
+      "meaning": "Ngôn ngữ gì",
+      "topics": [
+        "questions"
+      ]
+    },
+    {
+      "jp": "これ／それ／あれ",
+      "meaning": "Cái này / cái đó / cái kia",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "けいたいでんわ／スマートフォン",
+      "meaning": "Điện thoại di động",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "パソコン",
+      "meaning": "Máy tính",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "プログラミング／かいはつ",
+      "meaning": "Lập trình",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "くるま／じどうしゃ",
+      "meaning": "Ô tô",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "じてんしゃ",
+      "meaning": "Xe đạp",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "バイク",
+      "meaning": "Xe máy",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "カメラ",
+      "meaning": "Máy ảnh",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "します",
+      "meaning": "Làm",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "テニスを します",
+      "meaning": "Chơi tennis",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "しごとを します",
+      "meaning": "Làm việc",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "サッカーを します",
+      "meaning": "Đá bóng",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "りょうりを します",
+      "meaning": "Nấu ăn",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "しゃしんを とります",
+      "meaning": "Chụp ảnh",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "N に あいます",
+      "meaning": "Gặp gỡ N",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "じかん",
+      "meaning": "Thời gian",
+      "topics": [
+        "time",
+        "things"
+      ]
+    },
+    {
+      "jp": "おかね",
+      "meaning": "Tiền",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "つくえ",
+      "meaning": "Cái bàn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "～と もうします／～と いいます",
+      "meaning": "Tôi tên là ~ (giới thiệu tên)",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "かいはつしゃ",
+      "meaning": "Nhà phát triển, Dev",
+      "topics": [
+        "people",
+        "work"
+      ]
+    },
+    {
+      "jp": "シェフ",
+      "meaning": "Đầu bếp",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "だいがくせい（大学生）",
+      "meaning": "Sinh viên",
+      "topics": [
+        "people",
+        "work"
+      ]
+    },
+    {
+      "jp": "インスタントラーメン",
+      "meaning": "Mỳ ăn liền",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "りんご",
+      "meaning": "Quả táo",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "なし",
+      "meaning": "Quả lê",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "にばん",
+      "meaning": "Số 2, hạng 2 (～ばん: số mấy)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ほん（本）",
+      "meaning": "Sách",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "しんぶん",
+      "meaning": "Báo",
+      "topics": [
+        "things",
+        "work"
+      ]
+    },
+    {
+      "jp": "ざっし",
+      "meaning": "Tạp chí",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "じしょ",
+      "meaning": "Từ điển",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "とけい",
+      "meaning": "Đồng hồ",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "かぎ",
+      "meaning": "Chìa khóa",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "かさ",
+      "meaning": "Cái ô/dù",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "かばん",
+      "meaning": "Cặp sách",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "くつ",
+      "meaning": "Giày",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "テレビ",
+      "meaning": "TV",
+      "topics": [
+        "house",
+        "things"
+      ]
+    },
+    {
+      "jp": "え",
+      "meaning": "Tranh (nguồn ghi \"(v)\", thực ra là danh từ)",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "えいが",
+      "meaning": "Phim",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "しゃしん",
+      "meaning": "Ảnh",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "べんきょうします",
+      "meaning": "Học",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "みます",
+      "meaning": "Xem",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "よみます",
+      "meaning": "Đọc",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "とります",
+      "meaning": "Lấy / chụp ảnh",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "あいます",
+      "meaning": "Gặp gỡ",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "りょうりにん（りょうり人）",
+      "meaning": "Đầu bếp, người nấu ăn",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "ダ・ナン",
+      "meaning": "Đà Nẵng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "よっつ",
+      "meaning": "Bốn cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いつつ",
+      "meaning": "Năm cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "むっつ",
+      "meaning": "Sáu cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ななつ",
+      "meaning": "Bảy cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "やっつ",
+      "meaning": "Tám cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ここのつ",
+      "meaning": "Chín cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "とお",
+      "meaning": "Mười cái",
+      "topics": [
+        "numbers"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "ここ／そこ／あそこ／どこ",
+      "meaning": "Ở đây / ở đó / ở kia / ở đâu. Dạng lịch sự: こちら／そちら／あちら／どちら",
+      "examples": [
+        {
+          "jp": "きょう は どこ で たべますか。",
+          "meaning": "Hôm nay ăn ở đâu?",
+          "blank": "どこ",
+          "choices": [
+            "どこ",
+            "なに",
+            "だれ",
+            "いつ"
+          ],
+          "chunks": [
+            "きょう",
+            "は",
+            "どこ",
+            "で",
+            "たべますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N が Adjな です → Adj じゃないです",
+      "meaning": "Tính từ đuôi な: bỏ な trước です. Phủ định: じゃないです／じゃありません",
+      "examples": [
+        {
+          "jp": "いい人 が 好きです。",
+          "meaning": "Tôi thích người tốt.",
+          "chunks": [
+            "いい人",
+            "が",
+            "好きです。"
+          ]
+        },
+        {
+          "jp": "わるい人 が 好きじゃないです。",
+          "meaning": "Tôi không thích người xấu.",
+          "chunks": [
+            "わるい人",
+            "が",
+            "好きじゃないです。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N が Adjい です → Adjくないです",
+      "meaning": "Phủ định tính từ đuôi い: bỏ い, thêm くないです. Đặc biệt: いい → よくないです",
+      "examples": [
+        {
+          "jp": "たかくないです。",
+          "meaning": "Không đắt."
+        },
+        {
+          "jp": "はやくないです。",
+          "meaning": "Không nhanh."
+        },
+        {
+          "jp": "よくないです。",
+          "meaning": "Không tốt."
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm で N を Vます",
+      "meaning": "Làm (V) ở (địa điểm)",
+      "examples": [
+        {
+          "jp": "あの みせ で ラーメン を たべます。",
+          "meaning": "Tôi ăn ramen ở cửa hàng kia.",
+          "blank": "で",
+          "choices": [
+            "で",
+            "に",
+            "を",
+            "が"
+          ],
+          "chunks": [
+            "あの",
+            "みせ",
+            "で",
+            "ラーメン",
+            "を",
+            "たべます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "S は どう ですか",
+      "meaning": "S như thế nào?",
+      "examples": [
+        {
+          "jp": "あの ラーメンやさん は どう ですか。",
+          "meaning": "Tiệm ramen kia thế nào?",
+          "blank": "どう",
+          "choices": [
+            "どう",
+            "どこ",
+            "なに",
+            "だれ"
+          ],
+          "chunks": [
+            "あの",
+            "ラーメンやさん",
+            "は",
+            "どう",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "あの みせ は おいしい ですよ。",
+          "meaning": "Quán đó ngon đấy.",
+          "chunks": [
+            "あの",
+            "みせ",
+            "は",
+            "おいしい",
+            "ですよ。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 は N2 が いちばん すきです",
+      "meaning": "Trong nhóm N1, thích N2 nhất",
+      "examples": [
+        {
+          "jp": "くだもの は なし が いちばん 好きです。",
+          "meaning": "Trong các loại hoa quả, tôi thích lê nhất.",
+          "blank": "いちばん",
+          "choices": [
+            "いちばん",
+            "よく",
+            "いつも",
+            "ときどき"
+          ],
+          "chunks": [
+            "くだもの",
+            "は",
+            "なし",
+            "が",
+            "いちばん",
+            "好きです。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "これ／それ／あれ",
+      "meaning": "Cái này / cái đó / cái kia",
+      "examples": [
+        {
+          "jp": "これ は くるま の かぎ です。",
+          "meaning": "Đây là chìa khóa ô tô.",
+          "blank": "これ",
+          "choices": [
+            "これ",
+            "この",
+            "ここ",
+            "どれ"
+          ],
+          "chunks": [
+            "これ",
+            "は",
+            "くるま",
+            "の",
+            "かぎ",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2 (sở hữu, tổ chức, thời gian)",
+      "meaning": "N2 của N1 / N2 thuộc N1",
+      "examples": [
+        {
+          "jp": "わたし の かぞく",
+          "meaning": "Gia đình tôi",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "の",
+            "かぞく"
+          ]
+        },
+        {
+          "jp": "わたし は FPT の しゃいん です。",
+          "meaning": "Tôi là nhân viên của FPT.",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "は",
+            "FPT",
+            "の",
+            "しゃいん",
+            "です。"
+          ]
+        },
+        {
+          "jp": "きのう の ミーティング",
+          "meaning": "Cuộc họp hôm qua",
+          "chunks": [
+            "きのう",
+            "の",
+            "ミーティング"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2 (xuất xứ): ～は どこ の N2 ですか",
+      "meaning": "N2 sản xuất ở / của hãng N1",
+      "examples": [
+        {
+          "jp": "これ は にほん の くるま です。",
+          "meaning": "Đây là ô tô của Nhật.",
+          "chunks": [
+            "これ",
+            "は",
+            "にほん",
+            "の",
+            "くるま",
+            "です。"
+          ]
+        },
+        {
+          "jp": "これ は どこ の カメラ ですか。",
+          "meaning": "Đây là máy ảnh của hãng nào?",
+          "blank": "どこ",
+          "choices": [
+            "どこ",
+            "なん",
+            "だれ",
+            "いつ"
+          ],
+          "chunks": [
+            "これ",
+            "は",
+            "どこ",
+            "の",
+            "カメラ",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "Canon の カメラ です。",
+          "meaning": "Là máy ảnh của Canon.",
+          "chunks": [
+            "Canon",
+            "の",
+            "カメラ",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N1 の N2 (thể loại): ～は なん の N2 ですか",
+      "meaning": "N2 thuộc loại / về N1",
+      "examples": [
+        {
+          "jp": "これ は くるま の ざっし です。",
+          "meaning": "Đây là tạp chí về ô tô.",
+          "chunks": [
+            "これ",
+            "は",
+            "くるま",
+            "の",
+            "ざっし",
+            "です。"
+          ]
+        },
+        {
+          "jp": "これ は なん の ほん ですか。",
+          "meaning": "Đây là sách gì?",
+          "blank": "なん",
+          "choices": [
+            "なん",
+            "どこ",
+            "だれ",
+            "いつ"
+          ],
+          "chunks": [
+            "これ",
+            "は",
+            "なん",
+            "の",
+            "ほん",
+            "ですか。"
+          ]
+        },
+        {
+          "jp": "にほんご の ほん です。",
+          "meaning": "Là sách tiếng Nhật.",
+          "chunks": [
+            "にほんご",
+            "の",
+            "ほん",
+            "です。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Tên と もうします／と いいます",
+      "meaning": "Giới thiệu tên (lịch sự hơn Tên です)",
+      "examples": [
+        {
+          "jp": "ナム と もうします。",
+          "meaning": "Tôi tên là Nam.",
+          "chunks": [
+            "ナム",
+            "と",
+            "もうします。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N を します",
+      "meaning": "Làm / chơi N (thể thao, công việc, nấu ăn…)",
+      "examples": [
+        {
+          "jp": "テニス を します。",
+          "meaning": "Chơi tennis.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "テニス",
+            "を",
+            "します。"
+          ]
+        },
+        {
+          "jp": "しごと を します。",
+          "meaning": "Làm việc.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "しごと",
+            "を",
+            "します。"
+          ]
+        },
+        {
+          "jp": "りょうり を します。",
+          "meaning": "Nấu ăn.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "chunks": [
+            "りょうり",
+            "を",
+            "します。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N に あいます",
+      "meaning": "Gặp N",
+      "examples": [
+        {
+          "jp": "かぞく に あいます。",
+          "meaning": "Gặp gia đình.",
+          "blank": "に",
+          "choices": [
+            "に",
+            "を",
+            "で",
+            "が"
+          ],
+          "chunks": [
+            "かぞく",
+            "に",
+            "あいます。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "人",
+      "hanviet": "Nhân",
+      "words": [
+        {
+          "jp": "日本人",
+          "reading": "にほんじん",
+          "meaning": "Người Nhật"
+        },
+        {
+          "jp": "何人",
+          "reading": "なんにん",
+          "meaning": "Mấy người"
+        },
+        {
+          "jp": "男の人",
+          "reading": "おとこのひと",
+          "meaning": "Người đàn ông"
+        }
+      ]
+    },
+    {
+      "char": "何",
+      "hanviet": "Hà",
+      "words": [
+        {
+          "jp": "何",
+          "reading": "なに",
+          "meaning": "Cái gì"
+        },
+        {
+          "jp": "何人",
+          "reading": "なんにん",
+          "meaning": "Mấy người"
+        },
+        {
+          "jp": "何時",
+          "reading": "なんじ",
+          "meaning": "Mấy giờ"
+        }
+      ]
+    },
+    {
+      "char": "日",
+      "hanviet": "Nhật",
+      "words": [
+        {
+          "jp": "今日",
+          "reading": "きょう",
+          "meaning": "Hôm nay"
+        },
+        {
+          "jp": "日本",
+          "reading": "にほん",
+          "meaning": "Nhật Bản"
+        },
+        {
+          "jp": "毎日",
+          "reading": "まいにち",
+          "meaning": "Mỗi ngày"
+        },
+        {
+          "jp": "日曜日",
+          "reading": "にちようび",
+          "meaning": "Chủ nhật"
+        },
+        {
+          "jp": "十日",
+          "reading": "とおか",
+          "meaning": "Ngày 10"
+        }
+      ]
+    },
+    {
+      "char": "週",
+      "hanviet": "Chu",
+      "words": [
+        {
+          "jp": "今週",
+          "reading": "こんしゅう",
+          "meaning": "Tuần này"
+        },
+        {
+          "jp": "先週",
+          "reading": "せんしゅう",
+          "meaning": "Tuần trước"
+        }
+      ]
+    },
+    {
+      "char": "先",
+      "hanviet": "Tiên",
+      "words": [
+        {
+          "jp": "先週",
+          "reading": "せんしゅう",
+          "meaning": "Tuần trước"
+        }
+      ]
+    },
+    {
+      "char": "今",
+      "hanviet": "Kim",
+      "words": [
+        {
+          "jp": "今",
+          "reading": "いま",
+          "meaning": "Bây giờ"
+        },
+        {
+          "jp": "今日",
+          "reading": "きょう",
+          "meaning": "Hôm nay"
+        },
+        {
+          "jp": "今週",
+          "reading": "こんしゅう",
+          "meaning": "Tuần này"
+        }
+      ]
+    },
+    {
+      "char": "本",
+      "hanviet": "Bản",
+      "words": [
+        {
+          "jp": "本",
+          "reading": "ほん",
+          "meaning": "Sách"
+        },
+        {
+          "jp": "日本",
+          "reading": "にほん",
+          "meaning": "Nhật Bản"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "きょうは どこで たべますか。",
+      "meaning": "Hôm nay sẽ ăn ở đâu?"
+    },
+    {
+      "jp": "いらっしゃいませ。",
+      "meaning": "Xin kính chào quý khách."
+    },
+    {
+      "jp": "ごかぞくは 何人ですか。",
+      "meaning": "Gia đình bạn có mấy người?"
+    },
+    {
+      "jp": "日本人ですか。― いいえ、ベトナム人です。",
+      "meaning": "Bạn là người Nhật à? ― Không, tôi là người Việt Nam."
+    },
+    {
+      "jp": "すきな りょうりは なんですか。― わたしは ハンバーガーが すきです。",
+      "meaning": "Món ăn bạn thích là gì? ― Tôi thích hamburger."
+    },
+    {
+      "jp": "じゃ、また あした。",
+      "meaning": "Vậy hẹn gặp lại ngày mai."
+    }
+  ],
+  "notes": [
+    {
+      "title": "どこ vs どちら",
+      "explain": "Cả hai nghĩa là \"ở đâu\". どちら lịch sự hơn. Tương tự: ここ/こちら, そこ/そちら, あそこ/あちら.",
+      "compare": [
+        {
+          "jp": "どこ",
+          "meaning": "Ở đâu"
+        },
+        {
+          "jp": "どちら",
+          "meaning": "Ở đâu (lịch sự)"
+        }
+      ]
+    },
+    {
+      "title": "これ vs この",
+      "explain": "これ đứng một mình (cái này). この phải đi kèm danh từ (この ほん: quyển sách này).",
+      "compare": [
+        {
+          "jp": "これ",
+          "meaning": "Cái này"
+        },
+        {
+          "jp": "この ＋ N",
+          "meaning": "N này"
+        }
+      ],
+      "examples": [
+        {
+          "jp": "これ は くるま の かぎ です。",
+          "meaning": "Đây là chìa khóa ô tô."
+        }
+      ]
+    }
+  ],
+  "passages": [],
+  "sounds": [],
+  "resources": []
+}

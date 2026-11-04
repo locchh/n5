@@ -1,0 +1,1029 @@
+{
+  "id": 9,
+  "title": "なんじに おきますか。",
+  "vocab": [
+    {
+      "jp": "あさごはん",
+      "meaning": "Bữa sáng",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "ひるごはん",
+      "meaning": "Bữa trưa",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "ばんごはん",
+      "meaning": "Bữa tối",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "いちにち",
+      "meaning": "Một ngày",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "まいにち",
+      "meaning": "Mỗi ngày, hằng ngày",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "いま",
+      "meaning": "Bây giờ",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "うち",
+      "meaning": "Nhà (Home)",
+      "topics": [
+        "house",
+        "places"
+      ]
+    },
+    {
+      "jp": "しんぶん",
+      "meaning": "Báo",
+      "topics": [
+        "things",
+        "work"
+      ]
+    },
+    {
+      "jp": "かいしゃ",
+      "meaning": "Công ty",
+      "topics": [
+        "places",
+        "work"
+      ]
+    },
+    {
+      "jp": "がっこう",
+      "meaning": "Trường học",
+      "topics": [
+        "places",
+        "work"
+      ]
+    },
+    {
+      "jp": "おんがく",
+      "meaning": "Âm nhạc",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "かじ",
+      "meaning": "Việc nhà",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "にっき",
+      "meaning": "Nhật ký",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "ブログ",
+      "meaning": "Blog",
+      "topics": [
+        "work",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "うんどう",
+      "meaning": "Vận động, tập thể dục",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "さんぽ",
+      "meaning": "Đi dạo",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "～じ",
+      "meaning": "... giờ",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "なんじ？",
+      "meaning": "Mấy giờ",
+      "topics": [
+        "numbers",
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "～ふん／ぷん",
+      "meaning": "... phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "～じかん",
+      "meaning": "... tiếng",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "～ごろ",
+      "meaning": "Khoảng...",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "おきます",
+      "meaning": "Thức dậy",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "あさごはん を たべます",
+      "meaning": "Ăn sáng",
+      "topics": [
+        "food",
+        "actions"
+      ]
+    },
+    {
+      "jp": "しんぶん を よみます",
+      "meaning": "Đọc báo",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "おんがく を ききます",
+      "meaning": "Nghe nhạc",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "にっき を かきます",
+      "meaning": "Viết nhật ký",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "テレビ を みます",
+      "meaning": "Xem tivi",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "しごと（を）します",
+      "meaning": "Làm việc",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "がっこう に いきます",
+      "meaning": "Đi đến trường (go)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "うち に かえります",
+      "meaning": "Về nhà",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かいしゃ に きます",
+      "meaning": "Đến công ty (come)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "おふろ に はいります",
+      "meaning": "Vào bồn tắm, ngâm bồn",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "シャワー を あびます",
+      "meaning": "Tắm (vòi hoa sen)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ねます",
+      "meaning": "Ngủ",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かじ を します",
+      "meaning": "Làm việc nhà",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "うんどう（を）します",
+      "meaning": "Tập thể dục",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "しょうがっこう",
+      "meaning": "Tiểu học (小１ = lớp 1 tiểu học)",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "ちゅうがっこう",
+      "meaning": "Cấp 2 (中１ = lớp 1 cấp 2)",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "こうこう",
+      "meaning": "Cấp 3",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "だいがく",
+      "meaning": "Đại học",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "はん",
+      "meaning": "Rưỡi (30 phút)",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ごぜん（午前）",
+      "meaning": "Buổi sáng, AM",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ごご（午後）",
+      "meaning": "Buổi chiều, PM",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "よみます",
+      "meaning": "Đọc",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かきます",
+      "meaning": "Viết",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "みます",
+      "meaning": "Xem",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ききます",
+      "meaning": "Nghe",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "いきます",
+      "meaning": "Đi",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "きます",
+      "meaning": "Đến",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かえります",
+      "meaning": "Về",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "はいります",
+      "meaning": "Vào",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "あびます",
+      "meaning": "Tắm",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "～ぐらい／くらい",
+      "meaning": "Khoảng ~ (b.18: …時 ごろ／ぐらい／くらい)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "まず",
+      "meaning": "Trước tiên thì …",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "それから",
+      "meaning": "Sau đó",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "ミーティング",
+      "meaning": "Cuộc họp",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "わかります（分かります）",
+      "meaning": "Hiểu",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "よじ",
+      "meaning": "4 giờ",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "しちじ",
+      "meaning": "7 giờ",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "くじ",
+      "meaning": "9 giờ",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "いっぷん",
+      "meaning": "1 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "さんぷん",
+      "meaning": "3 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "よんぷん",
+      "meaning": "4 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ろっぷん",
+      "meaning": "6 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "はっぷん",
+      "meaning": "8 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅっぷん／じっぷん",
+      "meaning": "10 phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "いちじはん",
+      "meaning": "1 giờ rưỡi",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうさんじ",
+      "meaning": "13 giờ",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "ごご いちじ",
+      "meaning": "1 giờ chiều",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "よじ ろっぷん",
+      "meaning": "4:06",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "しちじ じゅうごふん",
+      "meaning": "7:15",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "じゅうじ よんじゅっぷん",
+      "meaning": "10:40",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "Số ＋ じ／ふん（ぷん）",
+      "meaning": "… giờ … phút. Đặc biệt: よじ, しちじ, くじ; いっぷん, さんぷん, よんぷん, ろっぷん, はっぷん, じゅっぷん",
+      "examples": [
+        {
+          "jp": "７じ １５ふん に おきます。",
+          "meaning": "Tôi dậy lúc 7 giờ 15.",
+          "chunks": [
+            "７じ",
+            "１５ふん",
+            "に",
+            "おきます。"
+          ]
+        },
+        {
+          "jp": "１０時 ４０分 に かいしゃ に いきます。",
+          "meaning": "Tôi đến công ty lúc 10 giờ 40.",
+          "chunks": [
+            "１０時",
+            "４０分",
+            "に",
+            "かいしゃ",
+            "に",
+            "いきます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "～はん／ごぜん／ごご",
+      "meaning": "Rưỡi (30 phút) / buổi sáng (AM) / buổi chiều (PM)",
+      "examples": [
+        {
+          "jp": "日本 は 今 午前 1時半 です。",
+          "meaning": "Ở Nhật bây giờ là 1 giờ rưỡi sáng.",
+          "chunks": [
+            "日本",
+            "は",
+            "今",
+            "午前",
+            "1時半",
+            "です。"
+          ]
+        },
+        {
+          "jp": "午後 ４時 に ミーティング が あります。",
+          "meaning": "Có cuộc họp lúc 4 giờ chiều.",
+          "chunks": [
+            "午後",
+            "４時",
+            "に",
+            "ミーティング",
+            "が",
+            "あります。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Giờ に Vます",
+      "meaning": "Làm V lúc (giờ)",
+      "examples": [
+        {
+          "jp": "今日 何時 に ひるごはん を 食べますか。",
+          "meaning": "Hôm nay mấy giờ bạn ăn trưa?",
+          "blank": "に",
+          "choices": [
+            "に",
+            "で",
+            "を",
+            "が"
+          ],
+          "chunks": [
+            "今日",
+            "何時",
+            "に",
+            "ひるごはん",
+            "を",
+            "食べますか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "N を Vます",
+      "meaning": "Làm V với N (đọc báo, nghe nhạc, xem TV…)",
+      "examples": [
+        {
+          "jp": "おんがく を ききます。",
+          "meaning": "Nghe nhạc.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "に",
+            "が",
+            "で"
+          ],
+          "chunks": [
+            "おんがく",
+            "を",
+            "ききます。"
+          ]
+        },
+        {
+          "jp": "しんぶん を よみます。",
+          "meaning": "Đọc báo.",
+          "blank": "を",
+          "choices": [
+            "を",
+            "に",
+            "が",
+            "で"
+          ],
+          "chunks": [
+            "しんぶん",
+            "を",
+            "よみます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "Địa điểm に いきます／かえります／はいります",
+      "meaning": "Đi đến / về / vào (địa điểm)",
+      "examples": [
+        {
+          "jp": "がっこう に いきます。",
+          "meaning": "Đi đến trường.",
+          "blank": "に",
+          "choices": [
+            "に",
+            "を",
+            "が",
+            "で"
+          ],
+          "chunks": [
+            "がっこう",
+            "に",
+            "いきます。"
+          ]
+        },
+        {
+          "jp": "うち に かえります。",
+          "meaning": "Về nhà.",
+          "blank": "に",
+          "choices": [
+            "に",
+            "を",
+            "が",
+            "で"
+          ],
+          "chunks": [
+            "うち",
+            "に",
+            "かえります。"
+          ]
+        },
+        {
+          "jp": "おふろ に はいります。",
+          "meaning": "Vào bồn tắm.",
+          "blank": "に",
+          "choices": [
+            "に",
+            "を",
+            "が",
+            "で"
+          ],
+          "chunks": [
+            "おふろ",
+            "に",
+            "はいります。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "…じ ごろ",
+      "meaning": "Khoảng … giờ (cũng nói ぐらい／くらい)",
+      "examples": [
+        {
+          "jp": "よる ８じ ごろ うち に かえります。",
+          "meaning": "Khoảng 8 giờ tối tôi về nhà.",
+          "blank": "ごろ",
+          "choices": [
+            "ごろ",
+            "に",
+            "で",
+            "から"
+          ],
+          "chunks": [
+            "よる",
+            "８じ",
+            "ごろ",
+            "うち",
+            "に",
+            "かえります。"
+          ]
+        },
+        {
+          "jp": "１２じはん ごろ ねます。",
+          "meaning": "Khoảng 12 rưỡi tôi đi ngủ.",
+          "blank": "ごろ",
+          "choices": [
+            "ごろ",
+            "に",
+            "で",
+            "から"
+          ],
+          "chunks": [
+            "１２じはん",
+            "ごろ",
+            "ねます。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "まず V1。それから、V2。",
+      "meaning": "Trước tiên V1. Sau đó V2.",
+      "examples": [
+        {
+          "jp": "７時半 に 晩ごはん を 食べます。 それから テレビ を 見ます。",
+          "meaning": "7 rưỡi tôi ăn tối. Sau đó xem TV.",
+          "blank": "それから",
+          "choices": [
+            "それから",
+            "まず",
+            "でも",
+            "いつも"
+          ],
+          "chunks": [
+            "７時半",
+            "に",
+            "晩ごはん",
+            "を",
+            "食べます。",
+            "それから",
+            "テレビ",
+            "を",
+            "見ます。"
+          ]
+        }
+      ]
+    }
+  ],
+  "kanji": [
+    {
+      "char": "時",
+      "hanviet": "Thời",
+      "words": [
+        {
+          "jp": "何時",
+          "reading": "なんじ",
+          "meaning": "Mấy giờ"
+        },
+        {
+          "jp": "時間",
+          "reading": "じかん",
+          "meaning": "Thời gian"
+        },
+        {
+          "jp": "１時半",
+          "reading": "いちじはん",
+          "meaning": "1 giờ rưỡi"
+        }
+      ]
+    },
+    {
+      "char": "分",
+      "hanviet": "Phân",
+      "words": [
+        {
+          "jp": "４０分",
+          "reading": "よんじゅっぷん",
+          "meaning": "40 phút"
+        },
+        {
+          "jp": "分かります",
+          "reading": "わかります",
+          "meaning": "Hiểu"
+        }
+      ]
+    },
+    {
+      "char": "半",
+      "hanviet": "Bán",
+      "words": [
+        {
+          "jp": "１時半",
+          "reading": "いちじはん",
+          "meaning": "1 giờ rưỡi"
+        },
+        {
+          "jp": "６時半",
+          "reading": "ろくじはん",
+          "meaning": "6 giờ rưỡi"
+        }
+      ]
+    },
+    {
+      "char": "前",
+      "hanviet": "Tiền",
+      "words": [
+        {
+          "jp": "前",
+          "reading": "まえ",
+          "meaning": "Phía trước"
+        },
+        {
+          "jp": "午前",
+          "reading": "ごぜん",
+          "meaning": "Buổi sáng (AM)"
+        }
+      ]
+    },
+    {
+      "char": "後",
+      "hanviet": "Hậu",
+      "words": [
+        {
+          "jp": "後ろ",
+          "reading": "うしろ",
+          "meaning": "Phía sau"
+        },
+        {
+          "jp": "午後",
+          "reading": "ごご",
+          "meaning": "Buổi chiều (PM)"
+        }
+      ]
+    },
+    {
+      "char": "午",
+      "hanviet": "Ngọ",
+      "words": [
+        {
+          "jp": "午前",
+          "reading": "ごぜん",
+          "meaning": "Buổi sáng (AM)"
+        },
+        {
+          "jp": "午後",
+          "reading": "ごご",
+          "meaning": "Buổi chiều (PM)"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "jp": "日本は 今 午前 1時半です。",
+      "meaning": "Ở Nhật bây giờ là 1 giờ rưỡi sáng."
+    },
+    {
+      "jp": "本は テーブルの 前に あります。",
+      "meaning": "Quyển sách ở phía trước cái bàn."
+    },
+    {
+      "jp": "まえださんの 後ろの人は だれですか。",
+      "meaning": "Người đằng sau anh/chị Maeda là ai?"
+    },
+    {
+      "jp": "日本ごは すこし 分かります。",
+      "meaning": "Tôi hiểu một chút tiếng Nhật."
+    },
+    {
+      "jp": "今日 何時に ひるごはんを 食べますか。",
+      "meaning": "Hôm nay mấy giờ bạn ăn trưa?"
+    },
+    {
+      "jp": "１０時４０分に かいしゃに いきます。",
+      "meaning": "Tôi đến công ty lúc 10 giờ 40."
+    },
+    {
+      "jp": "午後 ４時に ミーティングが あります。",
+      "meaning": "Có cuộc họp lúc 4 giờ chiều."
+    },
+    {
+      "jp": "6時に おきます。",
+      "meaning": "Tôi dậy lúc 6 giờ."
+    },
+    {
+      "jp": "11時30分に ねます。",
+      "meaning": "Tôi ngủ lúc 11 giờ 30."
+    },
+    {
+      "jp": "12時半に ねます。",
+      "meaning": "Tôi ngủ lúc 12 giờ rưỡi."
+    }
+  ],
+  "notes": [],
+  "passages": [
+    {
+      "title": "ミラーさんの 毎日",
+      "type": "reading",
+      "lines": [
+        {
+          "jp": "ミラーさんは 毎朝 7時に 起きます。",
+          "meaning": "Anh Miller mỗi sáng thức dậy lúc 7 giờ."
+        },
+        {
+          "jp": "朝ごはんは いつも パンと コーヒーです。",
+          "meaning": "Bữa sáng lúc nào cũng là bánh mì và cà phê."
+        },
+        {
+          "jp": "電車で 会社へ 行きます。",
+          "meaning": "Anh ấy đi đến công ty bằng tàu điện."
+        },
+        {
+          "jp": "会社は 9時から 5時までです。",
+          "meaning": "Công ty làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "jp": "7時に うちへ 帰ります。",
+          "meaning": "7 giờ anh ấy về nhà."
+        },
+        {
+          "jp": "7時半に 晩ごはんを 食べます。",
+          "meaning": "7 giờ rưỡi anh ấy ăn tối."
+        },
+        {
+          "jp": "それから テレビを 見ます。",
+          "meaning": "Sau đó anh ấy xem TV."
+        },
+        {
+          "jp": "英語の 新聞を 読みます。",
+          "meaning": "Anh ấy đọc báo tiếng Anh."
+        },
+        {
+          "jp": "夜 12時に 寝ます。",
+          "meaning": "12 giờ đêm anh ấy đi ngủ."
+        },
+        {
+          "jp": "土曜日と 日曜日 会社は 休みです。",
+          "meaning": "Thứ Bảy và Chủ nhật công ty nghỉ."
+        },
+        {
+          "jp": "土曜日の 朝 図書館へ 行きます。",
+          "meaning": "Sáng thứ Bảy anh ấy đến thư viện."
+        },
+        {
+          "jp": "午後 テニスを します。",
+          "meaning": "Buổi chiều anh ấy chơi tennis."
+        },
+        {
+          "jp": "日曜日 どこも 行きません。",
+          "meaning": "Chủ nhật anh ấy không đi đâu cả."
+        },
+        {
+          "jp": "休みます。",
+          "meaning": "Anh ấy nghỉ ngơi."
+        }
+      ]
+    },
+    {
+      "title": "わたしの いちにち",
+      "type": "reading",
+      "lines": [
+        {
+          "jp": "７じ１５ふんに おきます。",
+          "meaning": "Tôi thức dậy lúc 7 giờ 15."
+        },
+        {
+          "jp": "８じに かいしゃに いきます。",
+          "meaning": "8 giờ tôi đi đến công ty."
+        },
+        {
+          "jp": "よる８じごろ うちに かえります。",
+          "meaning": "Khoảng 8 giờ tối tôi về nhà."
+        },
+        {
+          "jp": "テレビを みます。",
+          "meaning": "Tôi xem TV."
+        },
+        {
+          "jp": "シャワーを あびます。",
+          "meaning": "Tôi tắm vòi sen."
+        },
+        {
+          "jp": "１２じはんごろ ねます。",
+          "meaning": "Khoảng 12 giờ rưỡi tôi đi ngủ."
+        }
+      ]
+    }
+  ],
+  "sounds": [],
+  "resources": []
+}
