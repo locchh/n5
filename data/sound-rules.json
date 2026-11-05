@@ -1,0 +1,138 @@
+[
+  {
+    "script": "hiragana",
+    "name": "長音 (trường âm)",
+    "how": "Thêm một nguyên âm: え đi với い, お đi với う.",
+    "examples": [
+      {
+        "write": "あ + あ",
+        "word": "おかあさん",
+        "key": "あ",
+        "meaning": "Mẹ"
+      },
+      {
+        "write": "い + い",
+        "word": "おにいさん",
+        "key": "い",
+        "meaning": "Anh trai"
+      },
+      {
+        "write": "う + う",
+        "word": "くうき",
+        "key": "う",
+        "meaning": "Không khí"
+      },
+      {
+        "write": "え + い",
+        "word": "とけい",
+        "key": "い",
+        "meaning": "Đồng hồ"
+      },
+      {
+        "write": "え + え (hiếm)",
+        "word": "おねえさん",
+        "key": "え",
+        "meaning": "Chị gái"
+      },
+      {
+        "write": "お + う",
+        "word": "ぎんこう",
+        "key": "う",
+        "meaning": "Ngân hàng"
+      },
+      {
+        "write": "お + お (hiếm)",
+        "word": "とおい",
+        "key": "お",
+        "meaning": "Xa"
+      }
+    ]
+  },
+  {
+    "script": "hiragana",
+    "name": "促音 (âm ngắt)",
+    "how": "っ nhỏ: nhân đôi phụ âm đứng sau nó.",
+    "examples": [
+      {
+        "write": "っ + て",
+        "word": "きって",
+        "key": "っ",
+        "meaning": "Tem"
+      },
+      {
+        "write": "っ + し",
+        "word": "ざっし",
+        "key": "っ",
+        "meaning": "Tạp chí"
+      },
+      {
+        "write": "っ + ぷ",
+        "word": "きっぷ",
+        "key": "っ",
+        "meaning": "Vé"
+      }
+    ]
+  },
+  {
+    "script": "katakana",
+    "name": "長音 (trường âm)",
+    "how": "Dùng dấu ー cho mọi nguyên âm.",
+    "examples": [
+      {
+        "write": "ア + ー",
+        "word": "カー",
+        "key": "ー",
+        "meaning": "Xe hơi"
+      },
+      {
+        "write": "イ + ー",
+        "word": "スキー",
+        "key": "ー",
+        "meaning": "Trượt tuyết"
+      },
+      {
+        "write": "ウ + ー",
+        "word": "プール",
+        "key": "ー",
+        "meaning": "Hồ bơi"
+      },
+      {
+        "write": "エ + ー",
+        "word": "ケーキ",
+        "key": "ー",
+        "meaning": "Bánh kem"
+      },
+      {
+        "write": "オ + ー",
+        "word": "ソース",
+        "key": "ー",
+        "meaning": "Nước sốt"
+      }
+    ]
+  },
+  {
+    "script": "katakana",
+    "name": "促音 (âm ngắt)",
+    "how": "ッ nhỏ: nhân đôi phụ âm đứng sau nó.",
+    "examples": [
+      {
+        "write": "ッ + ド",
+        "word": "ベッド",
+        "key": "ッ",
+        "meaning": "Giường"
+      },
+      {
+        "write": "ッ + ト",
+        "word": "ホット",
+        "key": "ッ",
+        "meaning": "Nóng"
+      },
+      {
+        "write": "ッ + ク",
+        "word": "チェック",
+        "key": "ッ",
+        "meaning": "Kiểm tra"
+      }
+    ]
+  }
+]

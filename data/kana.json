@@ -1,0 +1,977 @@
+[
+  {
+    "hiragana": "あ",
+    "katakana": "ア",
+    "row": "あ",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "い",
+    "katakana": "イ",
+    "row": "あ",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "う",
+    "katakana": "ウ",
+    "row": "あ",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "え",
+    "katakana": "エ",
+    "row": "あ",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "お",
+    "katakana": "オ",
+    "row": "あ",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "か",
+    "katakana": "カ",
+    "row": "か",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "き",
+    "katakana": "キ",
+    "row": "か",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "く",
+    "katakana": "ク",
+    "row": "か",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "け",
+    "katakana": "ケ",
+    "row": "か",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "こ",
+    "katakana": "コ",
+    "row": "か",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "さ",
+    "katakana": "サ",
+    "row": "さ",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "し",
+    "katakana": "シ",
+    "row": "さ",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "す",
+    "katakana": "ス",
+    "row": "さ",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "せ",
+    "katakana": "セ",
+    "row": "さ",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "そ",
+    "katakana": "ソ",
+    "row": "さ",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "た",
+    "katakana": "タ",
+    "row": "た",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "ち",
+    "katakana": "チ",
+    "row": "た",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "つ",
+    "katakana": "ツ",
+    "row": "た",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "て",
+    "katakana": "テ",
+    "row": "た",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "と",
+    "katakana": "ト",
+    "row": "た",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "な",
+    "katakana": "ナ",
+    "row": "な",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "に",
+    "katakana": "ニ",
+    "row": "な",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "ぬ",
+    "katakana": "ヌ",
+    "row": "な",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "ね",
+    "katakana": "ネ",
+    "row": "な",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "の",
+    "katakana": "ノ",
+    "row": "な",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "は",
+    "katakana": "ハ",
+    "row": "は",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "ひ",
+    "katakana": "ヒ",
+    "row": "は",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "ふ",
+    "katakana": "フ",
+    "row": "は",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "へ",
+    "katakana": "ヘ",
+    "row": "は",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "ほ",
+    "katakana": "ホ",
+    "row": "は",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "ま",
+    "katakana": "マ",
+    "row": "ま",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "み",
+    "katakana": "ミ",
+    "row": "ま",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "む",
+    "katakana": "ム",
+    "row": "ま",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "め",
+    "katakana": "メ",
+    "row": "ま",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "も",
+    "katakana": "モ",
+    "row": "ま",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "や",
+    "katakana": "ヤ",
+    "row": "や",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "ゆ",
+    "katakana": "ユ",
+    "row": "や",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "よ",
+    "katakana": "ヨ",
+    "row": "や",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "ら",
+    "katakana": "ラ",
+    "row": "ら",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "り",
+    "katakana": "リ",
+    "row": "ら",
+    "column": "い",
+    "group": "base"
+  },
+  {
+    "hiragana": "る",
+    "katakana": "ル",
+    "row": "ら",
+    "column": "う",
+    "group": "base"
+  },
+  {
+    "hiragana": "れ",
+    "katakana": "レ",
+    "row": "ら",
+    "column": "え",
+    "group": "base"
+  },
+  {
+    "hiragana": "ろ",
+    "katakana": "ロ",
+    "row": "ら",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "わ",
+    "katakana": "ワ",
+    "row": "わ",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "ゐ",
+    "katakana": "ヰ",
+    "row": "わ",
+    "column": "い",
+    "group": "base",
+    "obsolete": true
+  },
+  {
+    "hiragana": "ゑ",
+    "katakana": "ヱ",
+    "row": "わ",
+    "column": "え",
+    "group": "base",
+    "obsolete": true
+  },
+  {
+    "hiragana": "を",
+    "katakana": "ヲ",
+    "row": "わ",
+    "column": "お",
+    "group": "base"
+  },
+  {
+    "hiragana": "ん",
+    "katakana": "ン",
+    "row": "ん",
+    "column": "あ",
+    "group": "base"
+  },
+  {
+    "hiragana": "が",
+    "katakana": "ガ",
+    "row": "が",
+    "column": "あ",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぎ",
+    "katakana": "ギ",
+    "row": "が",
+    "column": "い",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぐ",
+    "katakana": "グ",
+    "row": "が",
+    "column": "う",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "げ",
+    "katakana": "ゲ",
+    "row": "が",
+    "column": "え",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ご",
+    "katakana": "ゴ",
+    "row": "が",
+    "column": "お",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ざ",
+    "katakana": "ザ",
+    "row": "ざ",
+    "column": "あ",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "じ",
+    "katakana": "ジ",
+    "row": "ざ",
+    "column": "い",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ず",
+    "katakana": "ズ",
+    "row": "ざ",
+    "column": "う",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぜ",
+    "katakana": "ゼ",
+    "row": "ざ",
+    "column": "え",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぞ",
+    "katakana": "ゾ",
+    "row": "ざ",
+    "column": "お",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "だ",
+    "katakana": "ダ",
+    "row": "だ",
+    "column": "あ",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぢ",
+    "katakana": "ヂ",
+    "row": "だ",
+    "column": "い",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "づ",
+    "katakana": "ヅ",
+    "row": "だ",
+    "column": "う",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "で",
+    "katakana": "デ",
+    "row": "だ",
+    "column": "え",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ど",
+    "katakana": "ド",
+    "row": "だ",
+    "column": "お",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ば",
+    "katakana": "バ",
+    "row": "ば",
+    "column": "あ",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "び",
+    "katakana": "ビ",
+    "row": "ば",
+    "column": "い",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぶ",
+    "katakana": "ブ",
+    "row": "ば",
+    "column": "う",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "べ",
+    "katakana": "ベ",
+    "row": "ば",
+    "column": "え",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぼ",
+    "katakana": "ボ",
+    "row": "ば",
+    "column": "お",
+    "group": "dakuten"
+  },
+  {
+    "hiragana": "ぱ",
+    "katakana": "パ",
+    "row": "ぱ",
+    "column": "あ",
+    "group": "handakuten"
+  },
+  {
+    "hiragana": "ぴ",
+    "katakana": "ピ",
+    "row": "ぱ",
+    "column": "い",
+    "group": "handakuten"
+  },
+  {
+    "hiragana": "ぷ",
+    "katakana": "プ",
+    "row": "ぱ",
+    "column": "う",
+    "group": "handakuten"
+  },
+  {
+    "hiragana": "ぺ",
+    "katakana": "ペ",
+    "row": "ぱ",
+    "column": "え",
+    "group": "handakuten"
+  },
+  {
+    "hiragana": "ぽ",
+    "katakana": "ポ",
+    "row": "ぱ",
+    "column": "お",
+    "group": "handakuten"
+  },
+  {
+    "hiragana": "きゃ",
+    "katakana": "キャ",
+    "row": "き",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "きゅ",
+    "katakana": "キュ",
+    "row": "き",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "きょ",
+    "katakana": "キョ",
+    "row": "き",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "しゃ",
+    "katakana": "シャ",
+    "row": "し",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "しゅ",
+    "katakana": "シュ",
+    "row": "し",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "しょ",
+    "katakana": "ショ",
+    "row": "し",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ちゃ",
+    "katakana": "チャ",
+    "row": "ち",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ちゅ",
+    "katakana": "チュ",
+    "row": "ち",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ちょ",
+    "katakana": "チョ",
+    "row": "ち",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "にゃ",
+    "katakana": "ニャ",
+    "row": "に",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "にゅ",
+    "katakana": "ニュ",
+    "row": "に",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "にょ",
+    "katakana": "ニョ",
+    "row": "に",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ひゃ",
+    "katakana": "ヒャ",
+    "row": "ひ",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ひゅ",
+    "katakana": "ヒュ",
+    "row": "ひ",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ひょ",
+    "katakana": "ヒョ",
+    "row": "ひ",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "みゃ",
+    "katakana": "ミャ",
+    "row": "み",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "みゅ",
+    "katakana": "ミュ",
+    "row": "み",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "みょ",
+    "katakana": "ミョ",
+    "row": "み",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "りゃ",
+    "katakana": "リャ",
+    "row": "り",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "りゅ",
+    "katakana": "リュ",
+    "row": "り",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "りょ",
+    "katakana": "リョ",
+    "row": "り",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぎゃ",
+    "katakana": "ギャ",
+    "row": "ぎ",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぎゅ",
+    "katakana": "ギュ",
+    "row": "ぎ",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぎょ",
+    "katakana": "ギョ",
+    "row": "ぎ",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "じゃ",
+    "katakana": "ジャ",
+    "row": "じ",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "じゅ",
+    "katakana": "ジュ",
+    "row": "じ",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "じょ",
+    "katakana": "ジョ",
+    "row": "じ",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "びゃ",
+    "katakana": "ビャ",
+    "row": "び",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "びゅ",
+    "katakana": "ビュ",
+    "row": "び",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "びょ",
+    "katakana": "ビョ",
+    "row": "び",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぴゃ",
+    "katakana": "ピャ",
+    "row": "ぴ",
+    "column": "や",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぴゅ",
+    "katakana": "ピュ",
+    "row": "ぴ",
+    "column": "ゆ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "ぴょ",
+    "katakana": "ピョ",
+    "row": "ぴ",
+    "column": "よ",
+    "group": "yoon"
+  },
+  {
+    "hiragana": "いぇ",
+    "katakana": "イェ",
+    "row": "い",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "うぃ",
+    "katakana": "ウィ",
+    "row": "う",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "うぇ",
+    "katakana": "ウェ",
+    "row": "う",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "うぉ",
+    "katakana": "ウォ",
+    "row": "う",
+    "column": "お",
+    "group": "extended"
+  },
+  {
+    "hiragana": "くぁ",
+    "katakana": "クァ",
+    "row": "く",
+    "column": "あ",
+    "group": "extended"
+  },
+  {
+    "hiragana": "くぃ",
+    "katakana": "クィ",
+    "row": "く",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "くぇ",
+    "katakana": "クェ",
+    "row": "く",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "くぉ",
+    "katakana": "クォ",
+    "row": "く",
+    "column": "お",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ぐぁ",
+    "katakana": "グァ",
+    "row": "ぐ",
+    "column": "あ",
+    "group": "extended"
+  },
+  {
+    "hiragana": "しぇ",
+    "katakana": "シェ",
+    "row": "し",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "じぇ",
+    "katakana": "ジェ",
+    "row": "じ",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "てぃ",
+    "katakana": "ティ",
+    "row": "て",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "とぅ",
+    "katakana": "トゥ",
+    "row": "と",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "てゅ",
+    "katakana": "テュ",
+    "row": "て",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ちぇ",
+    "katakana": "チェ",
+    "row": "ち",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "つぁ",
+    "katakana": "ツァ",
+    "row": "つ",
+    "column": "あ",
+    "group": "extended"
+  },
+  {
+    "hiragana": "つぃ",
+    "katakana": "ツィ",
+    "row": "つ",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "つぇ",
+    "katakana": "ツェ",
+    "row": "つ",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "つぉ",
+    "katakana": "ツォ",
+    "row": "つ",
+    "column": "お",
+    "group": "extended"
+  },
+  {
+    "hiragana": "でぃ",
+    "katakana": "ディ",
+    "row": "で",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "どぅ",
+    "katakana": "ドゥ",
+    "row": "ど",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "でゅ",
+    "katakana": "デュ",
+    "row": "で",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ふぁ",
+    "katakana": "ファ",
+    "row": "ふ",
+    "column": "あ",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ふぃ",
+    "katakana": "フィ",
+    "row": "ふ",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ふぇ",
+    "katakana": "フェ",
+    "row": "ふ",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ふぉ",
+    "katakana": "フォ",
+    "row": "ふ",
+    "column": "お",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ふゅ",
+    "katakana": "フュ",
+    "row": "ふ",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔぁ",
+    "katakana": "ヴァ",
+    "row": "ゔ",
+    "column": "あ",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔぃ",
+    "katakana": "ヴィ",
+    "row": "ゔ",
+    "column": "い",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔ",
+    "katakana": "ヴ",
+    "row": "ゔ",
+    "column": "う",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔぇ",
+    "katakana": "ヴェ",
+    "row": "ゔ",
+    "column": "え",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔぉ",
+    "katakana": "ヴォ",
+    "row": "ゔ",
+    "column": "お",
+    "group": "extended"
+  },
+  {
+    "hiragana": "ゔゅ",
+    "katakana": "ヴュ",
+    "row": "ゔ",
+    "column": "う",
+    "group": "extended"
+  }
+]
