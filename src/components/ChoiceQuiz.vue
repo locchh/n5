@@ -21,29 +21,26 @@
 </script>
 
 <template>
-  <p class="question">{{ question }}</p>
-  <p v-if="hint" class="hint">{{ hint }}</p>
+  <div class="card">
+    <p class="question">{{ question }}</p>
+    <p v-if="hint" class="hint">{{ hint }}</p>
+  </div>
 
   <!-- After I pick: the answer turns green, my wrong pick turns red, and no more tapping -->
-  <button
-    v-for="option in options"
-    :key="option"
-    type="button"
-    :disabled="picked !== null"
-    :class="{ right: picked && option === answer, wrong: option === picked && option !== answer }"
-    @click="picked = option"
-  >
-    {{ option }}
-  </button>
+  <div class="choices">
+    <button
+      v-for="option in options"
+      :key="option"
+      type="button"
+      :disabled="picked !== null"
+      :class="{ right: picked && option === answer, wrong: option === picked && option !== answer }"
+      @click="picked = option"
+    >
+      {{ option }}
+    </button>
+  </div>
 
-  <button v-if="picked" type="button" @click="emit('done', picked === answer)">Next</button>
+  <div v-if="picked" class="actions">
+    <button type="button" @click="emit('done', picked === answer)">Next</button>
+  </div>
 </template>
-
-<style scoped>
-  .right {
-    background: #cfc;
-  }
-  .wrong {
-    background: #fcc;
-  }
-</style>

@@ -20,8 +20,8 @@
   </div>
 
   <!-- The buttons only appear after flipping, so I try to remember first -->
-  <div v-if="flipped">
-    <button type="button" @click="emit('mark', 'again')">Again</button>
-    <button type="button" @click="emit('mark', 'got')">Got it</button>
+  <div v-if="flipped" class="actions">
+    <button type="button" class="bad" @click="emit('mark', 'again')">Again</button>
+    <button type="button" class="good" @click="emit('mark', 'got')">Got it</button>
   </div>
 </template>

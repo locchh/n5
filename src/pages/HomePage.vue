@@ -40,41 +40,23 @@
   <h1>N5</h1>
 
   <!-- Continue: back to where I stopped last time -->
-  <RouterLink v-if="lastPath" :to="lastPath" class="continue">Continue</RouterLink>
+  <RouterLink v-if="lastPath" :to="lastPath" class="continue">▶ Continue</RouterLink>
 
   <!-- One line per lesson, e.g. "Lesson 4: ... — 12 / 40 known" -->
-  <ul class="lessons">
+  <ul class="menu">
     <li v-for="row in rows" :key="row.lesson.id">
-      <RouterLink :to="`/lesson/${row.lesson.id}`">Lesson {{ row.lesson.id }}: {{ row.lesson.title }}</RouterLink>
-      <span class="known">{{ row.known }} / {{ row.total }} known</span>
+      <RouterLink :to="`/lesson/${row.lesson.id}`">
+        <span>Lesson {{ row.lesson.id }}: {{ row.lesson.title }}</span>
+        <span class="hint">{{ row.known }} / {{ row.total }} known</span>
+      </RouterLink>
     </li>
   </ul>
 
-  <RouterLink to="/test">Mixed test</RouterLink>
-
-  <!-- Kana boards: look and listen, no cards -->
-  <ul>
+  <!-- Practice: the mixed test, and the kana boards (look and listen, no cards) -->
+  <h2>Practice</h2>
+  <ul class="menu">
+    <li><RouterLink to="/test">Mixed test</RouterLink></li>
     <li><RouterLink to="/kana/hiragana">Bảng ひらがな</RouterLink></li>
     <li><RouterLink to="/kana/katakana">Bảng カタカナ</RouterLink></li>
   </ul>
 </template>
-
-<style scoped>
-  .continue {
-    display: block;
-    padding: 1rem;
-    margin: 1rem 0;
-    text-align: center;
-    font-size: 1.25rem;
-  }
-
-  .lessons li {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .known {
-    color: gray;
-  }
-</style>

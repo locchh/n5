@@ -25,7 +25,7 @@
 </script>
 
 <template>
-  <RouterLink :to="`/lesson/${id}`">← Lesson {{ id }}</RouterLink>
+  <RouterLink :to="`/lesson/${id}`" class="back-link">← Lesson {{ id }}</RouterLink>
 
   <!-- Wrong URL: say so, instead of a blank page -->
   <p v-if="!lesson || !found">There's no such activity.</p>

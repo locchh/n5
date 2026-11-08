@@ -55,7 +55,12 @@
 
   <!-- End screen -->
   <template v-else>
-    <p>Done! You went through all {{ total }} cards.</p>
-    <button type="button" @click="restart">New round</button>
+    <div class="card done">
+      <p class="question">Done! 🎉</p>
+      <p class="hint">You went through all {{ total }} cards.</p>
+    </div>
+    <div class="actions">
+      <button type="button" @click="restart">New round</button>
+    </div>
   </template>
 </template>

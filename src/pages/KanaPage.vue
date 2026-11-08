@@ -54,7 +54,7 @@
 </script>
 
 <template>
-  <RouterLink to="/">← Home</RouterLink>
+  <RouterLink to="/" class="back-link">← Home</RouterLink>
   <h1>{{ script === 'hiragana' ? 'ひらがな' : 'カタカナ' }}</h1>
 
   <!-- One grid per group: columns labelled あ い う え お, rows あ か さ … (no romaji) -->
@@ -62,11 +62,11 @@
     <h2>{{ group.title }}</h2>
 
     <!-- Extended (katakana only): a simple row of buttons, tap → 🔊 -->
-    <p v-if="group.id === 'extended'">
+    <p v-if="group.id === 'extended'" class="kana-flow">
       <button v-for="k in extended" :key="k.katakana" type="button" @click="speak(k.katakana)">{{ k.katakana }}</button>
     </p>
 
-    <table v-for="b in [board(group.id)]" v-else :key="group.id">
+    <table v-for="b in [board(group.id)]" v-else :key="group.id" class="kana-grid">
       <tr>
         <th></th>
         <th v-for="column in b.columns" :key="column">{{ column }}</th>
@@ -91,13 +91,13 @@
   </section>
 
   <!-- Sound rules: how long vowels and small っ are written, with example words -->
-  <section v-for="rule in rules" :key="rule.name">
+  <section v-for="rule in rules" :key="rule.name" class="card">
     <h2>{{ rule.name }}</h2>
     <p>{{ rule.how }}</p>
-    <ul>
+    <ul class="summary">
       <li v-for="ex in rule.examples" :key="ex.word">
         {{ ex.write }}:
-        <button type="button" @click="speak(ex.word)">
+        <button type="button" class="small" @click="speak(ex.word)">
           <template v-for="(part, i) in [highlight(ex.word, ex.key)]" :key="i">
             {{ part[0] }}<mark>{{ part[1] }}</mark>{{ part[2] }}
           </template>
@@ -107,24 +107,3 @@
     </ul>
   </section>
 </template>
-
-<style scoped>
-  table {
-    border-collapse: collapse;
-  }
-
-  th,
-  td {
-    padding: 0.25rem;
-    text-align: center;
-  }
-
-  td button {
-    min-width: 2.5rem;
-    font-size: 1.25rem;
-  }
-
-  .obsolete {
-    opacity: 0.4;
-  }
-</style>

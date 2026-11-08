@@ -1,0 +1,337 @@
+/* style.css: the one stylesheet for the whole app.
+   Phone first: one centered column, big Japanese text, answer buttons pinned at the bottom
+   near the thumb. On a big screen the column just stays a comfortable width in the middle. */
+
+/* ---------- 1. Base: colors and fonts, in one place ---------- */
+
+:root {
+  --text: #222;
+  --muted: #777;
+  --line: #ddd;
+  --bg: #f7f7f5;
+  --card: #fff;
+  --accent: #3b6fd8; /* links, Continue */
+  --good: #2e9d58; /* right answer, Got it */
+  --bad: #d9534f; /* wrong answer, Again */
+  --radius: 0.75rem;
+
+  /* Japanese fonts first (they also cover Vietnamese), then the system font */
+  font-family: 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+html {
+  scrollbar-gutter: stable; /* keep room for the scrollbar, so the column doesn't jump between pages */
+}
+
+body {
+  margin: 0;
+}
+
+/* ---------- 2. Layout: one centered column ---------- */
+
+#app {
+  max-width: 36rem; /* ~576px: full width on a phone, a calm column on a big screen */
+  margin: 0 auto;
+  padding: 1rem 1rem 7rem; /* bottom space, so the pinned buttons never cover content */
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 1rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+/* "← Home", "← Lesson 4" */
+.back-link {
+  display: inline-block;
+  padding: 0.25rem 0;
+  text-decoration: none;
+}
+
+/* ---------- 3. Buttons: big enough to tap with a thumb ---------- */
+
+button,
+.button {
+  box-sizing: border-box;
+  min-height: 2.75rem; /* ~44px, the usual minimum tap size */
+  padding: 0.6rem 1rem;
+  font: inherit;
+  font-size: 1.05rem;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+  color: var(--text); /* answered quiz buttons stay readable, not greyed out */
+}
+
+/* Small buttons inside text, e.g. 🔊 and the sound-rule words */
+button.small,
+button[aria-label='Read aloud'] {
+  min-height: 0;
+  padding: 0.15rem 0.5rem;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.secondary {
+  display: block;
+  margin: 1rem auto 0;
+  color: var(--muted);
+}
+
+/* Right / wrong: Got it / Again, and answered quiz buttons.
+   button.right is written out so it beats button:disabled above (answered buttons are disabled). */
+.good,
+button.right {
+  color: #fff;
+  background: var(--good);
+  border-color: var(--good);
+}
+
+.bad,
+button.wrong {
+  color: #fff;
+  background: var(--bad);
+  border-color: var(--bad);
+}
+
+/* ---------- 4. Answer bar: pinned to the bottom, lined up with the column ---------- */
+
+.actions {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 38rem; /* the 36rem column + its 1rem padding on each side, so the buttons line up with the cards */
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom)); /* clear the iPhone home bar */
+  background: var(--bg);
+  border-top: 1px solid var(--line);
+}
+
+.actions button {
+  flex: 1;
+  min-height: 3.25rem;
+  font-size: 1.15rem;
+}
+
+/* ---------- 5. Cards and quizzes ---------- */
+
+.card {
+  margin: 0.75rem 0;
+  padding: 1.25rem 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow-wrap: anywhere; /* long words never push the page wider than the phone */
+}
+
+/* The big Japanese text: front of a card, a quiz question. Grows a bit on big screens. */
+.front,
+.question {
+  margin: 0.25rem 0;
+  font-size: clamp(1.6rem, 6vw, 2.25rem);
+  text-align: center;
+}
+
+.back {
+  margin: 0.75rem 0 0.25rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--line);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.detail {
+  margin: 0.25rem 0;
+  color: var(--muted);
+}
+
+.hint {
+  margin: 0.25rem 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* "12 / 40" above the card */
+.count {
+  margin: 0;
+  color: var(--muted);
+  text-align: right;
+}
+
+.done {
+  text-align: center;
+}
+
+/* 4-choice quiz: one option per row, full width */
+.choices {
+  display: grid;
+  gap: 0.6rem;
+}
+
+/* Build the sentence: my sentence (in the card) and the pieces left (below it) */
+.answer,
+.pieces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  margin: 0.75rem 0;
+}
+
+.answer {
+  padding: 0.5rem;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+}
+
+/* Finished sentence: a green or red border, so the pieces stay easy to read */
+.answer.right {
+  border: 2px solid var(--good);
+}
+
+.answer.wrong {
+  border: 2px solid var(--bad);
+}
+
+.correct-sentence {
+  color: var(--good);
+  text-align: center;
+}
+
+/* ---------- 6. Home and lesson pages ---------- */
+
+.continue {
+  display: block;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  color: #fff;
+  background: var(--accent);
+  border-radius: var(--radius);
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* A list of big tappable rows: lessons, practice links */
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  margin-bottom: 0.5rem;
+  padding: 0.85rem 1rem;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  text-decoration: none;
+}
+
+.menu .hint {
+  margin: 0;
+}
+
+/* Activity buttons on a lesson page: 2 per row on a phone, 3 on a wider screen */
+.activities {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.activities .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Lists of words, sentences, rules */
+.summary {
+  padding-left: 1.2rem;
+  overflow-wrap: anywhere;
+}
+
+.summary li {
+  margin-bottom: 0.35rem;
+}
+
+/* Broken lesson files */
+.errors {
+  padding: 0.75rem 0.75rem 0.75rem 2rem;
+  color: var(--bad);
+  background: #fff5f5;
+  border: 2px solid var(--bad);
+  border-radius: var(--radius);
+}
+
+/* ---------- 7. Kana boards ---------- */
+
+/* The grid fills the column; cells shrink on a small phone and stay tappable */
+.kana-grid {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.kana-grid th {
+  width: 2rem;
+  color: var(--muted);
+  font-weight: normal;
+}
+
+.kana-grid td {
+  padding: 0.15rem;
+}
+
+.kana-grid td button {
+  width: 100%;
+  padding: 0.4rem 0;
+  font-size: clamp(1.15rem, 5vw, 1.5rem);
+}
+
+.kana-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.kana-flow button {
+  font-size: 1.2rem;
+}
+
+.obsolete {
+  opacity: 0.35;
+}
+
+mark {
+  background: #ffe58a;
+}

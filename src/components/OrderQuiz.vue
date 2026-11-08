@@ -30,28 +30,24 @@
 </script>
 
 <template>
-  <p class="question">{{ meaning }}</p>
+  <div class="card">
+    <p class="question">{{ meaning }}</p>
 
-  <!-- My sentence so far -->
-  <p class="answer" :class="{ right: finished && correct, wrong: finished && !correct }">
-    <button v-for="i in picked" :key="i" type="button" @click="unpick(i)">{{ chunks[i] }}</button>
-  </p>
+    <!-- My sentence so far -->
+    <p class="answer" :class="{ right: finished && correct, wrong: finished && !correct }">
+      <button v-for="i in picked" :key="i" type="button" @click="unpick(i)">{{ chunks[i] }}</button>
+    </p>
+
+    <!-- Wrong? Show the right sentence, so I learn it -->
+    <p v-if="finished && !correct" class="correct-sentence">✔ {{ chunks.join('') }}</p>
+  </div>
 
   <!-- Pieces left to tap -->
-  <p>
+  <p class="pieces">
     <button v-for="i in left" :key="i" type="button" @click="picked.push(i)">{{ chunks[i] }}</button>
   </p>
 
-  <!-- Wrong? Show the right sentence, so I learn it -->
-  <p v-if="finished && !correct">{{ chunks.join('') }}</p>
-  <button v-if="finished" type="button" @click="emit('done', correct)">Next</button>
+  <div v-if="finished" class="actions">
+    <button type="button" @click="emit('done', correct)">Next</button>
+  </div>
 </template>
-
-<style scoped>
-  .right {
-    background: #cfc;
-  }
-  .wrong {
-    background: #fcc;
-  }
-</style>

@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <RouterLink to="/">← Home</RouterLink>
+  <RouterLink to="/" class="back-link">← Home</RouterLink>
 
   <!-- Unknown lesson number: say so, instead of a blank page -->
   <p v-if="!lesson">There's no Lesson {{ id }}.</p>
@@ -27,7 +27,7 @@
 
     <!-- Activity buttons, e.g. "Từ vựng" → /lesson/4/vocab -->
     <nav class="activities">
-      <RouterLink v-for="activity in ready" :key="activity.id" :to="`/lesson/${lesson.id}/${activity.id}`">
+      <RouterLink v-for="activity in ready" :key="activity.id" :to="`/lesson/${lesson.id}/${activity.id}`" class="button">
         {{ activity.label }}
       </RouterLink>
     </nav>
@@ -35,45 +35,30 @@
     <!-- Summary: each kind only shows up if the lesson has some -->
     <section v-if="lesson.vocab.length > 0">
       <h2>Từ vựng</h2>
-      <ul>
+      <ul class="summary">
         <li v-for="v in lesson.vocab" :key="v.jp">{{ v.jp }} — {{ v.meaning }} <SpeakButton :text="v.jp" /></li>
       </ul>
     </section>
 
     <section v-if="lesson.kanji.length > 0">
       <h2>Kanji</h2>
-      <ul>
+      <ul class="summary">
         <li v-for="k in lesson.kanji" :key="k.char">{{ k.char }} — {{ k.hanviet }}</li>
       </ul>
     </section>
 
     <section v-if="lesson.grammar.length > 0">
       <h2>Ngữ pháp</h2>
-      <ul>
+      <ul class="summary">
         <li v-for="g in lesson.grammar" :key="g.pattern">{{ g.pattern }} — {{ g.meaning }}</li>
       </ul>
     </section>
 
     <section v-if="lesson.sentences.length > 0">
       <h2>Câu</h2>
-      <ul>
+      <ul class="summary">
         <li v-for="s in lesson.sentences" :key="s.jp">{{ s.jp }} — {{ s.meaning }} <SpeakButton :text="s.jp" /></li>
       </ul>
     </section>
   </template>
 </template>
-
-<style scoped>
-  .activities {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1rem 0;
-  }
-
-  .activities a {
-    padding: 0.5rem 1rem;
-    border: 1px solid currentColor;
-    border-radius: 0.5rem;
-  }
-</style>
