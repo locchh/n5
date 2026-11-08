@@ -32,33 +32,46 @@
       </RouterLink>
     </nav>
 
-    <!-- Summary: each kind only shows up if the lesson has some -->
-    <section v-if="lesson.vocab.length > 0">
-      <h2>Từ vựng</h2>
-      <ul class="summary">
-        <li v-for="v in lesson.vocab" :key="v.jp">{{ v.jp }} — {{ v.meaning }} <SpeakButton :text="v.jp" /></li>
-      </ul>
-    </section>
+    <!-- Summary: one collapsible box per kind, closed until I tap it (the page stays short).
+         Each kind only shows up if the lesson has some. -->
+    <h2>Trong bài</h2>
 
-    <section v-if="lesson.kanji.length > 0">
-      <h2>Kanji</h2>
-      <ul class="summary">
-        <li v-for="k in lesson.kanji" :key="k.char">{{ k.char }} — {{ k.hanviet }}</li>
+    <details v-if="lesson.vocab.length > 0" class="fold">
+      <summary>Từ vựng · {{ lesson.vocab.length }}</summary>
+      <ul class="word-list">
+        <li v-for="v in lesson.vocab" :key="v.jp">
+          <div><span class="jp">{{ v.jp }}</span><span class="mean">{{ v.meaning }}</span></div>
+          <SpeakButton :text="v.jp" />
+        </li>
       </ul>
-    </section>
+    </details>
 
-    <section v-if="lesson.grammar.length > 0">
-      <h2>Ngữ pháp</h2>
-      <ul class="summary">
-        <li v-for="g in lesson.grammar" :key="g.pattern">{{ g.pattern }} — {{ g.meaning }}</li>
+    <details v-if="lesson.kanji.length > 0" class="fold">
+      <summary>Kanji · {{ lesson.kanji.length }}</summary>
+      <ul class="word-list inline">
+        <li v-for="k in lesson.kanji" :key="k.char">
+          <div><span class="jp">{{ k.char }}</span><span class="mean">{{ k.hanviet }}</span></div>
+        </li>
       </ul>
-    </section>
+    </details>
 
-    <section v-if="lesson.sentences.length > 0">
-      <h2>Câu</h2>
-      <ul class="summary">
-        <li v-for="s in lesson.sentences" :key="s.jp">{{ s.jp }} — {{ s.meaning }} <SpeakButton :text="s.jp" /></li>
+    <details v-if="lesson.grammar.length > 0" class="fold">
+      <summary>Ngữ pháp · {{ lesson.grammar.length }}</summary>
+      <ul class="word-list">
+        <li v-for="g in lesson.grammar" :key="g.pattern">
+          <div><span class="jp">{{ g.pattern }}</span><span class="mean">{{ g.meaning }}</span></div>
+        </li>
       </ul>
-    </section>
+    </details>
+
+    <details v-if="lesson.sentences.length > 0" class="fold">
+      <summary>Câu · {{ lesson.sentences.length }}</summary>
+      <ul class="word-list">
+        <li v-for="s in lesson.sentences" :key="s.jp">
+          <div><span class="jp">{{ s.jp }}</span><span class="mean">{{ s.meaning }}</span></div>
+          <SpeakButton :text="s.jp" />
+        </li>
+      </ul>
+    </details>
   </template>
 </template>

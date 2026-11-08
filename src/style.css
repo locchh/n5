@@ -1,23 +1,26 @@
 /* style.css: the one stylesheet for the whole app.
    Phone first: one centered column, big Japanese text, answer buttons pinned at the bottom
-   near the thumb. On a big screen the column just stays a comfortable width in the middle. */
+   near the thumb. On a big screen the column just stays a comfortable width in the middle.
+   Light look: white boxes on a soft background, shadows instead of borders, plenty of space. */
 
-/* ---------- 1. Base: colors and fonts, in one place ---------- */
+/* ---------- 1. Base: colors, fonts and shadows, in one place ---------- */
 
 :root {
   --text: #222;
-  --muted: #777;
-  --line: #ddd;
-  --bg: #f7f7f5;
+  --muted: #888;
+  --line: #ebebe7; /* only for the few lines we keep (dashed answer box, card divider) */
+  --bg: #f5f5f2;
   --card: #fff;
+  --tile: #ecece7; /* kana cells: a light tile instead of a bordered button */
   --accent: #3b6fd8; /* links, Continue */
   --good: #2e9d58; /* right answer, Got it */
   --bad: #d9534f; /* wrong answer, Again */
-  --radius: 0.75rem;
+  --radius: 0.9rem;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 8px rgba(0, 0, 0, 0.04); /* soft, instead of a border */
 
   /* Japanese fonts first (they also cover Vietnamese), then the system font */
   font-family: 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', system-ui, sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
   color: var(--text);
   background: var(--bg);
 }
@@ -35,17 +38,18 @@ body {
 #app {
   max-width: 36rem; /* ~576px: full width on a phone, a calm column on a big screen */
   margin: 0 auto;
-  padding: 1rem 1rem 7rem; /* bottom space, so the pinned buttons never cover content */
+  padding: 1.5rem 1.5rem 9rem; /* bottom space, so the pinned buttons never cover content */
 }
 
 h1 {
   font-size: 1.5rem;
-  margin: 0.5rem 0 1rem;
+  line-height: 1.35;
+  margin: 1rem 0 2rem;
 }
 
 h2 {
-  font-size: 1.15rem;
-  margin: 1.5rem 0 0.5rem;
+  font-size: 1.1rem;
+  margin: 3rem 0 1rem;
 }
 
 a {
@@ -65,13 +69,14 @@ button,
 .button {
   box-sizing: border-box;
   min-height: 2.75rem; /* ~44px, the usual minimum tap size */
-  padding: 0.6rem 1rem;
+  padding: 0.65rem 1rem;
   font: inherit;
   font-size: 1.05rem;
   color: var(--text);
   background: var(--card);
-  border: 1px solid var(--line);
+  border: 1px solid transparent; /* no visible border; keeps the size the same as colored buttons */
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -82,19 +87,28 @@ button:disabled {
   color: var(--text); /* answered quiz buttons stay readable, not greyed out */
 }
 
-/* Small buttons inside text, e.g. 🔊 and the sound-rule words */
+/* Small buttons inside text: 🔊 and the sound-rule words. Quiet, no box. */
 button.small,
 button[aria-label='Read aloud'] {
   min-height: 0;
-  padding: 0.15rem 0.5rem;
+  padding: 0.1rem 0.4rem;
   font-size: 1rem;
   vertical-align: middle;
+  background: transparent;
+  box-shadow: none;
 }
 
+button.small {
+  background: var(--tile);
+}
+
+/* "New test": a plain text button under the test */
 .secondary {
   display: block;
-  margin: 1rem auto 0;
+  margin: 1.5rem auto 0;
   color: var(--muted);
+  background: transparent;
+  box-shadow: none;
 }
 
 /* Right / wrong: Got it / Again, and answered quiz buttons.
@@ -103,14 +117,12 @@ button[aria-label='Read aloud'] {
 button.right {
   color: #fff;
   background: var(--good);
-  border-color: var(--good);
 }
 
 .bad,
 button.wrong {
   color: #fff;
   background: var(--bad);
-  border-color: var(--bad);
 }
 
 /* ---------- 4. Answer bar: pinned to the bottom, lined up with the column ---------- */
@@ -122,12 +134,12 @@ button.wrong {
   transform: translateX(-50%);
   box-sizing: border-box;
   width: 100%;
-  max-width: 38rem; /* the 36rem column + its 1rem padding on each side, so the buttons line up with the cards */
+  max-width: 39rem; /* the 36rem column + its 1.5rem padding on each side, so the buttons line up with the cards */
   display: flex;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom)); /* clear the iPhone home bar */
+  gap: 1rem;
+  padding: 1rem 1.5rem calc(1rem + env(safe-area-inset-bottom)); /* clear the iPhone home bar */
   background: var(--bg);
-  border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05); /* a soft edge instead of a line */
 }
 
 .actions button {
@@ -139,11 +151,11 @@ button.wrong {
 /* ---------- 5. Cards and quizzes ---------- */
 
 .card {
-  margin: 0.75rem 0;
-  padding: 1.25rem 1rem;
+  margin: 1.5rem 0;
+  padding: 2.5rem 1.5rem;
   background: var(--card);
-  border: 1px solid var(--line);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   overflow-wrap: anywhere; /* long words never push the page wider than the phone */
 }
 
@@ -152,24 +164,25 @@ button.wrong {
 .question {
   margin: 0.25rem 0;
   font-size: clamp(1.6rem, 6vw, 2.25rem);
+  line-height: 1.4;
   text-align: center;
 }
 
 .back {
-  margin: 0.75rem 0 0.25rem;
-  padding-top: 0.75rem;
+  margin: 1.75rem 0 0.5rem;
+  padding-top: 1.75rem;
   border-top: 1px solid var(--line);
   font-size: 1.3rem;
   text-align: center;
 }
 
 .detail {
-  margin: 0.25rem 0;
+  margin: 0.6rem 0;
   color: var(--muted);
 }
 
 .hint {
-  margin: 0.25rem 0;
+  margin: 0.4rem 0;
   color: var(--muted);
   text-align: center;
 }
@@ -178,6 +191,7 @@ button.wrong {
 .count {
   margin: 0;
   color: var(--muted);
+  font-size: 0.95rem;
   text-align: right;
 }
 
@@ -188,7 +202,7 @@ button.wrong {
 /* 4-choice quiz: one option per row, full width */
 .choices {
   display: grid;
-  gap: 0.6rem;
+  gap: 1rem;
 }
 
 /* Build the sentence: my sentence (in the card) and the pieces left (below it) */
@@ -196,13 +210,13 @@ button.wrong {
 .pieces {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 0.75rem;
   min-height: 2.75rem;
-  margin: 0.75rem 0;
+  margin: 1.5rem 0;
 }
 
 .answer {
-  padding: 0.5rem;
+  padding: 0.6rem;
   border: 2px dashed var(--line);
   border-radius: var(--radius);
 }
@@ -225,11 +239,12 @@ button.wrong {
 
 .continue {
   display: block;
-  margin: 0 0 1rem;
-  padding: 1rem;
+  margin: 0 0 2.75rem;
+  padding: 1.25rem;
   color: #fff;
   background: var(--accent);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   font-size: 1.25rem;
   text-align: center;
   text-decoration: none;
@@ -242,36 +257,89 @@ button.wrong {
   list-style: none;
 }
 
+/* Each row: the title on top, a small grey line under it (e.g. "12 / 100 known") */
 .menu a {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.25rem 1rem;
-  margin-bottom: 0.5rem;
-  padding: 0.85rem 1rem;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+  padding: 1.25rem 1.5rem;
   color: var(--text);
   background: var(--card);
-  border: 1px solid var(--line);
   border-radius: var(--radius);
+  box-shadow: var(--shadow);
   text-decoration: none;
 }
 
 .menu .hint {
   margin: 0;
+  font-size: 0.9rem;
+  text-align: left;
 }
 
-/* Activity buttons on a lesson page: 2 per row on a phone, 3 on a wider screen */
+/* Activity buttons on a lesson page: 2 per row on a phone, more on a wider screen */
 .activities {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
-  gap: 0.5rem;
-  margin: 1rem 0;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .activities .button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Lesson summary: one collapsible box per kind, closed until I tap it */
+.fold {
+  margin-bottom: 1rem;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.fold summary {
+  padding: 1.25rem 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Words inside an open box: one per row, Japanese on top, meaning small and grey under it,
+   🔊 on the right, a thin line between rows */
+.word-list {
+  margin: 0;
+  padding: 0 1.5rem 0.5rem;
+  list-style: none;
+  overflow-wrap: anywhere;
+}
+
+.word-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.word-list .jp {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.word-list .mean {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Short entries (Kanji): the character and its Hán Việt on the same line, e.g. 男  Nam */
+.word-list.inline .jp,
+.word-list.inline .mean {
+  display: inline;
+  margin: 0 1rem 0 0;
 }
 
 /* Lists of words, sentences, rules */
@@ -281,12 +349,12 @@ button.wrong {
 }
 
 .summary li {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.75rem;
 }
 
 /* Broken lesson files */
 .errors {
-  padding: 0.75rem 0.75rem 0.75rem 2rem;
+  padding: 1rem 1rem 1rem 2.25rem;
   color: var(--bad);
   background: #fff5f5;
   border: 2px solid var(--bad);
@@ -298,30 +366,38 @@ button.wrong {
 /* The grid fills the column; cells shrink on a small phone and stay tappable */
 .kana-grid {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0.45rem; /* a little air between tiles */
   table-layout: fixed;
 }
 
 .kana-grid th {
-  width: 2rem;
+  width: 1.75rem;
   color: var(--muted);
   font-weight: normal;
 }
 
 .kana-grid td {
-  padding: 0.15rem;
+  padding: 0;
+}
+
+/* Kana cells: flat light tiles, no border or shadow */
+.kana-grid td button,
+.kana-flow button {
+  background: var(--tile);
+  box-shadow: none;
 }
 
 .kana-grid td button {
   width: 100%;
-  padding: 0.4rem 0;
+  padding: 0.45rem 0;
   font-size: clamp(1.15rem, 5vw, 1.5rem);
 }
 
 .kana-flow {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.6rem;
 }
 
 .kana-flow button {
