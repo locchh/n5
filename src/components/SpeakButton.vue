@@ -1,9 +1,9 @@
 <!-- A 🔊 button that reads Japanese text aloud. Hidden if the browser can't speak. -->
 <script setup lang="ts">
-import { canSpeak, speak } from '../engine/speak'
+  import { canSpeak, speak } from '../engine/speak'
 
-// text: what to read aloud, e.g. "ちち"
-defineProps<{ text: string }>()
+  // text: what to read aloud, e.g. "ちち"
+  defineProps<{ text: string }>()
 </script>
 
 <template>

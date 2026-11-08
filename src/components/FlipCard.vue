@@ -2,14 +2,14 @@
      The parent fills in both faces, so one card works for vocab, Kanji, grammar and sentences.
      Give it :key="card.key" in the parent, so a new card always starts face up. -->
 <script setup lang="ts">
-import { ref } from 'vue'
-import type { Mark } from '../engine/progress'
+  import { ref } from 'vue'
+  import type { Mark } from '../engine/progress'
 
-// mark: sent to the parent when I press "Got it" or "Again"
-const emit = defineEmits<{ mark: [mark: Mark] }>()
+  // mark: sent to the parent when I press "Got it" or "Again"
+  const emit = defineEmits<{ mark: [mark: Mark] }>()
 
-// false = showing the front, true = showing the back
-const flipped = ref(false)
+  // false = showing the front, true = showing the back
+  const flipped = ref(false)
 </script>
 
 <template>
