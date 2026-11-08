@@ -51,6 +51,12 @@
   </ul>
 
   <RouterLink to="/test">Mixed test</RouterLink>
+
+  <!-- Kana boards: look and listen, no cards -->
+  <ul>
+    <li><RouterLink to="/kana/hiragana">Bảng ひらがな</RouterLink></li>
+    <li><RouterLink to="/kana/katakana">Bảng カタカナ</RouterLink></li>
+  </ul>
 </template>
 
 <style scoped>
