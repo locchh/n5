@@ -15,3 +15,7 @@
 - Write comments a newbie can follow: what each part does and why.
 - No library unless it really earns its place.
 - Build only what we need now, not what we might need later.
+
+## Where my cursor is
+
+When I say "here" or "this", run `node .claude/scripts/cursor.mjs` to see my cursor.
