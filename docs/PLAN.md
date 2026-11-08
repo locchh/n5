@@ -1,15 +1,23 @@
 # Implementation plan
 
-Based on [SKETCH.md](SKETCH.md). About 1,500–2,000 lines in total (JSON data not counted).
+Based on [SKETCH.md](SKETCH.md). About 1,000 lines in total (JSON data and tests not counted).
 
 **Order:** build Setup first, then go top to bottom.
 
-| Part | What to build | Done when | Lines |
-|---|---|---|---|
-| Engine | TypeScript types from `DATA_MODEL.md`; load and check `data/lessons/*.json`; shuffle a round; save progress in the browser; 🔊 speech helper | The home page lists Lessons 4–10 from the JSON files, and a broken file shows a clear error | ~300 |
-| Shared building blocks | Flip card, 4-choice quiz, "12 / 40" progress bar | Each one works on a test page with fake data | ~150 |
-| Activities | 4 flip-card activities (vocab, Kanji, grammar, sentences) → Kanji quiz → numbers drill → fill-the-blank → build the sentence → mixed test | You can study a real lesson with each one | ~500 |
-| Kana boards | ひらがな/カタカナ grids, tap a cell for 🔊, sound rules at the bottom | Every cell speaks | ~120 |
-| Pages | Home with Continue and "cards known", lesson summary, activity buttons, routes | Close the app, reopen it, and Continue picks up where you stopped | ~250 |
-| CSS | Big Japanese text, buttons near the thumb, one centered column | It's comfortable to use one-handed on your phone | ~150 |
-| Setup | Vue + TypeScript + Vite project, `package.json`, `tsconfig` | The app runs locally | ~50 |
+| Status | Part | What to build | Done when | Lines |
+|---|---|---|---|---|
+| ✅ | Engine | TypeScript types for the kinds we use; load `data/lessons/*.json`; one small helper that checks required fields for every kind; shuffle; save progress in the browser; 🔊 speech. Unit tests for the check (`npm test`) | The home page lists Lessons 4–10 from the JSON files, and a broken file shows a clear error | ~250 (actual ~400) |
+| ⬜ | Shared building blocks | Round player (shuffle, "12 / 40", resume, end screen), flip card, 4-choice quiz, build-the-sentence, 🔊 button | Each one works with real lesson data | ~180 |
+| ⬜ | Activities | One shared builder for all flashcards (vocab, Kanji, grammar, sentences, numbers) → Kanji quiz → fill-the-blank → build the sentence → mixed test (reuses the same questions, flashcards turn into 4-choice) | You can study a real lesson with each one | ~150 |
+| ⬜ | Kana boards | ひらがな/カタカナ grids, tap a cell for 🔊, sound rules at the bottom | Every cell speaks | ~90 |
+| ⬜ | Pages | Home with Continue and "cards known"; lesson page with the 5 kinds + activity buttons; routes | Close the app, reopen it, and Continue picks up where you stopped | ~120 |
+| ⬜ | CSS | Big Japanese text, buttons pinned at the bottom near the thumb, one centered column. Few classes, reused everywhere | It's comfortable to use one-handed on your phone | ~120 |
+| ✅ | Setup | Vue + TypeScript + Vite project, `package.json`, `tsconfig` | The app runs locally | ~70 |
+
+## Decisions
+
+- **"Again"**: the card comes back in the next round, not the same one. Every card appears once per round.
+- **Mixed test**: about 10 questions picked from all lessons.
+- **Voice**: the browser's built-in speech (free, no key). Better audio (e.g. VOICEVOX files made ahead of time) can come later; only `speak.ts` would change.
+- **Tests**: Vitest, only where it earns its place (`check.ts` and the real lesson files).
+- **Not built for now**: notes, readings, listening words and links on the lesson page; the "which sound did you hear" game; picking a deck by lesson + topic. The data is ready if we want them later.
