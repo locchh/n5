@@ -138,6 +138,17 @@ export const activities: Activity[] = [
   },
 ]
 
+// --- mixing sides ---
+
+/** Flip a coin for each flashcard: heads it stays (ちち → Bố mình), tails its sides swap (Bố mình → ちち).
+ *  So I practise both ways in one deck. Quiz cards have no sides, so they stay as they are.
+ *  The key stays the same, so Got it / Again counts for the card whichever side shows. */
+export function mixSides(cards: Card[]): Card[] {
+  return cards.map((card) =>
+    card.type === 'flip' && Math.random() < 0.5 ? { ...card, front: card.back, back: card.front } : card,
+  )
+}
+
 // --- the mixed test ---
 
 /** About 10 cards from all lessons: 2 from each activity, then 10 of those.

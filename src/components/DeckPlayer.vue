@@ -28,9 +28,9 @@
         <template #front>
           <p class="front">{{ card.front }}</p>
         </template>
+        <!-- The back shows only the answer (the front is on the other face), then any extra lines -->
         <template #back>
-          <p class="front">{{ card.front }}</p>
-          <p class="back">
+          <p class="front">
             {{ card.back }}
             <SpeakButton v-if="card.say" :text="card.say" />
           </p>

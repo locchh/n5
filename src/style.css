@@ -8,7 +8,7 @@
 :root {
   --text: #222;
   --muted: #888;
-  --line: #ebebe7; /* only for the few lines we keep (dashed answer box, card divider) */
+  --line: #ebebe7; /* only for the few lines we keep (dashed answer box, list dividers) */
   --bg: #f5f5f2;
   --card: #fff;
   --tile: #ecece7; /* kana cells: a light tile instead of a bordered button */
@@ -159,6 +159,34 @@ button.wrong {
   overflow-wrap: anywhere; /* long words never push the page wider than the phone */
 }
 
+/* Flip cards (FlipCard.vue): two faces stacked in the same spot, back to back.
+   Tapping adds .flipped, which spins the whole thing half a turn to show the back face. */
+.flip {
+  display: grid; /* both faces go in the same grid cell, so the card is as tall as its taller face */
+  margin: 1.5rem 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  transform-style: preserve-3d; /* keep the faces in 3D, so the back one is really behind */
+}
+
+.flip.flipped {
+  transform: perspective(60rem) rotateY(180deg); /* perspective: makes the turn look 3D, not flat */
+}
+
+.flip .face {
+  grid-area: 1 / 1; /* the same cell for both faces */
+  margin: 0; /* .flip has the margin instead */
+  display: flex; /* center the text up and down, since the front face is often shorter than the back */
+  flex-direction: column;
+  justify-content: center;
+  -webkit-backface-visibility: hidden; /* older iPhones need this spelling */
+  backface-visibility: hidden; /* a face turned away from me is invisible */
+}
+
+.flip .face-back {
+  transform: rotateY(180deg); /* starts turned away; comes round when the card spins */
+}
+
 /* The big Japanese text: front of a card, a quiz question. Grows a bit on big screens. */
 .front,
 .question {
@@ -168,13 +196,6 @@ button.wrong {
   text-align: center;
 }
 
-.back {
-  margin: 1.75rem 0 0.5rem;
-  padding-top: 1.75rem;
-  border-top: 1px solid var(--line);
-  font-size: 1.3rem;
-  text-align: center;
-}
 
 .detail {
   margin: 0.6rem 0;

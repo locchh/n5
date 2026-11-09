@@ -1,4 +1,4 @@
-<!-- A card: tap to flip from front to back, then tap "Got it" or "Again".
+<!-- A card: tap to flip it over from front to back, then tap "Got it" or "Again".
      The parent fills in both faces, so one card works for vocab, Kanji, grammar and sentences.
      Give it :key="card.key" in the parent, so a new card always starts face up. -->
 <script setup lang="ts">
@@ -13,10 +13,12 @@
 </script>
 
 <template>
-  <div class="card" @click="flipped = !flipped">
+  <!-- Both faces are always there, back to back. Tapping spins the card half a turn
+       (the .flipped class, see "Flip cards" in style.css), so the other face comes round. -->
+  <div class="flip" :class="{ flipped }" @click="flipped = !flipped">
     <!-- slot = a hole the parent fills, e.g. <template #front>ちち</template> -->
-    <slot v-if="!flipped" name="front" />
-    <slot v-else name="back" />
+    <div class="card face"><slot name="front" /></div>
+    <div class="card face face-back"><slot name="back" /></div>
   </div>
 
   <!-- The buttons only appear after flipping, so I try to remember first -->
