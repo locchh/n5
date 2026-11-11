@@ -1,0 +1,490 @@
+{
+  "id": 10.5,
+  "title": "Bổ trợ: số lớn, rủ rê, kaiwa",
+  "vocab": [
+    {
+      "jp": "にひゃく",
+      "meaning": "200",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さんびゃく",
+      "meaning": "300",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よんひゃく",
+      "meaning": "400",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ごひゃく",
+      "meaning": "500",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ろっぴゃく",
+      "meaning": "600",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ななひゃく",
+      "meaning": "700",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "はっぴゃく",
+      "meaning": "800",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "きゅうひゃく",
+      "meaning": "900",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "にせん",
+      "meaning": "2000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さんぜん",
+      "meaning": "3000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よんせん",
+      "meaning": "4000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ごせん",
+      "meaning": "5000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ろくせん",
+      "meaning": "6000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ななせん",
+      "meaning": "7000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "はっせん",
+      "meaning": "8000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "きゅうせん",
+      "meaning": "9000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いちまん",
+      "meaning": "10000 (luôn nói いちまん)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "にまん",
+      "meaning": "20000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さんまん",
+      "meaning": "30000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よんまん",
+      "meaning": "40000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ごまん",
+      "meaning": "50000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ろくまん",
+      "meaning": "60000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ななまん",
+      "meaning": "70000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "はちまん",
+      "meaning": "80000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "きゅうまん",
+      "meaning": "90000",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "じゅうまん",
+      "meaning": "100000 (100 nghìn)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ひゃくまん",
+      "meaning": "1000000 (1 triệu)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いっせんまん",
+      "meaning": "10000000 (10 triệu)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いっしょに",
+      "meaning": "Cùng nhau",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いいですね",
+      "meaning": "Hay đấy, được đấy",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "もちろん",
+      "meaning": "Đương nhiên",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "ざんねん（な）",
+      "meaning": "Tiếc, đáng tiếc",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "ちょっと…",
+      "meaning": "Hơi… (từ chối khéo)",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "また こんど",
+      "meaning": "Hẹn lần sau",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "たのしみです",
+      "meaning": "Mong chờ, háo hức",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "みに いきます",
+      "meaning": "Đi xem",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "いっしょに Vませんか",
+      "meaning": "Rủ ai cùng làm V (lịch sự, hỏi ý người kia)",
+      "examples": [
+        {
+          "jp": "いっしょに えいがを みませんか。",
+          "meaning": "Cùng xem phim không?",
+          "blank": "いっしょに",
+          "choices": [
+            "いっしょに",
+            "ひとりで",
+            "いつも",
+            "よく"
+          ],
+          "chunks": [
+            "いっしょに",
+            "えいがを",
+            "みませんか。"
+          ]
+        },
+        {
+          "jp": "いっしょに ひるごはんを たべませんか。",
+          "meaning": "Cùng ăn trưa không?",
+          "chunks": [
+            "いっしょに",
+            "ひるごはんを",
+            "たべませんか。"
+          ]
+        },
+        {
+          "jp": "しゅうまつ いっしょに テニスを しませんか。",
+          "meaning": "Cuối tuần cùng chơi tennis không?",
+          "chunks": [
+            "しゅうまつ",
+            "いっしょに",
+            "テニスを",
+            "しませんか。"
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "ええ、Vましょう。／ざんねんですが、ちょっと…",
+      "meaning": "Trả lời lời rủ: đồng ý (cùng làm V nào) / từ chối khéo",
+      "examples": [
+        {
+          "jp": "ええ、いいですね。いきましょう。",
+          "meaning": "Ừ, hay đấy. Cùng đi nào.",
+          "chunks": [
+            "ええ、",
+            "いいですね。",
+            "いきましょう。"
+          ]
+        },
+        {
+          "jp": "ざんねんですが、ちょっと…。",
+          "meaning": "Tiếc quá, nhưng mà… (không được)."
+        },
+        {
+          "jp": "じゃ、また こんど。",
+          "meaning": "Vậy hẹn lần sau nhé."
+        }
+      ]
+    }
+  ],
+  "kanji": [],
+  "sentences": [
+    {
+      "jp": "コーヒーは さんびゃくえんです。",
+      "meaning": "Cà phê 300 yên."
+    },
+    {
+      "jp": "ラーメンは ろっぴゃくえんです。",
+      "meaning": "Mì ramen 600 yên."
+    },
+    {
+      "jp": "この かばんは はっせんえんです。",
+      "meaning": "Cái túi này 8000 yên."
+    },
+    {
+      "jp": "パソコンは じゅうまんえんです。",
+      "meaning": "Máy tính 100.000 yên."
+    },
+    {
+      "jp": "おくには？",
+      "meaning": "Bạn đến từ nước nào?"
+    },
+    {
+      "jp": "かぞくは なんにんですか。",
+      "meaning": "Gia đình bạn có mấy người?"
+    },
+    {
+      "jp": "こどもは なんさいですか。",
+      "meaning": "Con bạn mấy tuổi?"
+    },
+    {
+      "jp": "おとうさんの しごとは なんですか。",
+      "meaning": "Bố bạn làm nghề gì?"
+    },
+    {
+      "jp": "～さんは えいごが できますか。",
+      "meaning": "Anh/chị ~ có nói được tiếng Anh không?"
+    },
+    {
+      "jp": "飲み物は なにが すきですか。",
+      "meaning": "Về đồ uống, bạn thích gì?"
+    },
+    {
+      "jp": "いつも あさごはんを 食べますか。",
+      "meaning": "Bạn có luôn ăn sáng không?"
+    },
+    {
+      "jp": "あさごはんは よく なにを 食べますか。",
+      "meaning": "Bữa sáng bạn thường ăn gì?"
+    },
+    {
+      "jp": "魚が すきですか。",
+      "meaning": "Bạn có thích cá không?"
+    },
+    {
+      "jp": "すきな りょうりは なんですか。",
+      "meaning": "Món ăn bạn thích là gì?"
+    },
+    {
+      "jp": "今日は どこで ひるごはんを 食べますか。",
+      "meaning": "Hôm nay bạn ăn trưa ở đâu?"
+    },
+    {
+      "jp": "ベトナムの パンは やすいですか。",
+      "meaning": "Bánh mì Việt Nam có rẻ không?"
+    },
+    {
+      "jp": "きらいな りょうりは なんですか。",
+      "meaning": "Món ăn bạn ghét là gì?"
+    },
+    {
+      "jp": "よく だれと ビールを 飲みますか。",
+      "meaning": "Bạn thường uống bia với ai?"
+    },
+    {
+      "jp": "いえは おおきいですか。",
+      "meaning": "Nhà bạn có to không?"
+    },
+    {
+      "jp": "いえに にわが ありますか。",
+      "meaning": "Nhà bạn có vườn không?"
+    },
+    {
+      "jp": "いえに へやが いくつ ありますか。",
+      "meaning": "Nhà bạn có mấy phòng?"
+    },
+    {
+      "jp": "だれと すんでいますか。",
+      "meaning": "Bạn sống cùng ai?"
+    },
+    {
+      "jp": "いえに ねこと いぬが いますか。",
+      "meaning": "Nhà bạn có mèo và chó không?"
+    },
+    {
+      "jp": "まいにち なん時に ねますか。",
+      "meaning": "Mỗi ngày bạn đi ngủ lúc mấy giờ?"
+    },
+    {
+      "jp": "なん曜日から なん曜日まで しごとを しますか。",
+      "meaning": "Bạn làm việc từ thứ mấy đến thứ mấy?"
+    },
+    {
+      "jp": "まいにち なん時間 にほんごを べんきょうしますか。",
+      "meaning": "Mỗi ngày bạn học tiếng Nhật mấy tiếng?"
+    },
+    {
+      "jp": "しゅうまつ なにを しますか。",
+      "meaning": "Cuối tuần bạn làm gì?"
+    },
+    {
+      "jp": "あしたの パーティーは いつが いいですか。",
+      "meaning": "Bữa tiệc ngày mai, khi nào thì tiện cho bạn?"
+    }
+  ],
+  "notes": [
+    {
+      "title": "ひゃく／せん: đổi âm",
+      "explain": "Sau さん: ひゃく → びゃく, せん → ぜん. Với 6 và 8: ろく → ろっ, はち → はっ (ろっぴゃく, はっぴゃく, はっせん). Còn lại giữ nguyên.",
+      "compare": [
+        {
+          "jp": "さんびゃく",
+          "meaning": "300"
+        },
+        {
+          "jp": "ろっぴゃく",
+          "meaning": "600"
+        },
+        {
+          "jp": "はっぴゃく",
+          "meaning": "800"
+        },
+        {
+          "jp": "さんぜん",
+          "meaning": "3000"
+        },
+        {
+          "jp": "はっせん",
+          "meaning": "8000"
+        }
+      ]
+    },
+    {
+      "title": "まん: luôn nói いちまん",
+      "explain": "100 là ひゃく, 1000 là せん, nhưng 10000 phải nói いちまん (không nói まん). まん không đổi âm. Tiếng Nhật đếm theo vạn (10000): 100.000 = じゅうまん (10 vạn), 1.000.000 = ひゃくまん (100 vạn).",
+      "compare": [
+        {
+          "jp": "いちまん",
+          "meaning": "10000"
+        },
+        {
+          "jp": "じゅうまん",
+          "meaning": "100000"
+        },
+        {
+          "jp": "ひゃくまん",
+          "meaning": "1000000"
+        },
+        {
+          "jp": "いっせんまん",
+          "meaning": "10000000"
+        }
+      ]
+    }
+  ]
+}
