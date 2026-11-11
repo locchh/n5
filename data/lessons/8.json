@@ -3,13 +3,6 @@
   "title": "いい へやですね。",
   "vocab": [
     {
-      "jp": "ほん",
-      "meaning": "Sách",
-      "topics": [
-        "things"
-      ]
-    },
-    {
       "jp": "カップ",
       "meaning": "Cốc",
       "topics": [
@@ -24,13 +17,6 @@
       ]
     },
     {
-      "jp": "とけい",
-      "meaning": "Đồng hồ",
-      "topics": [
-        "things"
-      ]
-    },
-    {
       "jp": "はこ",
       "meaning": "Hộp",
       "topics": [
@@ -38,8 +24,22 @@
       ]
     },
     {
-      "jp": "しゃしん",
-      "meaning": "Bức ảnh",
+      "jp": "スマホ",
+      "meaning": "Smartphone (viết tắt của スマートフォン)",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "けいたい",
+      "meaning": "Điện thoại di động (viết tắt của けいたいでんわ)",
+      "topics": [
+        "things"
+      ]
+    },
+    {
+      "jp": "ボール",
+      "meaning": "Quả bóng",
       "topics": [
         "things"
       ]
@@ -94,6 +94,20 @@
       ]
     },
     {
+      "jp": "じゅうしょ",
+      "meaning": "Địa chỉ",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "リビングルーム／いま",
+      "meaning": "Phòng khách",
+      "topics": [
+        "house"
+      ]
+    },
+    {
       "jp": "うえ",
       "meaning": "Trên",
       "topics": [
@@ -126,90 +140,6 @@
       "meaning": "Bên trong chiếc hộp",
       "topics": [
         "position"
-      ]
-    },
-    {
-      "jp": "おねがいします",
-      "meaning": "Nhờ bạn giúp đỡ",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "わかりました",
-      "meaning": "Tôi đã hiểu rồi",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "どうぞ",
-      "meaning": "Xin mời",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "いただきます",
-      "meaning": "Tôi xin phép dùng (ăn, uống)",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "いい",
-      "meaning": "Tốt",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "きれい",
-      "meaning": "Đẹp",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "ともだち",
-      "meaning": "Bạn bè",
-      "topics": [
-        "people"
-      ]
-    },
-    {
-      "jp": "じゅうしょ",
-      "meaning": "Địa chỉ",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "Pに Nを おきます",
-      "meaning": "Đặt, để N ở P. VD: テーブルの うえに かばんを おきます",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "おとな（大人）",
-      "meaning": "Người lớn (>< 子ども)",
-      "topics": [
-        "people"
-      ]
-    },
-    {
-      "jp": "スマホ",
-      "meaning": "Smartphone (viết tắt của スマートフォン)",
-      "topics": [
-        "things"
-      ]
-    },
-    {
-      "jp": "けいたい",
-      "meaning": "Điện thoại di động (viết tắt của けいたいでんわ)",
-      "topics": [
-        "things"
       ]
     },
     {
@@ -248,17 +178,38 @@
       ]
     },
     {
-      "jp": "ボール",
-      "meaning": "Quả bóng",
+      "jp": "わかりました",
+      "meaning": "Tôi đã hiểu rồi",
       "topics": [
-        "things"
+        "expressions"
       ]
     },
     {
-      "jp": "リビングルーム／いま",
-      "meaning": "Phòng khách",
+      "jp": "どうぞ",
+      "meaning": "Xin mời",
       "topics": [
-        "house"
+        "expressions"
+      ]
+    },
+    {
+      "jp": "いただきます",
+      "meaning": "Tôi xin phép dùng (ăn, uống)",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "おきます（置きます）",
+      "meaning": "Đặt, để",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "おとな（大人）",
+      "meaning": "Người lớn (>< 子ども)",
+      "topics": [
+        "people"
       ]
     },
     {
@@ -402,29 +353,6 @@
             "に",
             "おねがいします。"
           ]
-        }
-      ]
-    },
-    {
-      "pattern": "Adjい ＋ N ／ Adjな ＋ N",
-      "meaning": "Tính từ bổ nghĩa cho danh từ",
-      "examples": [
-        {
-          "jp": "いい へや ですね。",
-          "meaning": "Căn phòng đẹp nhỉ.",
-          "chunks": [
-            "いい",
-            "へや",
-            "ですね。"
-          ]
-        },
-        {
-          "jp": "きれいな 人",
-          "meaning": "Người đẹp"
-        },
-        {
-          "jp": "いい ともだち",
-          "meaning": "Người bạn tốt"
         }
       ]
     },

@@ -3,39 +3,8 @@
   "title": "なんじに おきますか。",
   "vocab": [
     {
-      "jp": "あさごはん",
-      "meaning": "Bữa sáng",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
-      "jp": "ひるごはん",
-      "meaning": "Bữa trưa",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
-      "jp": "ばんごはん",
-      "meaning": "Bữa tối",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
       "jp": "いちにち",
       "meaning": "Một ngày",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "まいにち",
-      "meaning": "Mỗi ngày, hằng ngày",
       "topics": [
         "time"
       ]
@@ -48,19 +17,39 @@
       ]
     },
     {
+      "jp": "～ごろ",
+      "meaning": "Khoảng...",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ごぜん（午前）",
+      "meaning": "Buổi sáng, AM",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "ごご（午後）",
+      "meaning": "Buổi chiều, PM",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "～ぐらい／くらい",
+      "meaning": "Khoảng ~ (b.18: …時 ごろ／ぐらい／くらい)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
       "jp": "うち",
       "meaning": "Nhà (Home)",
       "topics": [
         "house",
         "places"
-      ]
-    },
-    {
-      "jp": "しんぶん",
-      "meaning": "Báo",
-      "topics": [
-        "things",
-        "work"
       ]
     },
     {
@@ -80,31 +69,37 @@
       ]
     },
     {
+      "jp": "しょうがっこう",
+      "meaning": "Tiểu học (小１ = lớp 1 tiểu học)",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "ちゅうがっこう",
+      "meaning": "Cấp 2 (中１ = lớp 1 cấp 2)",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "こうこう",
+      "meaning": "Cấp 3",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "だいがく",
+      "meaning": "Đại học",
+      "topics": [
+        "places"
+      ]
+    },
+    {
       "jp": "おんがく",
       "meaning": "Âm nhạc",
       "topics": [
-        "leisure"
-      ]
-    },
-    {
-      "jp": "かじ",
-      "meaning": "Việc nhà",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "にっき",
-      "meaning": "Nhật ký",
-      "topics": [
-        "work"
-      ]
-    },
-    {
-      "jp": "ブログ",
-      "meaning": "Blog",
-      "topics": [
-        "work",
         "leisure"
       ]
     },
@@ -123,48 +118,78 @@
       ]
     },
     {
-      "jp": "～じ",
-      "meaning": "... giờ",
-      "topics": [
-        "numbers",
-        "time"
-      ]
-    },
-    {
-      "jp": "なんじ？",
-      "meaning": "Mấy giờ",
-      "topics": [
-        "numbers",
-        "time",
-        "questions"
-      ]
-    },
-    {
-      "jp": "～ふん／ぷん",
-      "meaning": "... phút",
-      "topics": [
-        "numbers",
-        "time"
-      ]
-    },
-    {
-      "jp": "～じかん",
-      "meaning": "... tiếng",
-      "topics": [
-        "numbers",
-        "time"
-      ]
-    },
-    {
-      "jp": "～ごろ",
-      "meaning": "Khoảng...",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "おきます",
+      "jp": "おきます（起きます）",
       "meaning": "Thức dậy",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ねます",
+      "meaning": "Ngủ",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "いきます",
+      "meaning": "Đi",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "きます",
+      "meaning": "Đến",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かえります",
+      "meaning": "Về",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "はいります",
+      "meaning": "Vào",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "あびます",
+      "meaning": "Tắm",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かきます",
+      "meaning": "Viết",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "ききます",
+      "meaning": "Nghe",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "わかります（分かります）",
+      "meaning": "Hiểu",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "かじ",
+      "meaning": "Việc nhà",
       "topics": [
         "actions"
       ]
@@ -206,14 +231,6 @@
       ]
     },
     {
-      "jp": "しごと（を）します",
-      "meaning": "Làm việc",
-      "topics": [
-        "actions",
-        "work"
-      ]
-    },
-    {
       "jp": "がっこう に いきます",
       "meaning": "Đi đến trường (go)",
       "topics": [
@@ -249,13 +266,6 @@
       ]
     },
     {
-      "jp": "ねます",
-      "meaning": "Ngủ",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
       "jp": "かじ を します",
       "meaning": "Làm việc nhà",
       "topics": [
@@ -270,137 +280,18 @@
       ]
     },
     {
-      "jp": "しょうがっこう",
-      "meaning": "Tiểu học (小１ = lớp 1 tiểu học)",
+      "jp": "にっき",
+      "meaning": "Nhật ký",
       "topics": [
-        "places"
+        "work"
       ]
     },
     {
-      "jp": "ちゅうがっこう",
-      "meaning": "Cấp 2 (中１ = lớp 1 cấp 2)",
+      "jp": "ブログ",
+      "meaning": "Blog",
       "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "こうこう",
-      "meaning": "Cấp 3",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "だいがく",
-      "meaning": "Đại học",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "はん",
-      "meaning": "Rưỡi (30 phút)",
-      "topics": [
-        "numbers",
-        "time"
-      ]
-    },
-    {
-      "jp": "ごぜん（午前）",
-      "meaning": "Buổi sáng, AM",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "ごご（午後）",
-      "meaning": "Buổi chiều, PM",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "よみます",
-      "meaning": "Đọc",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "かきます",
-      "meaning": "Viết",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "みます",
-      "meaning": "Xem",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "ききます",
-      "meaning": "Nghe",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "いきます",
-      "meaning": "Đi",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "きます",
-      "meaning": "Đến",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "かえります",
-      "meaning": "Về",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "はいります",
-      "meaning": "Vào",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "あびます",
-      "meaning": "Tắm",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "～ぐらい／くらい",
-      "meaning": "Khoảng ~ (b.18: …時 ごろ／ぐらい／くらい)",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "まず",
-      "meaning": "Trước tiên thì …",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "それから",
-      "meaning": "Sau đó",
-      "topics": [
-        "expressions"
+        "work",
+        "leisure"
       ]
     },
     {
@@ -411,10 +302,44 @@
       ]
     },
     {
-      "jp": "わかります（分かります）",
-      "meaning": "Hiểu",
+      "jp": "～じ",
+      "meaning": "... giờ",
       "topics": [
-        "actions"
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "なんじ",
+      "meaning": "Mấy giờ",
+      "topics": [
+        "numbers",
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "～ふん／ぷん",
+      "meaning": "... phút",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "～じかん",
+      "meaning": "... tiếng",
+      "topics": [
+        "numbers",
+        "time"
+      ]
+    },
+    {
+      "jp": "はん",
+      "meaning": "Rưỡi (30 phút)",
+      "topics": [
+        "numbers",
+        "time"
       ]
     },
     {
@@ -535,6 +460,20 @@
       "topics": [
         "numbers",
         "time"
+      ]
+    },
+    {
+      "jp": "まず",
+      "meaning": "Trước tiên thì …",
+      "topics": [
+        "expressions"
+      ]
+    },
+    {
+      "jp": "それから",
+      "meaning": "Sau đó",
+      "topics": [
+        "expressions"
       ]
     }
   ],
@@ -662,7 +601,7 @@
     },
     {
       "pattern": "Địa điểm に いきます／かえります／はいります",
-      "meaning": "Đi đến / về / vào (địa điểm)",
+      "meaning": "Đi đến / về / vào (địa điểm). かえります: về nơi mình thuộc về (nhà, nước mình)",
       "examples": [
         {
           "jp": "がっこう に いきます。",
@@ -710,6 +649,19 @@
             "おふろ",
             "に",
             "はいります。"
+          ]
+        },
+        {
+          "jp": "父 と 母 の いえ に かえります。",
+          "meaning": "Tôi về nhà bố mẹ.",
+          "chunks": [
+            "父",
+            "と",
+            "母",
+            "の",
+            "いえ",
+            "に",
+            "かえります。"
           ]
         }
       ]

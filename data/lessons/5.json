@@ -17,33 +17,19 @@
       ]
     },
     {
-      "jp": "Nを たべます",
-      "meaning": "Ăn...",
+      "jp": "たべます",
+      "meaning": "Ăn",
       "topics": [
         "food",
         "actions"
       ]
     },
     {
-      "jp": "Nを のみます",
-      "meaning": "Uống…",
+      "jp": "のみます",
+      "meaning": "Uống",
       "topics": [
         "food",
         "actions"
-      ]
-    },
-    {
-      "jp": "～すきです",
-      "meaning": "Thích",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "～すきじゃないです",
-      "meaning": "Không thích",
-      "topics": [
-        "adjectives"
       ]
     },
     {
@@ -153,6 +139,57 @@
       ]
     },
     {
+      "jp": "ひるごはん",
+      "meaning": "Bữa trưa, cơm trưa",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "ばんごはん",
+      "meaning": "Bữa tối",
+      "topics": [
+        "food",
+        "time"
+      ]
+    },
+    {
+      "jp": "ワイン",
+      "meaning": "Rượu vang",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "すき（な）",
+      "meaning": "Thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "だいすき（な）",
+      "meaning": "Rất thích",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きらい（な）",
+      "meaning": "Ghét",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "だいきらい（な）",
+      "meaning": "Rất ghét",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
       "jp": "おねがいします",
       "meaning": "Nhờ bạn giúp đỡ",
       "topics": [
@@ -188,6 +225,20 @@
       ]
     },
     {
+      "jp": "ときどき",
+      "meaning": "Thỉnh thoảng (40–60%)",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
+      "jp": "ぜんぜん",
+      "meaning": "Không bao giờ, tuyệt đối không (0%)",
+      "topics": [
+        "frequency"
+      ]
+    },
+    {
       "jp": "あさ",
       "meaning": "Buổi sáng",
       "topics": [
@@ -209,22 +260,6 @@
       ]
     },
     {
-      "jp": "ひるごはん",
-      "meaning": "Bữa trưa",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
-      "jp": "ばんごはん",
-      "meaning": "Bữa tối",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
       "jp": "まいあさ",
       "meaning": "Mỗi sáng",
       "topics": [
@@ -240,30 +275,9 @@
     },
     {
       "jp": "まいにち",
-      "meaning": "Mỗi ngày",
+      "meaning": "Mỗi ngày, hằng ngày",
       "topics": [
         "time"
-      ]
-    },
-    {
-      "jp": "ときどき",
-      "meaning": "Thỉnh thoảng (40–60%)",
-      "topics": [
-        "frequency"
-      ]
-    },
-    {
-      "jp": "ぜんぜん …Vません",
-      "meaning": "Không bao giờ, tuyệt đối không (0%)",
-      "topics": [
-        "frequency"
-      ]
-    },
-    {
-      "jp": "ワイン",
-      "meaning": "Rượu vang",
-      "topics": [
-        "food"
       ]
     },
     {
@@ -278,27 +292,6 @@
       "meaning": "Hút",
       "topics": [
         "actions"
-      ]
-    },
-    {
-      "jp": "だいすき（な）",
-      "meaning": "Rất thích",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "きらい（な）",
-      "meaning": "Ghét",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "だいきらい（な）",
-      "meaning": "Rất ghét",
-      "topics": [
-        "adjectives"
       ]
     }
   ],
@@ -561,6 +554,23 @@
             "だれ",
             "ですか。"
           ]
+        },
+        {
+          "jp": "いい へや ですね。",
+          "meaning": "Căn phòng đẹp nhỉ.",
+          "chunks": [
+            "いい",
+            "へや",
+            "ですね。"
+          ]
+        },
+        {
+          "jp": "きれいな 人",
+          "meaning": "Người đẹp"
+        },
+        {
+          "jp": "いい ともだち",
+          "meaning": "Người bạn tốt"
         }
       ]
     }

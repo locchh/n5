@@ -3,48 +3,6 @@
   "title": "いつが いいですか。",
   "vocab": [
     {
-      "jp": "きのう",
-      "meaning": "Hôm qua",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "きょう",
-      "meaning": "Hôm nay",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "あした",
-      "meaning": "Ngày mai",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "せんしゅう",
-      "meaning": "Tuần trước",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "こんしゅう",
-      "meaning": "Tuần này",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "らいしゅう",
-      "meaning": "Tuần sau",
-      "topics": [
-        "time"
-      ]
-    },
-    {
       "jp": "げつようび",
       "meaning": "Thứ hai",
       "topics": [
@@ -108,6 +66,51 @@
       ]
     },
     {
+      "jp": "いつ",
+      "meaning": "Khi nào?",
+      "topics": [
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "～ぐらい",
+      "meaning": "Khoảng… (số lượng, thời lượng)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "スケジュール",
+      "meaning": "Lịch trình",
+      "topics": [
+        "time",
+        "work"
+      ]
+    },
+    {
+      "jp": "おたんじょうび",
+      "meaning": "Sinh nhật (của người khác)",
+      "topics": [
+        "time"
+      ]
+    },
+    {
+      "jp": "なんようび（何曜日）",
+      "meaning": "Thứ mấy",
+      "topics": [
+        "time",
+        "questions"
+      ]
+    },
+    {
+      "jp": "やすみ",
+      "meaning": "Ngày nghỉ",
+      "topics": [
+        "time"
+      ]
+    },
+    {
       "jp": "～にち",
       "meaning": "Ngày...",
       "topics": [
@@ -124,174 +127,11 @@
       ]
     },
     {
-      "jp": "パーティー",
-      "meaning": "Bữa tiệc, party",
-      "topics": [
-        "leisure"
-      ]
-    },
-    {
-      "jp": "バースデーパーティー",
-      "meaning": "Birthday party, tiệc sinh nhật",
-      "topics": [
-        "leisure"
-      ]
-    },
-    {
-      "jp": "コンサート",
-      "meaning": "Concert, buổi hòa nhạc",
-      "topics": [
-        "leisure"
-      ]
-    },
-    {
-      "jp": "かいもの（を）します",
-      "meaning": "Mua sắm",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
-      "jp": "べんきょう（を）します",
-      "meaning": "Học tập",
-      "topics": [
-        "actions",
-        "work"
-      ]
-    },
-    {
-      "jp": "テニス（をします）",
-      "meaning": "Tennis (Chơi...)",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
-      "jp": "しょくじ（を）します",
-      "meaning": "Dùng bữa",
-      "topics": [
-        "food",
-        "actions"
-      ]
-    },
-    {
-      "jp": "Pに きます",
-      "meaning": "Đến địa điểm P",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "だいじょうぶ（な）",
-      "meaning": "Ổn, được",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "だめ（な）",
-      "meaning": "Không được",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "びょういん",
-      "meaning": "Bệnh viện",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "はくぶつかん",
-      "meaning": "Bảo tàng",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "びじゅつかん",
-      "meaning": "Bảo tàng mỹ thuật",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "がっこう",
-      "meaning": "Trường học",
-      "topics": [
-        "places",
-        "work"
-      ]
-    },
-    {
-      "jp": "すいぞくかん",
-      "meaning": "Thủy cung",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "いつ？",
-      "meaning": "Khi nào?",
-      "topics": [
-        "time",
-        "questions"
-      ]
-    },
-    {
-      "jp": "ざんぎょう（を）します",
-      "meaning": "Làm tăng ca, OT",
-      "topics": [
-        "actions",
-        "work"
-      ]
-    },
-    {
-      "jp": "～じかん",
-      "meaning": "… tiếng",
-      "topics": [
-        "numbers",
-        "time"
-      ]
-    },
-    {
-      "jp": "～ぐらい",
-      "meaning": "Khoảng… (số lượng, thời lượng)",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "ときどき",
-      "meaning": "Thỉnh thoảng",
-      "topics": [
-        "frequency"
-      ]
-    },
-    {
-      "jp": "インターネット",
-      "meaning": "Internet",
-      "topics": [
-        "work"
-      ]
-    },
-    {
       "jp": "いっしゅうかん",
       "meaning": "Một tuần",
       "topics": [
         "numbers",
         "time"
-      ]
-    },
-    {
-      "jp": "スケジュール",
-      "meaning": "Lịch trình",
-      "topics": [
-        "time",
-        "work"
       ]
     },
     {
@@ -313,35 +153,6 @@
       ]
     },
     {
-      "jp": "おたんじょうび",
-      "meaning": "Sinh nhật (của người khác)",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "へ",
-      "meaning": "Trợ từ chỉ hướng di chuyển"
-    },
-    {
-      "jp": "～から ～まで",
-      "meaning": "Từ ~ đến ~"
-    },
-    {
-      "jp": "かかります",
-      "meaning": "Tốn (thời gian/tiền bạc)",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "どのぐらい",
-      "meaning": "Bao lâu, bao nhiêu",
-      "topics": [
-        "questions"
-      ]
-    },
-    {
       "jp": "～えん",
       "meaning": "~ yên",
       "topics": [
@@ -355,35 +166,6 @@
         "numbers",
         "time",
         "questions"
-      ]
-    },
-    {
-      "jp": "なんようび（何曜日）",
-      "meaning": "Thứ mấy",
-      "topics": [
-        "time",
-        "questions"
-      ]
-    },
-    {
-      "jp": "やすみ",
-      "meaning": "Ngày nghỉ",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "あいだ（間）",
-      "meaning": "Ở giữa (N1とN2の間)",
-      "topics": [
-        "position"
-      ]
-    },
-    {
-      "jp": "うんどうします",
-      "meaning": "Tập thể dục",
-      "topics": [
-        "actions"
       ]
     },
     {
@@ -553,6 +335,137 @@
         "numbers",
         "time"
       ]
+    },
+    {
+      "jp": "パーティー",
+      "meaning": "Bữa tiệc, party",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "バースデーパーティー",
+      "meaning": "Birthday party, tiệc sinh nhật",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "コンサート",
+      "meaning": "Concert, buổi hòa nhạc",
+      "topics": [
+        "leisure"
+      ]
+    },
+    {
+      "jp": "かいもの（を）します",
+      "meaning": "Mua sắm",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "テニス（をします）",
+      "meaning": "Tennis (Chơi...)",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "ざんぎょう（を）します",
+      "meaning": "Làm tăng ca, OT",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "かかります",
+      "meaning": "Tốn (thời gian/tiền bạc)",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "しょくじ（を）します",
+      "meaning": "Dùng bữa",
+      "topics": [
+        "food",
+        "actions"
+      ]
+    },
+    {
+      "jp": "だいじょうぶ（な）",
+      "meaning": "Ổn, được",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "だめ（な）",
+      "meaning": "Không được",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "びょういん",
+      "meaning": "Bệnh viện",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "はくぶつかん",
+      "meaning": "Bảo tàng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "びじゅつかん",
+      "meaning": "Bảo tàng mỹ thuật",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "すいぞくかん",
+      "meaning": "Thủy cung",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "インターネット",
+      "meaning": "Internet",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "どのぐらい",
+      "meaning": "Bao lâu, bao nhiêu",
+      "topics": [
+        "questions"
+      ]
+    },
+    {
+      "jp": "あいだ（間）",
+      "meaning": "Ở giữa (N1とN2の間)",
+      "topics": [
+        "position"
+      ]
+    },
+    {
+      "jp": "へ",
+      "meaning": "Trợ từ chỉ hướng di chuyển"
+    },
+    {
+      "jp": "～から ～まで",
+      "meaning": "Từ ~ đến ~"
     }
   ],
   "grammar": [
@@ -701,34 +614,6 @@
             "いえ",
             "に",
             "きます。"
-          ]
-        }
-      ]
-    },
-    {
-      "pattern": "Địa điểm に かえります",
-      "meaning": "Về (nơi mình thuộc về, nơi ở)",
-      "examples": [
-        {
-          "jp": "うち に かえります。",
-          "meaning": "Về nhà.",
-          "chunks": [
-            "うち",
-            "に",
-            "かえります。"
-          ]
-        },
-        {
-          "jp": "父 と 母 の いえ に かえります。",
-          "meaning": "Tôi về nhà bố mẹ.",
-          "chunks": [
-            "父",
-            "と",
-            "母",
-            "の",
-            "いえ",
-            "に",
-            "かえります。"
           ]
         }
       ]

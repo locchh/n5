@@ -38,6 +38,56 @@
       ]
     },
     {
+      "jp": "ちかく",
+      "meaning": "Gần (Danh từ)",
+      "topics": [
+        "house",
+        "position"
+      ]
+    },
+    {
+      "jp": "いえの ちかく",
+      "meaning": "Gần nhà",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ソファ",
+      "meaning": "Ghế sofa",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "エアコン",
+      "meaning": "Điều hòa",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "テーブル／つくえ",
+      "meaning": "Bàn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "いす",
+      "meaning": "Ghế",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "ベッド",
+      "meaning": "Giường",
+      "topics": [
+        "house"
+      ]
+    },
+    {
       "jp": "ひろい",
       "meaning": "Rộng",
       "topics": [
@@ -115,151 +165,44 @@
       ]
     },
     {
-      "jp": "ちかく",
-      "meaning": "Gần (Danh từ)",
-      "topics": [
-        "house",
-        "position"
-      ]
-    },
-    {
-      "jp": "いえの ちかく",
-      "meaning": "Gần nhà",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "テレビ",
-      "meaning": "Tivi",
-      "topics": [
-        "house",
-        "things"
-      ]
-    },
-    {
-      "jp": "ソファ",
-      "meaning": "Ghế sofa",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "エアコン",
-      "meaning": "Điều hòa",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "テーブル／つくえ",
-      "meaning": "Bàn",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "いす",
-      "meaning": "Ghế",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "ベッド",
-      "meaning": "Giường",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "ひとつ",
-      "meaning": "Một cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "ふたつ",
-      "meaning": "Hai cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "みっつ",
-      "meaning": "Ba cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "よっつ",
-      "meaning": "Bốn cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "いつつ",
-      "meaning": "Năm cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "むっつ",
-      "meaning": "Sáu cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "いくつ？",
-      "meaning": "Mấy cái?",
-      "topics": [
-        "numbers",
-        "questions"
-      ]
-    },
-    {
-      "jp": "Pに すんでいます",
-      "meaning": "Đang sống tại địa điểm P",
+      "jp": "あります",
+      "meaning": "Có (đồ vật)",
       "topics": [
         "actions"
       ]
     },
     {
-      "jp": "Nと すんでいます",
-      "meaning": "Đang sống cùng N",
+      "jp": "います",
+      "meaning": "Có (người, động vật)",
       "topics": [
         "actions"
       ]
     },
     {
-      "jp": "ひとりで すんでいます",
-      "meaning": "Đang sống một mình",
+      "jp": "えいが を みます",
+      "meaning": "Xem phim",
       "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "Nが あります",
-      "meaning": "Có N (Đồ vật)",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "Nが います",
-      "meaning": "Có N (Con người, động vật)",
-      "topics": [
-        "actions"
+        "actions",
+        "leisure"
       ]
     },
     {
       "jp": "ともだち",
       "meaning": "Bạn bè",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "かれし",
+      "meaning": "Bạn trai",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "ひとりで（一人で）",
+      "meaning": "Một mình",
       "topics": [
         "people"
       ]
@@ -272,32 +215,10 @@
       ]
     },
     {
-      "jp": "かれし",
-      "meaning": "Bạn trai",
-      "topics": [
-        "people"
-      ]
-    },
-    {
-      "jp": "えいが を みます",
-      "meaning": "Xem phim",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
       "jp": "ビール",
       "meaning": "Bia",
       "topics": [
         "food"
-      ]
-    },
-    {
-      "jp": "ひとりで（一人で）",
-      "meaning": "Một mình",
-      "topics": [
-        "people"
       ]
     },
     {

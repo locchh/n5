@@ -143,43 +143,46 @@
       ]
     },
     {
-      "jp": "〈Số đếm〉＋ にん",
-      "meaning": "… người",
+      "jp": "すんで います",
+      "meaning": "Đang sống",
       "topics": [
-        "people",
-        "numbers"
+        "family",
+        "actions"
       ]
     },
     {
-      "jp": "ひとり",
-      "meaning": "1 người",
+      "jp": "ごかぞく",
+      "meaning": "Gia đình (của người khác)",
       "topics": [
-        "people",
-        "numbers"
+        "family"
       ]
     },
     {
-      "jp": "ふたり",
-      "meaning": "2 người",
+      "jp": "きょうだい（兄弟）",
+      "meaning": "Anh chị em",
       "topics": [
-        "people",
-        "numbers"
+        "family"
       ]
     },
     {
-      "jp": "さんにん",
-      "meaning": "3 người",
+      "jp": "しまい（姉妹）",
+      "meaning": "Chị em gái",
       "topics": [
-        "people",
-        "numbers"
+        "family"
       ]
     },
     {
-      "jp": "よにん",
-      "meaning": "4 người",
+      "jp": "おねえちゃん（お姉ちゃん）",
+      "meaning": "Chị (cách gọi thân mật)",
       "topics": [
-        "people",
-        "numbers"
+        "family"
+      ]
+    },
+    {
+      "jp": "おこさん（お子さん）",
+      "meaning": "Con (của người khác)",
+      "topics": [
+        "family"
       ]
     },
     {
@@ -218,11 +221,75 @@
       ]
     },
     {
-      "jp": "だれ？",
+      "jp": "だれ",
       "meaning": "Ai?",
       "topics": [
         "people",
         "questions"
+      ]
+    },
+    {
+      "jp": "どなた",
+      "meaning": "Ai (lịch sự hơn だれ)",
+      "topics": [
+        "people",
+        "questions"
+      ]
+    },
+    {
+      "jp": "わかい",
+      "meaning": "Trẻ",
+      "topics": [
+        "people",
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "ひとり",
+      "meaning": "1 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ふたり",
+      "meaning": "2 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "さんにん",
+      "meaning": "3 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よにん",
+      "meaning": "4 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "じゅういちにん",
+      "meaning": "11 người",
+      "topics": [
+        "people",
+        "numbers"
+      ]
+    },
+    {
+      "jp": "じゅうよにん",
+      "meaning": "14 người",
+      "topics": [
+        "people",
+        "numbers"
       ]
     },
     {
@@ -231,14 +298,6 @@
       "topics": [
         "places",
         "questions"
-      ]
-    },
-    {
-      "jp": "すんで います",
-      "meaning": "Đang sống",
-      "topics": [
-        "family",
-        "actions"
       ]
     },
     {
@@ -257,98 +316,9 @@
     },
     {
       "jp": "きれい",
-      "meaning": "Xinh đẹp",
+      "meaning": "Xinh đẹp, đẹp",
       "topics": [
         "adjectives"
-      ]
-    },
-    {
-      "jp": "わかい",
-      "meaning": "Trẻ",
-      "topics": [
-        "people",
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "なんさい",
-      "meaning": "Mấy tuổi (hỏi người nhỏ tuổi / không trang trọng)",
-      "topics": [
-        "numbers",
-        "questions"
-      ]
-    },
-    {
-      "jp": "おいくつ",
-      "meaning": "Bao nhiêu tuổi (lịch sự)",
-      "topics": [
-        "numbers",
-        "questions"
-      ]
-    },
-    {
-      "jp": "はたち",
-      "meaning": "20 tuổi",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "なんにん",
-      "meaning": "Bao nhiêu người",
-      "topics": [
-        "numbers",
-        "questions"
-      ]
-    },
-    {
-      "jp": "ごかぞく",
-      "meaning": "Gia đình (của người khác)",
-      "topics": [
-        "family"
-      ]
-    },
-    {
-      "jp": "どなた",
-      "meaning": "Ai (lịch sự hơn だれ)",
-      "topics": [
-        "people",
-        "questions"
-      ]
-    },
-    {
-      "jp": "この／その／あの ＋ N",
-      "meaning": "N này / N đó / N kia",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "きょうだい（兄弟）",
-      "meaning": "Anh chị em",
-      "topics": [
-        "family"
-      ]
-    },
-    {
-      "jp": "しまい（姉妹）",
-      "meaning": "Chị em gái",
-      "topics": [
-        "family"
-      ]
-    },
-    {
-      "jp": "おねえちゃん（お姉ちゃん）",
-      "meaning": "Chị (cách gọi thân mật)",
-      "topics": [
-        "family"
-      ]
-    },
-    {
-      "jp": "おこさん（お子さん）",
-      "meaning": "Con (của người khác)",
-      "topics": [
-        "family"
       ]
     },
     {
@@ -450,6 +420,22 @@
       ]
     },
     {
+      "jp": "なんさい",
+      "meaning": "Mấy tuổi (hỏi người nhỏ tuổi / không trang trọng)",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "おいくつ",
+      "meaning": "Bao nhiêu tuổi (lịch sự)",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
       "jp": "いっさい",
       "meaning": "1 tuổi",
       "topics": [
@@ -471,6 +457,13 @@
       "topics": [
         "numbers",
         "family"
+      ]
+    },
+    {
+      "jp": "はたち",
+      "meaning": "20 tuổi",
+      "topics": [
+        "numbers"
       ]
     },
     {
@@ -498,19 +491,11 @@
       ]
     },
     {
-      "jp": "じゅういちにん",
-      "meaning": "11 người",
+      "jp": "なんにん",
+      "meaning": "Bao nhiêu người",
       "topics": [
-        "people",
-        "numbers"
-      ]
-    },
-    {
-      "jp": "じゅうよにん",
-      "meaning": "14 người",
-      "topics": [
-        "people",
-        "numbers"
+        "numbers",
+        "questions"
       ]
     }
   ],
@@ -558,7 +543,7 @@
     },
     {
       "pattern": "N1 の N2",
-      "meaning": "N1 bổ nghĩa cho N2 (の nối hai danh từ)",
+      "meaning": "N1 bổ nghĩa cho N2 (の nối hai danh từ): sở hữu, tổ chức, thời gian",
       "examples": [
         {
           "jp": "おとこ の ひと",
@@ -590,6 +575,50 @@
             "にほんご",
             "の",
             "ほん"
+          ]
+        },
+        {
+          "jp": "わたし の かぞく",
+          "meaning": "Gia đình tôi",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "の",
+            "かぞく"
+          ]
+        },
+        {
+          "jp": "わたし は FPT の しゃいん です。",
+          "meaning": "Tôi là nhân viên của FPT.",
+          "blank": "の",
+          "choices": [
+            "の",
+            "は",
+            "が",
+            "を"
+          ],
+          "chunks": [
+            "わたし",
+            "は",
+            "FPT",
+            "の",
+            "しゃいん",
+            "です。"
+          ]
+        },
+        {
+          "jp": "きのう の ミーティング",
+          "meaning": "Cuộc họp hôm qua",
+          "chunks": [
+            "きのう",
+            "の",
+            "ミーティング"
           ]
         }
       ]

@@ -108,34 +108,6 @@
       ]
     },
     {
-      "jp": "たかい",
-      "meaning": "Đắt",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "やすい",
-      "meaning": "Rẻ",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "はやい",
-      "meaning": "Nhanh, sớm",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "おそい",
-      "meaning": "Chậm, muộn",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
       "jp": "おいしい",
       "meaning": "Ngon",
       "topics": [
@@ -152,67 +124,10 @@
       ]
     },
     {
-      "jp": "きょう",
-      "meaning": "Hôm nay",
-      "topics": [
-        "time"
-      ]
-    },
-    {
-      "jp": "いちばん",
-      "meaning": "Nhất",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "すき（な）",
-      "meaning": "Thích",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "きらい（な）",
-      "meaning": "Ghét",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
       "jp": "すきな りょうり",
       "meaning": "Món ăn yêu thích",
       "topics": [
         "food"
-      ]
-    },
-    {
-      "jp": "ひるごはん",
-      "meaning": "Bữa trưa, cơm trưa",
-      "topics": [
-        "food",
-        "time"
-      ]
-    },
-    {
-      "jp": "みせ",
-      "meaning": "Cửa hàng",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "あの みせ",
-      "meaning": "Cửa hàng kia",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "～や",
-      "meaning": "Cửa hàng, tiệm",
-      "topics": [
-        "places"
       ]
     },
     {
@@ -221,56 +136,6 @@
       "topics": [
         "food",
         "places"
-      ]
-    },
-    {
-      "jp": "コーヒーショップ",
-      "meaning": "Tiệm cà phê",
-      "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "～Vましょう。",
-      "meaning": "Cùng làm V",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "どこ？",
-      "meaning": "Ở đâu?",
-      "topics": [
-        "places",
-        "questions"
-      ]
-    },
-    {
-      "jp": "ひとつ",
-      "meaning": "Một cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "ふたつ",
-      "meaning": "Hai cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "みっつ",
-      "meaning": "Ba cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "N（を）ください。",
-      "meaning": "Hãy cho tôi N",
-      "topics": [
-        "expressions"
       ]
     },
     {
@@ -330,6 +195,76 @@
       ]
     },
     {
+      "jp": "インスタントラーメン",
+      "meaning": "Mỳ ăn liền",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "りんご",
+      "meaning": "Quả táo",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "なし",
+      "meaning": "Quả lê",
+      "topics": [
+        "food"
+      ]
+    },
+    {
+      "jp": "たかい",
+      "meaning": "Đắt",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "やすい",
+      "meaning": "Rẻ",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "はやい",
+      "meaning": "Nhanh, sớm",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "おそい",
+      "meaning": "Chậm, muộn",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "いい／よい",
+      "meaning": "Tốt, đẹp (phủ định: よくないです)",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "わるい",
+      "meaning": "Xấu",
+      "topics": [
+        "adjectives"
+      ]
+    },
+    {
+      "jp": "きょう",
+      "meaning": "Hôm nay",
+      "topics": [
+        "time"
+      ]
+    },
+    {
       "jp": "あした（明日）",
       "meaning": "Ngày mai",
       "topics": [
@@ -365,6 +300,134 @@
       ]
     },
     {
+      "jp": "じかん",
+      "meaning": "Thời gian",
+      "topics": [
+        "time",
+        "things"
+      ]
+    },
+    {
+      "jp": "ひとつ",
+      "meaning": "Một cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ふたつ",
+      "meaning": "Hai cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "みっつ",
+      "meaning": "Ba cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "よっつ",
+      "meaning": "Bốn cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いつつ",
+      "meaning": "Năm cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "むっつ",
+      "meaning": "Sáu cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ななつ",
+      "meaning": "Bảy cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "やっつ",
+      "meaning": "Tám cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "ここのつ",
+      "meaning": "Chín cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "とお",
+      "meaning": "Mười cái",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "いくつ",
+      "meaning": "Mấy cái",
+      "topics": [
+        "numbers",
+        "questions"
+      ]
+    },
+    {
+      "jp": "いちばん",
+      "meaning": "Nhất",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "にばん",
+      "meaning": "Số 2, hạng 2 (～ばん: số mấy)",
+      "topics": [
+        "numbers"
+      ]
+    },
+    {
+      "jp": "みせ",
+      "meaning": "Cửa hàng",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "あの みせ",
+      "meaning": "Cửa hàng kia",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "～や",
+      "meaning": "Cửa hàng, tiệm",
+      "topics": [
+        "places"
+      ]
+    },
+    {
+      "jp": "コーヒーショップ",
+      "meaning": "Tiệm cà phê",
+      "topics": [
+        "places"
+      ]
+    },
+    {
       "jp": "ここ／こちら",
       "meaning": "Ở đây (こちら lịch sự hơn)",
       "topics": [
@@ -394,32 +457,10 @@
       ]
     },
     {
-      "jp": "いくつ",
-      "meaning": "Mấy cái",
+      "jp": "ダ・ナン",
+      "meaning": "Đà Nẵng",
       "topics": [
-        "numbers",
-        "questions"
-      ]
-    },
-    {
-      "jp": "じゃ、また あした",
-      "meaning": "Hẹn gặp bạn ngày mai",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "いい／よい",
-      "meaning": "Tốt, đẹp (phủ định: よくないです)",
-      "topics": [
-        "adjectives"
-      ]
-    },
-    {
-      "jp": "わるい",
-      "meaning": "Xấu",
-      "topics": [
-        "adjectives"
+        "places"
       ]
     },
     {
@@ -465,13 +506,6 @@
       ]
     },
     {
-      "jp": "プログラミング／かいはつ",
-      "meaning": "Lập trình",
-      "topics": [
-        "work"
-      ]
-    },
-    {
       "jp": "くるま／じどうしゃ",
       "meaning": "Ô tô",
       "topics": [
@@ -500,135 +534,10 @@
       ]
     },
     {
-      "jp": "します",
-      "meaning": "Làm",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "テニスを します",
-      "meaning": "Chơi tennis",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
-      "jp": "しごとを します",
-      "meaning": "Làm việc",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "サッカーを します",
-      "meaning": "Đá bóng",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
-      "jp": "りょうりを します",
-      "meaning": "Nấu ăn",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "しゃしんを とります",
-      "meaning": "Chụp ảnh",
-      "topics": [
-        "actions",
-        "leisure"
-      ]
-    },
-    {
-      "jp": "N に あいます",
-      "meaning": "Gặp gỡ N",
-      "topics": [
-        "actions"
-      ]
-    },
-    {
-      "jp": "じかん",
-      "meaning": "Thời gian",
-      "topics": [
-        "time",
-        "things"
-      ]
-    },
-    {
       "jp": "おかね",
       "meaning": "Tiền",
       "topics": [
         "things"
-      ]
-    },
-    {
-      "jp": "つくえ",
-      "meaning": "Cái bàn",
-      "topics": [
-        "house"
-      ]
-    },
-    {
-      "jp": "～と もうします／～と いいます",
-      "meaning": "Tôi tên là ~ (giới thiệu tên)",
-      "topics": [
-        "expressions"
-      ]
-    },
-    {
-      "jp": "かいはつしゃ",
-      "meaning": "Nhà phát triển, Dev",
-      "topics": [
-        "people",
-        "work"
-      ]
-    },
-    {
-      "jp": "シェフ",
-      "meaning": "Đầu bếp",
-      "topics": [
-        "people"
-      ]
-    },
-    {
-      "jp": "だいがくせい（大学生）",
-      "meaning": "Sinh viên",
-      "topics": [
-        "people",
-        "work"
-      ]
-    },
-    {
-      "jp": "インスタントラーメン",
-      "meaning": "Mỳ ăn liền",
-      "topics": [
-        "food"
-      ]
-    },
-    {
-      "jp": "りんご",
-      "meaning": "Quả táo",
-      "topics": [
-        "food"
-      ]
-    },
-    {
-      "jp": "なし",
-      "meaning": "Quả lê",
-      "topics": [
-        "food"
-      ]
-    },
-    {
-      "jp": "にばん",
-      "meaning": "Số 2, hạng 2 (～ばん: số mấy)",
-      "topics": [
-        "numbers"
       ]
     },
     {
@@ -696,14 +605,6 @@
       ]
     },
     {
-      "jp": "テレビ",
-      "meaning": "TV",
-      "topics": [
-        "house",
-        "things"
-      ]
-    },
-    {
       "jp": "え",
       "meaning": "Tranh (nguồn ghi \"(v)\", thực ra là danh từ)",
       "topics": [
@@ -711,17 +612,63 @@
       ]
     },
     {
-      "jp": "えいが",
-      "meaning": "Phim",
-      "topics": [
-        "leisure"
-      ]
-    },
-    {
       "jp": "しゃしん",
       "meaning": "Ảnh",
       "topics": [
         "things"
+      ]
+    },
+    {
+      "jp": "プログラミング／かいはつ",
+      "meaning": "Lập trình",
+      "topics": [
+        "work"
+      ]
+    },
+    {
+      "jp": "します",
+      "meaning": "Làm",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "テニスを します",
+      "meaning": "Chơi tennis",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "しごとを します",
+      "meaning": "Làm việc",
+      "topics": [
+        "actions",
+        "work"
+      ]
+    },
+    {
+      "jp": "サッカーを します",
+      "meaning": "Đá bóng",
+      "topics": [
+        "actions",
+        "leisure"
+      ]
+    },
+    {
+      "jp": "りょうりを します",
+      "meaning": "Nấu ăn",
+      "topics": [
+        "actions"
+      ]
+    },
+    {
+      "jp": "しゃしんを とります",
+      "meaning": "Chụp ảnh",
+      "topics": [
+        "actions",
+        "leisure"
       ]
     },
     {
@@ -761,6 +708,44 @@
       ]
     },
     {
+      "jp": "つくえ",
+      "meaning": "Cái bàn",
+      "topics": [
+        "house"
+      ]
+    },
+    {
+      "jp": "テレビ",
+      "meaning": "Tivi",
+      "topics": [
+        "house",
+        "things"
+      ]
+    },
+    {
+      "jp": "かいはつしゃ",
+      "meaning": "Nhà phát triển, Dev",
+      "topics": [
+        "people",
+        "work"
+      ]
+    },
+    {
+      "jp": "シェフ",
+      "meaning": "Đầu bếp",
+      "topics": [
+        "people"
+      ]
+    },
+    {
+      "jp": "だいがくせい（大学生）",
+      "meaning": "Sinh viên",
+      "topics": [
+        "people",
+        "work"
+      ]
+    },
+    {
       "jp": "りょうりにん（りょうり人）",
       "meaning": "Đầu bếp, người nấu ăn",
       "topics": [
@@ -768,59 +753,10 @@
       ]
     },
     {
-      "jp": "ダ・ナン",
-      "meaning": "Đà Nẵng",
+      "jp": "えいが",
+      "meaning": "Phim",
       "topics": [
-        "places"
-      ]
-    },
-    {
-      "jp": "よっつ",
-      "meaning": "Bốn cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "いつつ",
-      "meaning": "Năm cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "むっつ",
-      "meaning": "Sáu cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "ななつ",
-      "meaning": "Bảy cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "やっつ",
-      "meaning": "Tám cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "ここのつ",
-      "meaning": "Chín cái",
-      "topics": [
-        "numbers"
-      ]
-    },
-    {
-      "jp": "とお",
-      "meaning": "Mười cái",
-      "topics": [
-        "numbers"
+        "leisure"
       ]
     }
   ],
@@ -997,56 +933,6 @@
             "の",
             "かぎ",
             "です。"
-          ]
-        }
-      ]
-    },
-    {
-      "pattern": "N1 の N2 (sở hữu, tổ chức, thời gian)",
-      "meaning": "N2 của N1 / N2 thuộc N1",
-      "examples": [
-        {
-          "jp": "わたし の かぞく",
-          "meaning": "Gia đình tôi",
-          "blank": "の",
-          "choices": [
-            "の",
-            "は",
-            "が",
-            "を"
-          ],
-          "chunks": [
-            "わたし",
-            "の",
-            "かぞく"
-          ]
-        },
-        {
-          "jp": "わたし は FPT の しゃいん です。",
-          "meaning": "Tôi là nhân viên của FPT.",
-          "blank": "の",
-          "choices": [
-            "の",
-            "は",
-            "が",
-            "を"
-          ],
-          "chunks": [
-            "わたし",
-            "は",
-            "FPT",
-            "の",
-            "しゃいん",
-            "です。"
-          ]
-        },
-        {
-          "jp": "きのう の ミーティング",
-          "meaning": "Cuộc họp hôm qua",
-          "chunks": [
-            "きのう",
-            "の",
-            "ミーティング"
           ]
         }
       ]
@@ -1400,6 +1286,10 @@
     {
       "jp": "じゃ、また あした。",
       "meaning": "Vậy hẹn gặp lại ngày mai."
+    },
+    {
+      "jp": "ハンバーガーを ください。",
+      "meaning": "Cho tôi một cái hamburger."
     }
   ],
   "notes": [
